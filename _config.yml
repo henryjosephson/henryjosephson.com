@@ -22,7 +22,7 @@ title: Henry Josephson
 domain: "www.henryjosephson.com"
 email: henry@josephson.net
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi! I'm Henry. On this site, you can find content I've created, things I've written, and many other things I find interesting.
+  Hi! I'm Henry. On this site, you can find content I've created, things I've written, and the occasional thing I find interesting.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.henryjosephson.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: noshpesoj
@@ -32,6 +32,7 @@ github_username:  henryjosephson
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
