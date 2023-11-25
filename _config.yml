@@ -31,9 +31,22 @@ github_username:  henryjosephson
 # Build settings
 #theme: minima
 remote_theme: jekyll/minima
+minima:
+  skin: auto
+show_excerpts: true
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
+  - jekyll-titles-from-headings
+
+titles_from_headings:
+  enabled:     true
+  strip_title: true
+  collections: true 
+
+header_pages:
+  - about.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
