@@ -2,6 +2,9 @@
 layout: post
 ---
 # Kamalaharris.org redirects to joebiden.com... for now
+
+EDIT: As of 8:37 eastern time, [https://joebiden.com](https://joebiden.com) now redirects to a [fundraising site](https://secure.actblue.com/donate/web-bfp-july21-2024), and [https://kamalaharris.org/](https://kamalaharris.org/) seems to be down.
+
 Unless you've been living under a rock, you might've noticed that Joe Biden has announced that [he's stepping out of the 2024 presidential race](https://www.nytimes.com/live/2024/07/21/us/biden-drops-out-election), and that he's endorsed his vice president, Kamala Harris, as his replacement.
 
 Like all of you, I immediately asked myself the obvious question: *when will [https://kamalaharris.org](https://kamalaharris.org) stop redirecting to [https://joebiden.com](https://joebiden.com?)?*
