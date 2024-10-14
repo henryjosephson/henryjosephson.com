@@ -28,3 +28,6 @@ If the above bills don’t pass, the future of the AI Safety Institute will be o
 We can either lead in AI safety or be led by countries who may not share our values or priorities. 
 
 Let's choose leadership. Let's choose safety. Let's choose to keep the AI Safety Institute intact and empower it to secure our AI-driven future.
+
+-----
+*Author's note: Since publishing this piece, I've learned that Elon Musk supports a federal AI regulatory agency (start watching at 1hr 37 mins [here](https://x.com/TuckerCarlson/status/1843375397024485778)). This makes me think it's less likely that Trump would dissolve the AI Safety Institute, though I'm not sure by how much, especially given that xAI hasn't given AISI predeployment evaluation access like OpenAI and Anthropic have.*
