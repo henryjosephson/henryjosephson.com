@@ -1,7 +1,6 @@
 ---
 layout: post
 ---
-
 # NY Should Pass Light-Touch Law to Keep AI Innovation Responsible
 
 ## **Or “Alex Bores Should Introduce SB1047 In NY”**
@@ -15,19 +14,17 @@ Because I want to keep this piece short and because I think my audience is sympa
 [Here](https://thezvi.substack.com/p/guide-to-sb-1047)’s a quick summary of what the bill would have done:[^3]
 
 
-```
-IF AND ONLY IF you wish to train a model using $100 million or more in compute (including your fine-tuning costs):
-You must create a reasonable safety and security plan (SSP) such that your model does not pose an unreasonable risk of causing or materially enabling critical harm: mass casualties or incidents causing $500 million or more in damages.
-That SSP must explain what you will do, how you will do it, and why. It must have objective evaluation criteria for determining compliance. It must include cybersecurity protocols to prevent the model from being unintentionally stolen.
-You must publish a redacted copy of your SSP, an assessment of the risk of catastrophic harms from your model, and get a yearly audit.
-You must adhere to your own SSP and publish the results of your safety tests.
-You must be able to shut down all copies under your control, if necessary.
-The quality of your SSP and whether you followed it will be considered in whether you used reasonable care.
-If you violate these rules, you do not use reasonable care and harm results, the Attorney General can fine you in proportion to training costs, plus damages for the actual harm.
-If you fail to take reasonable care, injunctive relief can be sought. The quality of your SSP, and whether or not you complied with it, shall be considered when asking whether you acted reasonably.
-Fine-tunes that spend $10 million or more are the responsibility of the fine-tuner.
-Fine-tunes spending less than that are the responsibility of the original developer.
-```
+>IF AND ONLY IF you wish to train a model using $100 million or more in compute (including your fine-tuning costs):
+>You must create a reasonable safety and security plan (SSP) such that your model does not pose an unreasonable risk of causing or materially enabling critical harm: mass casualties or incidents causing $500 million or more in damages.
+>That SSP must explain what you will do, how you will do it, and why. It must have objective evaluation criteria for determining compliance. It must include cybersecurity protocols to prevent the model from being unintentionally stolen.
+>You must publish a redacted copy of your SSP, an assessment of the risk of catastrophic harms from your model, and get a yearly audit.
+>You must adhere to your own SSP and publish the results of your safety tests.
+>You must be able to shut down all copies under your control, if necessary.
+>The quality of your SSP and whether you followed it will be considered in whether you used reasonable care.
+>If you violate these rules, you do not use reasonable care and harm results, the Attorney General can fine you in proportion to training costs, plus damages for the actual harm.
+>If you fail to take reasonable care, injunctive relief can be sought. The quality of your SSP, and whether or not you complied with it, shall be considered when asking whether you acted reasonably.
+>Fine-tunes that spend $10 million or more are the responsibility of the fine-tuner.
+>Fine-tunes spending less than that are the responsibility of the original developer.
 
 
 The bill is dead in California,[^4] but we could bring it back to life in New York. In the rest of this piece, I’ll briefly explore:
@@ -56,11 +53,7 @@ The [textbook example](https://archive.org/details/tradingupconsume0000voge) of 
 
 This is also part of what makes a new CA animal welfare law so potent: [Prop 12](https://en.wikipedia.org/wiki/2018_California_Proposition_12), as it’s called, affects any pork that’s sold in California, no matter where it’s from. Producers in other states need to follow CA’s rules if they want access to CA’s massive market. Though the National Pork Producers Council argued it was unconstitutional regulation of interstate commerce, the Supreme Court ruled it [kosher](https://www.vox.com/future-perfect/23721488/prop-12-scotus-pork-pigs-factory-farming-california-bacon). 
 
-As I’ve 
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "written before"). Did you generate a TOC with blue links? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[written before](../AI-CA-Effect-2022.pdf), AI is a particularly good candidate for this sort of effect —training runs are very expensive, so it’d be tough to do two separate mega-training runs — one for NY, with a safety plan, and one for the rest of the world without one — just to dodge the bill. You could stop training early and release a half-baked model in NY, but you’d then be running a similar risk as you’d run if you just stopped selling your model in New York at all: every company in New York City using one of your competitors.
+As I’ve [written before](https://www.henryjosephson.com/AI-CA-Effect-2022.pdf), AI is a particularly good candidate for this sort of effect —training runs are very expensive, so it’d be tough to do two separate mega-training runs — one for NY, with a safety plan, and one for the rest of the world without one — just to dodge the bill. You could stop training early and release a half-baked model in NY, but you’d then be running a similar risk as you’d run if you just stopped selling your model in New York at all: every company in New York City using one of your competitors.
 
 What’s more, the ubiquity of the regulation is important for another reason: it means that companies in NY can’t avoid the regulation by leaving. This is important, since one of the biggest critiques levied against SB1047 was that it would drive tech innovation of of California[^7] — preventing covered models from being sold in NY, no matter where they were trained, avoids this problem. 
 
