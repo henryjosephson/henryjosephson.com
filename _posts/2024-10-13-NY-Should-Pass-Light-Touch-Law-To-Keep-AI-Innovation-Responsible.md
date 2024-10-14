@@ -15,15 +15,25 @@ Because I want to keep this piece short and because I think my audience is sympa
 
 
 >IF AND ONLY IF you wish to train a model using $100 million or more in compute (including your fine-tuning costs):
+
 >You must create a reasonable safety and security plan (SSP) such that your model does not pose an unreasonable risk of causing or materially enabling critical harm: mass casualties or incidents causing $500 million or more in damages.
+
 >That SSP must explain what you will do, how you will do it, and why. It must have objective evaluation criteria for determining compliance. It must include cybersecurity protocols to prevent the model from being unintentionally stolen.
+
 >You must publish a redacted copy of your SSP, an assessment of the risk of catastrophic harms from your model, and get a yearly audit.
+
 >You must adhere to your own SSP and publish the results of your safety tests.
+
 >You must be able to shut down all copies under your control, if necessary.
+
 >The quality of your SSP and whether you followed it will be considered in whether you used reasonable care.
+
 >If you violate these rules, you do not use reasonable care and harm results, the Attorney General can fine you in proportion to training costs, plus damages for the actual harm.
+
 >If you fail to take reasonable care, injunctive relief can be sought. The quality of your SSP, and whether or not you complied with it, shall be considered when asking whether you acted reasonably.
+
 >Fine-tunes that spend $10 million or more are the responsibility of the fine-tuner.
+
 >Fine-tunes spending less than that are the responsibility of the original developer.
 
 
