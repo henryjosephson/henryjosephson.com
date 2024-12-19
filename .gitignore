@@ -1,7 +1,5 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
+.DS_Store
 **/.DS_Store
-**.md
+_*/
+**/_*/ # ignore all folders whose names start with underscores
+**.md # for drafts!
