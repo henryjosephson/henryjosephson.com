@@ -2,4 +2,5 @@
 **/.DS_Store
 _*/
 **/_*/ # ignore all folders whose names start with underscores
-**.md # for drafts!
+**.md
+**/*.md
