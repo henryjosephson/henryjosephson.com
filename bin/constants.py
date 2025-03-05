@@ -29,4 +29,5 @@ HTML_TEMPLATE = """<head>
     </header>
     <!-- body text -->
 </body>
+</span>
 """
