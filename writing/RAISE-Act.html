@@ -25,23 +25,21 @@
             Henry Josephson<br>March 05, 2025
         </p>
     </header>
-<p><em>(I’m writing this up as a quick take, where “quick” means &lt;1 hour. More detailed analysis will come at a later date.)</em></p>
+<p><em>I’m writing this up as a quick take, where “quick” means &lt;1 hour. More detailed analysis will come at a later date.</em></p>
 <p>This morning, New York State Assemblyman Alex Bores introduced the <a href="https://nyassembly.gov/leg/?default_fld=&amp;leg_video=&amp;bn=A06453&amp;term=&amp;Summary=Y&amp;Actions=Y&amp;Text=Y">Responsible AI Safety and Education Act</a>. I’d like to think some of <a href="./NY-Should-Pass-Light-Touch-Law-To-Keep-AI-Innovation-Responsible.html">my previous advocacy</a> was helpful here, but I know for a fact that I’m <a href="https://futureoflife.org/ai-policy/poll-shows-popularity-of-ca-sb1047/">not</a> <a href="https://calltolead.org/">the</a> <a href="https://safesecureai.org/experts">only</a> <a href="https://economicsecurity.us/campaign/ca/">one</a> who supports legislation like this that only targets frontier labs and ensures the frontier gets pushed responsibly.</p>
-<p>To quote Dean Ball — whose takes are generally good — <a href="https://www.hyperdimensional.co/p/what-comes-after-sb-1047">here</a>,</p>
+<p>To quote <a href="https://www.hyperdimensional.co/p/what-comes-after-sb-1047">Dean Ball</a>, whose takes are generally good:</p>
 <blockquote>
 <p>the AI safety movement, on the whole, is a long-term friend of anyone who wants to see positive technological transformation in the coming decades. Though they have their concerns about AI, in general this is a group that is pro-science, techno-optimist, anti-stagnation, and skeptical of massive state interventions in the economy (if I may be forgiven for speaking broadly about a diverse intellectual community).</p>
 </blockquote>
-<p>I know AM Bores. He's pro-science, anti-stagnation, and one of the smartest guys I know. He has New Yorkers’ best interests at heart — it’s why I’m not surprised that, on my first read of the bill (and you should always read the actual bill) it does a pretty darn good job. Three things in particular stand out to me:</p>
-<h2 id="including-distillation">1. Including Distillation</h2>
+<p>I know AM Bores. He's pro-science, anti-stagnation, and one of the smartest guys I've met. He has New Yorkers’ best interests at heart — it’s why I’m not surprised that, on my first read of the bill (and you should always read the actual bill) it does a pretty darn good job. Three things in particular stand out to me:</p>
+<h2 id="including-distillation">1. Including distillation</h2>
 <p>This is, on my first read, the biggest difference between Bores’ bill and other efforts like <a href="https://www.ilga.gov/legislation/fulltext.asp?DocName=&amp;SessionId=114&amp;GA=104&amp;DocTypeId=HB&amp;DocNum=3506&amp;GAID=18&amp;LegID=162191&amp;SpecSess=&amp;Session=">IL HB3506</a> and last year’s <a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SB1047">CA SB1047</a>. That is, it defines “frontier models” as not only those using &gt;10^26 training FLOPs or &gt;$100 mil in training costs, but also as:</p>
 <blockquote>
-<p>“an artificial intelligence model produced by applying knowledge distillation to a frontier model as defined in paragraph (a) of this subdivision.”</p>
+<p>an artificial intelligence model produced by applying knowledge distillation to a frontier model as defined in paragraph (a) of this subdivision.</p>
 </blockquote>
 <p>What’s distillation? Don’t worry, the bill defines that, too:</p>
 <blockquote>
-<ol start="8" type="1">
-<li>“Knowledge distillation” means any supervised learning technique that uses a larger artificial intelligence model or the output of a larger artificial intelligence model to train a smaller artificial intelligence model with similar or equivalent capabilities as the larger artificial intelligence model.</li>
-</ol>
+“Knowledge distillation” means any supervised learning technique that uses a larger artificial intelligence model or the output of a larger artificial intelligence model to train a smaller artificial intelligence model with similar or equivalent capabilities as the larger artificial intelligence model.
 </blockquote>
 <p>As <a href="https://peterwildeford.substack.com/p/ten-takes-on-deepseek">Deepseek showed us</a>, it’s super feasible to achieve frontier progress with a smaller model by distilling a bigger one. If this bill didn’t include distillation in the definition, companies could simply train enormous models privately and then release distilled versions that technically fall below the compute threshold while maintaining most of the capabilities (and risks) of the original. I’m not a fan of loopholes, and I’m glad to see this one closed.</p>
 <h2 id="sparing-the-little-guy">2. Sparing the little guy</h2>
@@ -87,7 +85,11 @@
 </p>
 <p>These requirements aren’t burdensome for companies operating at this scale. <a href="https://assets.anthropic.com/m/24a47b00f10301cd/original/Anthropic-Responsible-Scaling-Policy-2024-10-15.pdf">Anthropic</a>, <a href="https://cdn.openai.com/openai-preparedness-framework-beta.pdf">OpenAI</a>, <a href="https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/updating-the-frontier-safety-framework/Frontier%20Safety%20Framework%202.0%20(1).pdf">DeepMind</a>, and <a href="https://x.ai/documents/2025.02.20-RMF-Draft.pdf">xAI</a> — even <a href="https://ai.meta.com/static-resource/meta-frontier-ai-framework/">Meta</a>! — already publish responsible scaling policies and have internal safety protocols. The bill simply asks them to formalize these processes, get independent verification, and be transparent about potential risks.</p>
 <p>What’s notable is what these requirements <em>don’t</em> do — they don’t stifle innovation for smaller startups, prevent companies from releasing new models, or impose impossible technical standards. They focus specifically on the most severe risks from the most powerful models from the best-resourced companies.</p>
-<p>Instead, the regulatory burden is “Don’t deploy models that risk catastrophic harm, get a third-party audit once a year, and report serious safety incidents promptly.” These all sound pretty darn good to me.</p>
+<p>Instead, the regulatory burden is “Don’t deploy models that risk catastrophic harm, get a third-party audit once a year, and report serious safety incidents promptly.” That sounds pretty darn reasonable to me.</p>
+<br>
+<hr>
+
+<p><em>Thanks to Thomas Dorsey, Noah Birnbaum, Mark Josephson, and Garrett Chalfin for their feedback on drafts.</em></p>
 
 </body>
 </span>
