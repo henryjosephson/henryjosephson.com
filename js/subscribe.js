@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     subscribeContainers.forEach(container => {
         // Create the subscription form HTML
         container.innerHTML = `
-            <body>
+            <div style="text-align: center;">
             <p>If you like my posts, get new ones emailed to you: 
             <span class="email-control">
                 <input type="email" class="email-input" placeholder="you@example.com" required>
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <span class="status-message"></span>
             </span>
             </p>
-            </body>
+            </div>
         `;
 
         // Add event listener to the button

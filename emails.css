@@ -1,4 +1,11 @@
 /* emails.css */
+.subscribe-here {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 1rem 0;
+}
+
 .email-input {
     font-size: 1rem;
     padding: 0.25rem 0;
