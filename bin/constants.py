@@ -27,9 +27,9 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <body id="top" class="latex-dark-auto">
     <div class="site-header">
         <a href="/">Home</a>
-        <a href="/writing/index.html" class="active">Writing</a>
-        <a href="/xw/index.html">Crosswords</a>
-        <a href="/now/index.html">Now</a>
+        <a href="/writing" class="active">Writing</a>
+        <a href="/xw">Crosswords</a>
+        <a href="/now">Now</a>
     </div>
     <header>
         <h1 id="title"><span class="latex">
@@ -69,7 +69,8 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
   <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.min.js"></script>
   <style>
     .date {
-      color: #aaa;
+      color: var(--body-color);
+      opacity: 0.7;
       font-size: 0.9em;
     }
     #post-list {
@@ -77,7 +78,15 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
       padding-left: 0;
     }
     #post-list li {
-      margin-bottom: 8px;
+      margin-bottom: 20px;
+    }
+    .teaser {
+      margin-top: 4px;
+      margin-left: 1.5em;
+      color: var(--body-color);
+      opacity: 0.8;
+      font-size: 0.9em;
+      line-height: 1.4;
     }
   </style>
 </head>
@@ -85,9 +94,9 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 <body id="top" class="latex-dark-auto">
   <div class="site-header">
     <a href="/">Home</a>
-    <a href="/writing/index.html" class="active">Writing</a>
-    <a href="/xw/index.html">Crosswords</a>
-    <a href="/now/index.html">Now</a>
+    <a href="/writing" class="active">Writing</a>
+    <a href="/xw">Crosswords</a>
+    <a href="/now">Now</a>
   </div>
   <header>
     <h1><span class="latex">Writing</h1>

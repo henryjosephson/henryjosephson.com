@@ -1,7 +1,7 @@
 .site-header {
   margin: 20px 0;
   padding: 10px 0;
-  border-bottom: 1px solid #555;
+  border-bottom: 1px solid var(--footnotes-border-color);
   text-align: center;
   display: flex;
   justify-content: center;
@@ -11,16 +11,16 @@
 .site-header a {
   font-size: 1rem;
   text-decoration: none;
-  color: #999;
+  color: var(--body-color);
   transition: color 0.2s ease;
 }
 
 .site-header a:hover {
-  color: #fff;
+  color: var(--link-visited);
 }
 
 .site-header a.active {
-  color: #fff;
+  color: var(--link-visited);
   font-weight: bold;
 }
 
