@@ -8,20 +8,29 @@
   <title>Henry Josephson</title>
 
   <meta name="description"
-    content="Henry Josephson's personal website. Crosswords, AI Policy, Philosophy" />
+    content="Henry Josephson's blog. Crosswords, AI Policy, Philosophy" />
   <meta name="keywords" content="s" />
   <meta property="og:title" content="Henry Josephson" />
   <meta property="og:url" content="https://www.henryjosephson.com" />
   <meta property="og:description"
-    content="Henry Josephson's personal website. Crosswords, AI Policy, Philosophy." />
+    content="Henry Josephson's blog. Crosswords, AI Policy, Philosophy." />
   <meta property="og:type" content="website" />
 
   <link rel="stylesheet" href="https://latex.vercel.app/style.css">
   <link rel="stylesheet" href="https://latex.vercel.app/prism/prism.css">
+  <link rel="stylesheet" href="/emails.css">
+  <link rel="stylesheet" href="/js/header.css">
+  <script src="/js/subscribe.js"></script>
   <script src="./js/prism.js"></script>
 </head>
 
 <body id="top" class="latex-dark-auto">
+  <div class="site-header">
+    <a href="/" class="active">Home</a>
+    <a href="/writing">Writing</a>
+    <a href="/xw">Crosswords</a>
+    <a href="/now">Now</a>
+  </div>
   <header>
     <h1><span class="latex">Henry Josephson</h1>
   </header>
@@ -32,13 +41,14 @@
       Hi! I'm Henry. I'm finishing up my final year at the University of Chicago, where I study data science and philosophy.<label for="sn-1" class="sidenote-toggle sidenote-number"></label>
       <input type="checkbox" id="sn-1" class="sidenote-toggle" />
       <span class="sidenote">I'm also a footnote enthusiast.</span>
-      I make <a href="#crosswords">crosswords</a> for the <i>New York Times</i>, and I'm working in emerging technology policy. After I graduate, I'm hoping to land a role in industry, a legislature, or a think tank, though I might end up in grad school. I'll keep you all updated on my progress! If you're interested in a more-substantial resume,
+      I make <a href="#crosswords">crosswords</a> for the <i>New York Times</i>, and I work in emerging technology policy. After I graduate, I'm hoping to land a role in industry, a legislature, or a think tank. I'll keep you all updated on my progress! If you're interested in a more-substantial resume,
       you can click <a href="./resume.pdf">here</a> or check my LinkedIn in the <a href="#socials">Socials</a> section below. 
       <br>
       <br>
       If you, like me, want a website that looks like a <span class="latex">L<span>a</span>T<span>e</span>X</span>
       document, then you should check out the <a href="https://github.com/vincentdoerig/latex-css">theme I'm using</a>, which was made by Vincent Doerig.
-    </p>
+    </p><br>
+    <div class="subscribe-here"></div>
   </div>
 
   <nav role="navigation" class="toc">
@@ -55,36 +65,10 @@
   <main>
     <article>
       <h2 id="whatDo">I. What am I working on right now?</h2>
-      Right now (last updated on 2025-02-22), I'm:
-      <ul>
-        <li>Finishing up my second-to-last quarter at UChicago (time flies!)</li>
-        <li>Reading biographies of <a href="https://en.wikipedia.org/wiki/The_Power_Broker">Robert Moses</a> and <a href="https://en.wikipedia.org/wiki/George_F._Kennan:_An_American_Life">George F. Kennan</a></li>
-        <li>Thinking about how to make AI capability useful, legible, and actionable for policymakers</li>
-        <li>Working on synthetic data and agents at Morningstar</li>
-        <li>Doing some vague stuff at a stealth civic tech startup</li>
-        <li>Researching the interaction between compute and algorithmic improvements, and the implications for policymakers</li>
-        <li>Finishing my philosophy BA thesis (decision theory for deontologists!)</li>
-        <li>Applying for jobs (<a href="#socials">let me know</a> if you want to see the google doc with my five-year plan!)</li>
-        <li>TAing Computer Science for Data Science (<a href="https://people.cs.uchicago.edu/~mwachs/data120-spr22/syllabus.html">old syllabus</a>)
-        and Introduction to Bayesian Epistemology (<a href="https://philosophy.uchicago.edu/node/10130">course page</a> — I'm the first undergrad to TA for UChicago's Philosophy department)</li>
-        <li>Making crossword puzzles</li>
-        <li>Thinking about what to add to this site<label for="sn-2" class="sidenote-toggle sidenote-number"></label>
-          <input type="checkbox" id="sn-2" class="sidenote-toggle" />
-          <span class="sidenote">
-            Thoughts include:
-            <ul>
-              <li>email subscriptions that don't make me pay substack a lot of money</li>
-              <li>comments that integrate with my bare-bones html (staticman)?</li>
-              <li>a script to convert my markdown drafts into final html-able versions to put here. <a href="https://pandoc.org/">Pandoc</a> does most of the work, but there are a few tweaks that'd be nice to automate.</li>
-              <li>a way to convert my firefox bookmarks to a nice html list that i can host here. maybe something like <a href="https://home.hedy.dev/bookmarks/?">this</a>?</li>
-              <li>a random button on the <a href="./404.html">404 page</a>. easy version would be a random page on this site, harder version would be a random article I've liked.</li>
-            </ul>
-          </span>
-        </li>
-      </ul>
+      Check out my <a href="/now/">now</a> page!
 
       <h2 id="words">II. Writing</h2>
-      Here's a quick look through a few public-facing things I've written. I haven't finished consolidating everything here, so feel free to <a href="#socials">reach out</a> and check if you're looking for a particular genre of writing that isn't below, there's a chance I have it anyway.
+      Here's a quick look through a few public-facing things I've written. You can find all my posts in the <a href="./writing">writing section</a>. I haven't finished consolidating everything here, so feel free to <a href="#socials">reach out</a> and check if you're looking for a particular genre of writing that isn't below, there's a chance I have it anyway.
       <h3>Nonfiction</h3>
       <ul>
         <li>
@@ -127,7 +111,7 @@
     </p>
 
     <p>
-      I'll also publish puzzles <a href="./xw/index.html">on this page</a> — expect more once I've graduated and can no longer send non-NYT grids to the <i>Maroon</i>.  
+      I'll also publish puzzles <a href="./xw">on this page</a> — expect more once I've graduated and can no longer send non-NYT grids to the <i>Maroon</i>.  
     </p>
 
     <h2 id="socials">IV. Social Media & Contact Info</h2>
