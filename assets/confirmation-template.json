@@ -1,0 +1,8 @@
+{
+    "Template": {
+        "TemplateName": "confirmation-template",
+        "SubjectPart": "Confirm your subscription to Henry Josephson's blog",
+        "HtmlPart": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Confirm Your Subscription</title>\n</head>\n<body style=\"font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;\">\n  <h1>Confirm Your Subscription</h1>\n  <p>Hello,</p>\n  <p>Thank you for subscribing to updates from Henry Josephson's blog.</p>\n  <p>Please click the button below to confirm your subscription:</p>\n  <p style=\"text-align: center; margin: 30px 0;\">\n    <a href=\"{{confirmation_url}}\" style=\"background-color: #4CAF50; color: white; padding: 12px 20px; text-decoration: none; border-radius: 4px; font-weight: bold;\">Confirm Subscription</a>\n  </p>\n  <p>If you didn't request this subscription, you can safely ignore this email.</p>\n  <p>My best,<br>Henry</p>\n  <p>Leave me anonymous feedback <a href='https://feedback.henryjosephson.com'>here</a></p>\n</body>\n</html>",
+        "TextPart": "Hello,\n\nThank you for subscribing to updates from Henry Josephson's blog.\n\nPlease visit the following link to confirm your subscription:\n\n{{confirmation_url}}\n\nIf you didn't request this subscription, you can safely ignore this email.\n\nMy best,\nHenry\n\nLeave me anonymous feedback: https://feedback.henryjosephson.com"
+    }
+}

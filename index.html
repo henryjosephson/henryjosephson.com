@@ -8,12 +8,12 @@
   <title>Henry Josephson</title>
 
   <meta name="description"
-    content="Henry Josephson's personal website. Crosswords, AI Policy, Philosophy" />
+    content="Henry Josephson's blog. Crosswords, AI Policy, Philosophy" />
   <meta name="keywords" content="s" />
   <meta property="og:title" content="Henry Josephson" />
   <meta property="og:url" content="https://www.henryjosephson.com" />
   <meta property="og:description"
-    content="Henry Josephson's personal website. Crosswords, AI Policy, Philosophy." />
+    content="Henry Josephson's blog. Crosswords, AI Policy, Philosophy." />
   <meta property="og:type" content="website" />
 
   <link rel="stylesheet" href="https://latex.vercel.app/style.css">
@@ -32,12 +32,53 @@
       Hi! I'm Henry. I'm finishing up my final year at the University of Chicago, where I study data science and philosophy.<label for="sn-1" class="sidenote-toggle sidenote-number"></label>
       <input type="checkbox" id="sn-1" class="sidenote-toggle" />
       <span class="sidenote">I'm also a footnote enthusiast.</span>
-      I make <a href="#crosswords">crosswords</a> for the <i>New York Times</i>, and I'm working in emerging technology policy. After I graduate, I'm hoping to land a role in industry, a legislature, or a think tank, though I might end up in grad school. I'll keep you all updated on my progress! If you're interested in a more-substantial resume,
+      I make <a href="#crosswords">crosswords</a> for the <i>New York Times</i>, and I work in emerging technology policy. After I graduate, I'm hoping to land a role in industry, a legislature, or a think tank. I'll keep you all updated on my progress! If you're interested in a more-substantial resume,
       you can click <a href="./resume.pdf">here</a> or check my LinkedIn in the <a href="#socials">Socials</a> section below. 
       <br>
       <br>
-      If you, like me, want a website that looks like a <span class="latex">L<span>a</span>T<span>e</span>X</span>
-      document, then you should check out the <a href="https://github.com/vincentdoerig/latex-css">theme I'm using</a>, which was made by Vincent Doerig.
+      <p>If you like what I write, get new posts emailed to you:
+        <span class="email-control">
+          <input type="email" id="emailInput" class="email-input" placeholder="you@example.com" required>
+          <button type="submit" id="subscribeButton" class="button">subscribe</button>
+          <span id="subscribeMessage" class="status-message"></span>
+          <textarea class="honeypot" style="display:none;"></textarea>
+        </span>
+      </p>
+      
+      <script>
+        document.getElementById('subscribeButton').addEventListener('click', function(e) {
+          e.preventDefault();
+          
+          const email = document.getElementById('emailInput').value;
+          const messageEl = document.getElementById('subscribeMessage');
+          
+          if (!email) {
+            messageEl.textContent = 'Please enter an email address.';
+            messageEl.style.display = 'inline';
+            return;
+          }
+          
+          messageEl.textContent = 'Sending...';
+          messageEl.style.display = 'inline';
+          
+          fetch('https://lnj1jz9jq1.execute-api.us-east-2.amazonaws.com/prod/subscribe', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ email: email })
+          })
+          .then(response => response.json())
+          .then(data => {
+            messageEl.textContent = 'Please check your email to confirm.';
+            document.getElementById('emailInput').value = '';
+          })
+          .catch(error => {
+            messageEl.textContent = 'Error: Please try again.';
+            console.error('Error:', error);
+          });
+        });
+      </script>
     </p>
   </div>
 
