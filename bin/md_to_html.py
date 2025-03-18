@@ -71,7 +71,6 @@ def main(
 
 
 if __name__ == "__main__":
-
     parser = argparse.ArgumentParser()
     parser.add_argument("--input_path", "-i", type=Path)
     parser.add_argument("--output_path", "-o", type=Path, required=False, default=False)
@@ -89,7 +88,7 @@ if __name__ == "__main__":
             out_path = Path(
                 re.sub(
                     r"\d{4}-\d{2}-\d{2}-",
-                    "a",
+                    "",
                     str(args.input_path),
                 )
                 .replace(".md", ".html")
