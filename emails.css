@@ -1,0 +1,37 @@
+/* emails.css */
+.email-input {
+    font-size: 1rem;
+    padding: 0.25rem 0;
+    width: 250px;
+    border: none;
+    border-bottom: 1px dotted #888;
+    background-color: transparent;
+    color: #aaa;
+    outline: none;
+}
+
+.email-input:focus {
+    border-bottom: 1px solid #aaa;
+}
+
+.subscribe-button {
+    font-size: 0.9rem;
+    padding: 0.25rem 0.5rem;
+    background-color: transparent;
+    border: 1px solid #666;
+    border-radius: 3px;
+    color: #aaa;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+
+.subscribe-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.status-message {
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+    display: none;
+    color: #aaa;
+}
