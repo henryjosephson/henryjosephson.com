@@ -19,11 +19,18 @@
   <link rel="stylesheet" href="https://latex.vercel.app/style.css">
   <link rel="stylesheet" href="https://latex.vercel.app/prism/prism.css">
   <link rel="stylesheet" href="/emails.css">
+  <link rel="stylesheet" href="/js/header.css">
   <script src="/js/subscribe.js"></script>
   <script src="./js/prism.js"></script>
 </head>
 
 <body id="top" class="latex-dark-auto">
+  <div class="site-header">
+    <a href="/" class="active">Home</a>
+    <a href="/writing/index.html">Writing</a>
+    <a href="/xw/index.html">Crosswords</a>
+    <a href="/now/index.html">Now</a>
+  </div>
   <header>
     <h1><span class="latex">Henry Josephson</h1>
   </header>
@@ -38,57 +45,10 @@
       you can click <a href="./resume.pdf">here</a> or check my LinkedIn in the <a href="#socials">Socials</a> section below. 
       <br>
       <br>
-<<<<<<< Updated upstream
-      <p>If you like what I write, get new posts emailed to you:
-        <span class="email-control">
-          <input type="email" id="emailInput" class="email-input" placeholder="you@example.com" required>
-          <button type="submit" id="subscribeButton" class="button">subscribe</button>
-          <span id="subscribeMessage" class="status-message"></span>
-          <textarea class="honeypot" style="display:none;"></textarea>
-        </span>
-      </p>
-      
-      <script>
-        document.getElementById('subscribeButton').addEventListener('click', function(e) {
-          e.preventDefault();
-          
-          const email = document.getElementById('emailInput').value;
-          const messageEl = document.getElementById('subscribeMessage');
-          
-          if (!email) {
-            messageEl.textContent = 'Please enter an email address.';
-            messageEl.style.display = 'inline';
-            return;
-          }
-          
-          messageEl.textContent = 'Sending...';
-          messageEl.style.display = 'inline';
-          
-          fetch('https://lnj1jz9jq1.execute-api.us-east-2.amazonaws.com/prod/subscribe', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({ email: email })
-          })
-          .then(response => response.json())
-          .then(data => {
-            messageEl.textContent = 'Please check your email to confirm.';
-            document.getElementById('emailInput').value = '';
-          })
-          .catch(error => {
-            messageEl.textContent = 'Error: Please try again.';
-            console.error('Error:', error);
-          });
-        });
-      </script>
-    </p>
-=======
       If you, like me, want a website that looks like a <span class="latex">L<span>a</span>T<span>e</span>X</span>
       document, then you should check out the <a href="https://github.com/vincentdoerig/latex-css">theme I'm using</a>, which was made by Vincent Doerig.
     </p><br>
     <div class="subscribe-here"></div>
->>>>>>> Stashed changes
   </div>
 
   <nav role="navigation" class="toc">

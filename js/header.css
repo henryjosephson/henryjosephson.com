@@ -1,0 +1,31 @@
+.site-header {
+  margin: 20px 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #555;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.site-header a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #999;
+  transition: color 0.2s ease;
+}
+
+.site-header a:hover {
+  color: #fff;
+}
+
+.site-header a.active {
+  color: #fff;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .site-header {
+    gap: 15px;
+  }
+}
