@@ -195,9 +195,6 @@ def main(
     # Replace subscribe tags
     html_body = replace_subscribe_tags(html_body)
 
-    # prevent double-titles
-    html_body = html_body.replace()
-
     # Write the enhanced HTML to the output file
     with Path(output_path).open("w") as f:
         f.write(

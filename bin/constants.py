@@ -17,10 +17,10 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         content="Henry Josephson's personal website. Crosswords, AI Policy, Philosophy." />
     <meta property="og:type" content="website" />
 
-    <link rel="stylesheet" href="https://latex.vercel.app/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://latex.vercel.app/prism/prism.css">
     <link rel="stylesheet" href="/emails.css">
-    <link rel="stylesheet" href="/js/header.css">
+    <link rel="stylesheet" href="/css/header.css">
     <script src="/js/subscribe.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.min.js"></script>
 </head>
@@ -61,10 +61,10 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
     content="Henry Josephson's blog. AI Policy, Philosophy, and more." />
   <meta property="og:type" content="website" />
 
-  <link rel="stylesheet" href="https://latex.vercel.app/style.css">
+  <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="https://latex.vercel.app/prism/prism.css">
   <link rel="stylesheet" href="/emails.css">
-  <link rel="stylesheet" href="/js/header.css">
+  <link rel="stylesheet" href="/css/header.css">
   <script src="/js/subscribe.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.min.js"></script>
   <style>
