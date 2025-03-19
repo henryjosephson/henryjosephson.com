@@ -36,24 +36,44 @@ def convert_footnotes_to_sidenotes(html_body: str) -> str:
     Returns:
         str: HTML body with sidenotes
     """
-    # Extract all footnotes
-    footnotes_section = re.search(
+    # Extract the footnotes section
+    footnotes_section_match = re.search(
         r'<section id="footnotes".*?>(.*?)</section>', html_body, re.DOTALL
     )
 
-    if not footnotes_section:
+    if not footnotes_section_match:
         return html_body
 
-    # Extract individual footnotes
+    # Extract footnote items from the section
+    footnote_section = footnotes_section_match.group(1)
+
+    # Process each footnote individually to handle multi-paragraph footnotes
     footnotes = {}
-    footnote_items = re.findall(
-        r'<li id="fn(\d+)">(.*?)<a href="#fnref\d+" class="footnote-back"[^>]*>↩︎</a></li>',
-        footnotes_section.group(1),
-        re.DOTALL,
+
+    # First, find all footnote list items
+    footnote_lis = re.findall(
+        r'<li id="fn(\d+)">(.*?)</li>', footnote_section, re.DOTALL
     )
 
-    for fn_num, fn_text in footnote_items:
-        footnotes[fn_num] = fn_text.strip()
+    for fn_num, fn_content in footnote_lis:
+        # Remove the backlink at the end of the footnote
+        clean_content = re.sub(
+            r'<a href="#fnref\d+" class="footnote-back"[^>]*>↩︎</a>', "", fn_content
+        )
+
+        # Handle footnotes with multiple paragraphs - preserve all HTML inside
+        # Just remove any outer <p> tags if they're the only content
+        if clean_content.strip().startswith("<p>") and clean_content.strip().endswith(
+            "</p>"
+        ):
+            # Only strip outer <p></p> if there's only one pair
+            p_tags_count = clean_content.count("<p>")
+            if p_tags_count == 1:
+                clean_content = re.sub(
+                    r"^<p>(.*)</p>$", r"\1", clean_content.strip(), flags=re.DOTALL
+                )
+
+        footnotes[fn_num] = clean_content.strip()
 
     # Replace footnote references with sidenotes
     sidenote_counter = 1
@@ -62,14 +82,13 @@ def convert_footnotes_to_sidenotes(html_body: str) -> str:
         nonlocal sidenote_counter
         fn_num = match.group(1)
         if fn_num in footnotes:
-            sidenote_html = f"""<label for="sn-{sidenote_counter}" class="sidenote-toggle sidenote-number"></label>
-      <input type="checkbox" id="sn-{sidenote_counter}" class="sidenote-toggle" />
-      <span class="sidenote">{footnotes[fn_num]}</span>"""
+            # Create sidenote HTML structure matching the index.html format
+            sidenote_html = f'<label for="sn-{sidenote_counter}" class="sidenote-toggle sidenote-number"></label>\n      <input type="checkbox" id="sn-{sidenote_counter}" class="sidenote-toggle" />\n      <span class="sidenote">{footnotes[fn_num]}</span>'
             sidenote_counter += 1
             return sidenote_html
         return match.group(0)
 
-    # Replace footnote references
+    # Replace footnote references with improved regex that matches pandoc output
     html_without_footnotes = re.sub(
         r'<a href="#fn(\d+)" class="footnote-ref" id="fnref\d+" role="doc-noteref"><sup>\d+</sup></a>',
         replace_footnote,
@@ -95,9 +114,35 @@ def enhance_code_blocks(html_body: str) -> str:
         str: HTML with enhanced code blocks
     """
     # Find code blocks and add language class for PrismJS
-    return re.sub(
+    html_body = re.sub(
         r'<pre><code class="([^"]+)">', r'<pre><code class="language-\1">', html_body
     )
+
+    # Ensure code blocks don't have line-by-line formatting
+    return re.sub(
+        r'<div class="sourceCode" id="cb\d+"><pre class="sourceCode ([^"]+)"><code class="sourceCode [^"]+">(.*?)</code></pre></div>',
+        r'<pre><code class="language-\1">\2</code></pre>',
+        html_body,
+        flags=re.DOTALL,
+    )
+
+
+def check_mathjax_needed(html_body: str) -> bool:
+    """Check if MathJax is needed in the document
+
+    Args:
+        html_body (str): HTML content
+
+    Returns:
+        bool: True if MathJax elements are found
+    """
+    # Check for LaTeX delimiters: $, $$
+    mathjax_patterns = [
+        r"\$\$.+?\$\$",  # Display math: $$...$$
+        r"\$.+?\$",  # Inline math: $...$
+    ]
+
+    return any(re.search(pattern, html_body, re.DOTALL) for pattern in mathjax_patterns)
 
 
 def replace_subscribe_tags(html_body: str) -> str:
@@ -124,8 +169,9 @@ def update_writing_index(output_path: Path, title: str, date: dt.date):
 
     # Create index file if it doesn't exist
     if not index_path.exists():
+        template = INDEX_TEMPLATE
         with index_path.open("w") as f:
-            f.write(INDEX_TEMPLATE)
+            f.write(template)
 
     # Read the current index file
     with index_path.open() as f:
@@ -195,10 +241,18 @@ def main(
     # Replace subscribe tags
     html_body = replace_subscribe_tags(html_body)
 
+    # Check if MathJax is needed
+    template = HTML_TEMPLATE
+    if check_mathjax_needed(html_body):
+        template = template.replace(
+            "</head>",
+            '    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>\n</head>',
+        )
+
     # Write the enhanced HTML to the output file
     with Path(output_path).open("w") as f:
         f.write(
-            HTML_TEMPLATE.replace(
+            template.replace(
                 "<!-- title -->",
                 title,
             )
@@ -208,7 +262,7 @@ def main(
             )
             .replace(
                 "<!-- body text -->",
-                html_body,
+                re.sub(r"<h1.*>(.*)</h1>", "", html_body),
             )
         )
 

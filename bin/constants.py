@@ -18,11 +18,11 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     <meta property="og:type" content="website" />
 
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="https://latex.vercel.app/prism/prism.css">
+    <link rel="stylesheet" href="/css/prism.css">
     <link rel="stylesheet" href="/emails.css">
     <link rel="stylesheet" href="/css/header.css">
     <script src="/js/subscribe.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.min.js"></script>
+    <script src="/js/prism.js"></script>
 </head>
 <body id="top" class="latex-dark-auto">
     <div class="site-header">
@@ -62,11 +62,11 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
   <meta property="og:type" content="website" />
 
   <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="https://latex.vercel.app/prism/prism.css">
+  <link rel="stylesheet" href="/css/prism.css">
   <link rel="stylesheet" href="/emails.css">
   <link rel="stylesheet" href="/css/header.css">
   <script src="/js/subscribe.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.min.js"></script>
+  <script src="/js/prism.js"></script>
   <style>
     .date {
       color: var(--body-color);
