@@ -56,9 +56,7 @@
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <p>I could learn some things about AWS along the way, and their wide free tier offerings mean that I’d be very, very happy if I was getting enough traffic for costs to be meaningful.</p></li>
 </ol>
-<p>So I did some digging and found <a href="https://benkuhn.net">Ben Kuhn’s blog</a>.<label for="sn-2" class="sidenote-toggle sidenote-number"></label>
-      <input type="checkbox" id="sn-2" class="sidenote-toggle" />
-      <span class="sidenote">Ben, if you’re reading this, can you please tell Nick Beckstead or Thomas Woodside to hire me?</span> After some <code>View Source</code>-ing, it looks like he’s doing something similar. So I figured, if an engineer at a $60 billion dollar software company can build their own backend, why can’t I?</p>
+<p>So I did some digging and found <a href="https://benkuhn.net">Ben Kuhn’s blog</a>. After some <code>View Source</code>-ing, it looks like he’s doing something similar. So I figured, if an engineer at a $60 billion dollar software company can build their own backend, why can’t I?</p>
 <h2 id="basic-architecture">Basic Architecture</h2>
 <p>When I was looking into ways to easily send emails, AWS’s aptly-named Simple Email Service came up a lot. Yeah, you have to be a bit more technical than your average substack publisher or mailgun api-caller, but I figured I clear that bar.</p>
 <p>After thinking through what I needed for a bare-minimum newsletter system, I sketched out an architecture that looks something like this:</p>
@@ -69,8 +67,8 @@
 <li><strong>AWS API Gateway</strong>: To create endpoints my site can talk to</li>
 <li><strong>GitHub Webhook</strong>: To detect when I publish new content</li>
 </ol>
-<p>The beauty of this setup is that it’s entirely serverless — I don’t have to manage any infrastructure, and I only pay for what I use. At my traffic levels, this means I’ll probably stay comfortably within AWS’s free tier for the foreseeable future.<label for="sn-3" class="sidenote-toggle sidenote-number"></label>
-      <input type="checkbox" id="sn-3" class="sidenote-toggle" />
+<p>The beauty of this setup is that it’s entirely serverless — I don’t have to manage any infrastructure, and I only pay for what I use. At my traffic levels, this means I’ll probably stay comfortably within AWS’s free tier for the foreseeable future.<label for="sn-2" class="sidenote-toggle sidenote-number"></label>
+      <input type="checkbox" id="sn-2" class="sidenote-toggle" />
       <span class="sidenote">AWS’s free tier includes 1 million Lambda requests per month, 25GB of DynamoDB storage, and 62,000 SES emails per month when sent from Lambda. If you’re reading this, you’re probably one of my first dozen subscribers, so I think I’m safe.</span></p>
 <h2 id="setting-up-the-backend">Setting Up the Backend</h2>
 <h3 id="dynamodb-the-worlds-simplest-email-database">DynamoDB: The World’s Simplest Email Database</h3>
@@ -134,8 +132,8 @@
 <span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>    </span>
 <span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Return success response</span></span>
 <span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> success_response(<span class="st">&quot;Subscription initiated. Please check your email to confirm.&quot;</span>)</span></code></pre>
-<p>I won’t bore you with the code for the other Lambda functions, but they follow a similar pattern: get the request, validate inputs, interact with DynamoDB, and send emails as needed.<label for="sn-4" class="sidenote-toggle sidenote-number"></label>
-      <input type="checkbox" id="sn-4" class="sidenote-toggle" />
+<p>I won’t bore you with the code for the other Lambda functions, but they follow a similar pattern: get the request, validate inputs, interact with DynamoDB, and send emails as needed.<label for="sn-3" class="sidenote-toggle sidenote-number"></label>
+      <input type="checkbox" id="sn-3" class="sidenote-toggle" />
       <span class="sidenote">I’ve simplified the code for readability. The actual functions include more error handling, logging, and input validation.</span></p>
 <h3 id="ses-setting-up-email-templates">SES: Setting Up Email Templates</h3>
 <p>To make the emails look halfway decent, I created two templates in SES:</p>
@@ -231,8 +229,8 @@
 <p>Building this system was a fun weekend project, but it wasn’t without its challenges:</p>
 <ol type="1">
 <li><p><strong>AWS Configuration</strong>: Setting up all the permissions correctly took longer than I expected. IAM policies are powerful but confusing.</p></li>
-<li><p><strong>Email Deliverability</strong>: Getting out of the SES sandbox required submitting a support ticket and waiting for approval.<label for="sn-5" class="sidenote-toggle sidenote-number"></label>
-      <input type="checkbox" id="sn-5" class="sidenote-toggle" />
+<li><p><strong>Email Deliverability</strong>: Getting out of the SES sandbox required submitting a support ticket and waiting for approval.<label for="sn-4" class="sidenote-toggle sidenote-number"></label>
+      <input type="checkbox" id="sn-4" class="sidenote-toggle" />
       <span class="sidenote">AWS puts new SES accounts in a “sandbox” mode where you can only send emails to verified addresses. To send to the general public, you need to request production access, which involves explaining your email sending practices and confirming you’ll follow anti-spam guidelines.</span> Claude was incredibly helpful here — it helped me draft a professional-sounding request that made it seem like I’d done this sort of thing before, patio11-style. AWS approved my production access within 24 hours.</p></li>
 <li><p><strong>Webhook Security</strong>: Properly securing the GitHub webhook took some trial and error.</p></li>
 <li><p><strong>Error Handling</strong>: I didn’t anticipate all the ways API Gateway requests could be formatted, leading to some early bugs.</p></li>
