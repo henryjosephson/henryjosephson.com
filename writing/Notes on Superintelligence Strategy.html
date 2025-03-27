@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-site-verification" content="tm5Y6ZNTf-lBqbwniGjQPv1q02o2TuUQZ9GTYa4SMLg" />
+    <title>
+        Notes on Superintellience Strategy
+    </title>
+    <meta name="description"
+        content="Henry Josephson's personal website. Crosswords, AI Policy, Philosophy" />
+    <meta property="og:title" content="Notes on Superintellience Strategy" />
+    <meta property="og:url" content="https://www.henryjosephson.com" />
+    <meta property="og:description"
+        content="Henry Josephson's personal website. Crosswords, AI Policy, Philosophy." />
+    <meta property="og:type" content="website" />
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/prism.css">
+    <link rel="stylesheet" href="/emails.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <script src="/js/subscribe.js"></script>
+    <script src="/js/prism.js"></script>
+</head>
+<body id="top" class="latex-dark-auto">
+    <div class="site-header">
+        <a href="/">Home</a>
+        <a href="/writing" class="active">Writing</a>
+        <a href="/xw">Crosswords</a>
+        <a href="/now">Now</a>
+    </div>
+    <header>
+        <h1 id="title"><span class="latex">
+            Notes on Superintellience Strategy
+        </h1>
+        <p class="author">
+            Henry Josephson<br>March 22, 2025
+        </p>
+    </header>
+    <div class="subscribe-here" style="text-align: center;"></div>
+    
+<p>Dan Hendrycks, Alexandr Wang, and Eric Schmidt published a new piece last week (and got a great url, <a href="https://www.nationalsecurity.ai/">nationalsecurity.ai</a>) arguing for a potentially-stable deterrence regime that they dub “Mutual Assured AI Malfunction.” I only got around to reading it now, thanks to spring break, but I’ve included my notes below — I sometimes abbreviate authors as HSW. You can listen to Dan Hendrycks talk about on the Lawfare podcast wherever you get your podcasts, and Zvi’s notes are <a href="https://thezvi.substack.com/p/on-maim-and-superintelligence-strategy">here</a> — I recommend them, though I didn’t read them until after going through on my own.</p>
+<h2 id="chapter-1-executive-summary">Chapter 1— Executive Summary</h2>
+<p><strong>Deterrence</strong> comes from the fact that AGI would create a huge power imbalance, but nations could sabotage their rivals’ efforts, bringing us to <strong>Mutual Assured AI Malfunction (MAIM)</strong>, a stable deterrence regime that the authors spend the rest of the paper discussing how to achieve.</p>
+<p><strong>Nonproliferation</strong> comes from actors investing in:</p>
+<ul>
+<li><strong>compute security</strong>, by which you track where high-end AI chips go and <a href="https%20//www.aipolicybulletin.org/articles/ai-chip-smuggling-is-the-default-not-the-exception">curb smuggling</a></li>
+<li><strong>information security</strong>, by which you prevent <a href="https://www.rand.org/content/dam/rand/pubs/research_reports/RRA2800/RRA2849-1/RAND_RRA2849-1.pdf">advanced model weights from falling into the hands of bad actors</a> ![[Pasted image 20250321131132.png]]</li>
+<li>and <strong>AI security</strong>, by which you can detect and prevent malicious use. <strong>Competitiveness</strong> comes from <em>military strength</em>, <em>economic security</em> (protect those supply chains!), <em>robust legal frameworks</em>, and <em>political stability</em>.</li>
+</ul>
+<h2 id="chapter-2-introduction">Chapter 2 — Introduction</h2>
+<p>AI will touch everything — we’ve been using all sorts of analogies, but none seem to really capture everything we want. HSW think nuclear is as close as we can get, though: huge potential for gain… and also for killing us all.</p>
+<p>We can learn from the way we managed those technologies when we’re trying to manage these. Specifically,</p>
+<blockquote>
+<p>Nuclear annihilation has been avoided thus far despite significant tensions between nuclear states in part through the deterrence principle of Mutual Assured Destruction (MAD), where any nuclear use would provoke an in-kind response.</p>
+</blockquote>
+<p>High-end chips could be today’s uranium — a simple, easy-to-control bottleneck. To ensure we have a comprehensive strategy to <a href="https://www.lesswrong.com/posts/dLbkrPu5STNCBLRjr/applause-lights">capture the benefits while mitigating the risks</a>, we have a bunch of tough problems to figure out:</p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Topic</th>
+<th>Tame Technical Subproblem</th>
+<th>Wicked Problems</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Malicious Use</td>
+<td>Train AI systems to refuse harmful requests</td>
+<td>Coordinate nonproliferation among countries, incentivize AI deployers to prevent misuse, validate know‐your‐customer information</td>
+</tr>
+<tr>
+<td>Deterrence</td>
+<td>Prepare cyberattacks for AI datacenters</td>
+<td>Define escalation thresholds and signal intent, surveil rival AI projects, adapt verification measures as AI evolves</td>
+</tr>
+<tr>
+<td>Compute Security</td>
+<td>Upgrade AI chip firmware to add geolocation functionality</td>
+<td>Enforce export controls to track AI chips, report suspicious shipments to allies, verify the decommissioning of obsolete AI chips</td>
+</tr>
+<tr>
+<td>Information Security</td>
+<td>Patch known vulnerabilities in AI developers’ computer systems</td>
+<td>Counter insider threats, balance security measures with productivity, prevent ideological leaks</td>
+</tr>
+<tr>
+<td>Military Strength</td>
+<td>Design military drones</td>
+<td>Secure supply chains, adapt military organizational structures to diffuse AI, maintain meaningful human control over AI‐augmented command and control</td>
+</tr>
+<tr>
+<td>Economic Strength</td>
+<td>Improve AI performance on economically valuable tasks</td>
+<td>Draw from legal frameworks for AI agents, establish and evolve multiagent infrastructure, preserve stability amid automation</td>
+</tr>
+<tr>
+<td>Loss of Control</td>
+<td>Research methods to make current AIs follow instructions</td>
+<td>Steer a population of rapidly evolving AIs during an intelligence recursion, co‐evolve safeguards with AI systems, red team AIs to identify unknown unknowns</td>
+</tr>
+</tbody>
+</table>
+<h2 id="chapter-3-ai-is-pivotal-for-national-security">Chapter 3 — AI Is Pivotal for National Security</h2>
+<p>HSW contend that there are three threats to AI could threaten national security — through <strong>rival states</strong>, <strong>rogue actors</strong>, and on their own as <strong>uncontrolled AI systems</strong>.</p>
+<h3 id="rival-states-strategic-competition">Rival States / Strategic Competition</h3>
+<p>Without a single world government, you protect yourself by being strong. AI will change how you can be strong — indirectly and economically by having lots of AI chips, and more directly by by enabling military dominance through helping you build both:</p>
+<ul>
+<li>“subnuclear” superweapons that’d let you project power without disrupting MAD deterrence (these look like crazy cyberweapons, autonomous drones, etc), and</li>
+<li>superweapons that do erode MAD, e.g. by enabling missile defense that actually works, improving underwater surveillance enough to remove <a href="https://en.wikipedia.org/wiki/Hyman_G._Rickover">nuclear submarines’</a> second-strike capabilities, or stuff we can hardly dream of.</li>
+</ul>
+<p>Obviously, building new superweapons disrupts the balance of power.</p>
+<blockquote>
+<p>Faced with the specter of superweapons and an AI-enabled strategic monopoly on power, some leaders may turn to <em>preventive action</em>. Rather than only relying on cooperation or seeking to outpace their adversaries, they may consider sabotage or datacenter attacks, if the alternative is to accept a future in which one’s national survival is perpetually at risk.</p>
+</blockquote>
+<h3 id="rogue-actors-terrorism">Rogue Actors / Terrorism</h3>
+<p>AI lowers the bar for terrorism. It makes it easier to build bioweapons and to commit cyberattacks against critical infrastructure. Because AI is often offense-dominant (biological weapons can self-replicate very quickly, and “Critical infrastructure systems often suffer from”patch lag,” resulting in software remaining unpatched for extended periods, sometimes years or decades”), which makes this all the more worrying.</p>
+<h3 id="loss-of-control-rogue-ais">Loss of Control / Rogue AIs</h3>
+<p>As AIs get more and more capable, we’ll probably hand over more and more control. Economically, this is a vicious cycle — once you start using AI as a manager, you need to keep using more to keep pace. It’ll be very difficult to detangle the AIs once we start using them, and the cost of cutting them out will only increase. The same goes for national defense — the power</p>
+<blockquote>
+<p>does not stem from any outright seizure; it flows form the fact that a modern force lacking such technology would be outmatched. The loss of control unfolds not through a dramatic coup, but through a series of small, apparently sensible decisions, each justified by time saved or costs reduced.</p>
+</blockquote>
+<p>And it only takes one rogue AI to get really bad results. The rogue AI could mimic tactics from rogue states like North Korea — maybe they’d make billions from cyberattacks and <a href="https://www.cnn.com/2025/02/24/politics/north-korean-hackers-crypto-hack/index.html">cryptocurrency theft</a> — or they could just use robotics to get a physical foothold. If AI can improve recursively, we might end up with an intelligence explosion — once you have a single AI that can operate as a human-level software engineer, you can automate R&amp;D pretty easily. This puts the next generation of models behind another layer of opacity, which is even more worrying when you look at the track record less-intelligent beings have with respect to controlling more-intelligent beings.</p>
+<p>There’s no silver bullet to control recursive self-improvement, but it’s an attractive target for actors who want to get a strategic monopoly, since it’s a clear way to outpace rivals. Recursive self-improvement could cement first-mover advantages, and geopolitical pressures mean most nations will be willing to tolerate these risks — remember when Manhattan Project scientists thought nuclear explosions could start a chain reaction that ignites the atmosphere?</p>
+<h3 id="current-strategies-suck">current strategies Suck</h3>
+<p><strong>It’s all just code, bro</strong> — or, as HSW call it, the <em>Hands-off (“Move Fast and Break Things”, or “YOLO”) Strategy.</em> This is pretty clearly not a credible national security strategy.</p>
+<p><strong>PauseAI</strong> — the <em>moratorium strategy</em>. These folks are, on HSW’s account, naive. They assume that major powers would actually stop if they saw evidence of dangerous capabilities, or that any treaties would have teeth.</p>
+<p><strong>We have to beat China</strong> — the <em>monopoly strategy</em>. Think Manhattan Project for AI. HSW don’t love it. If you put all the top US AI talent (many of whom are necessarily Chinese nationals) in a single airgapped facility in the New Mexico desert, they could “easily [be] observed by satellite and [be] vulnerable to preemptive attack.” For something as decisive as AGI, do we really think that China would sit back and let it happen?</p>
+<p><img src="https://cdn.prod.website-files.com/6747c60014d14fc1cba63c28/67c6771ac0fd3306475e6f1d_Possible%20outcomes-02-02.png" /></p>
+<p>To get around this, HSW propose the <strong>Multipolar strategy</strong>.</p>
+<h2 id="chapter-4-deterrence-with-mutual-assured-ai-malfunction-maim">Chapter 4 — Deterrence with Mutual Assured AI Malfunction (MAIM)</h2>
+<p>You can maintain a MAIM regime by:</p>
+<ul>
+<li><strong>preserving rational decisionmaking</strong> — i.e. clarifying the escalation ladder of “espionage, covert sabotage, overt cyberattacks, possible kinetic strikes, and so on.” If you want deterrence to hold, both sides need to know that the other would MAIM them in a way that wouldn’t cause escalation.
+<ul>
+<li>This weakens if rogue actors get AI, though (so we should prevent chip smuggling and model weight theft).</li>
+</ul></li>
+<li><strong>Get good at disrupting AI projects without escalation</strong> — especially when the alternative is kinetic attacks, which would almost certainly lead to huge escalation, coming up with ways to “severely disrupt destabilizing AI projects with minimal diplomatic fallout” is super important. HSW give a nice long list that hopefully isn’t too infohazardous (I think the NSA has figured most of them out, anyway).</li>
+<li><strong>Build your datacenters far from population centers</strong>. If everything goes to shit, at least your cities are safe(r).</li>
+<li><strong>Clarify which AI uses are destabilizing and which are acceptable</strong> — more transparency here means that mundane utility doesn’t get disrupted. Probably requires coordination, which could come from…</li>
+<li><strong>AI-assisted inspections</strong>. If you trust the outputs of an AI, they could be a great way to check more information than any human ever could, while reducing the infosec concerns with giving humans from the other side knowledge of what, exactly, you’re working on.</li>
+</ul>
+<h2 id="chapter-5-nonproliferation">Chapter 5 — Nonproliferation</h2>
+<p>You can constrain other states by constraining <em>intent</em> or by constraining <em>capabilities</em>. You can’t really do the latter with rogue actors, though, so you’d better also be able to constrain capabilities through <strong>compute security</strong>, <strong>information security</strong>, and <strong>AI security</strong>.</p>
+<h3 id="compute-security">1. Compute Security</h3>
+<p>AI is uniquely chip-dependent, and there are easy bottlenecks for (theoretically) making sure these don’t fall into bad actors’ hands. To do this, we can use <strong>export controls</strong> on compute, just like we have for key nuclear and chemical weapon tech. That’s because compute is a key input, and because export controls work — or at least they <em>can</em> work if we can keep track of all the cutting-edge chips (<strong>record-keeping</strong>) and actually stop smugglers (<strong>enforcement</strong>).</p>
+<p>We can also install on-chip features, like GPS to check if a chip is in an export-controlled place (<strong>geolocation and geofencing</strong>), making sure they’re being used by people we’ve authorized to use them (<strong>licensing and remote attestation</strong>), preventing them from combining with technology we don’t want them to connect to (<strong>networking restrictions and operational modes</strong>), and by making these controls tough to override (<strong>physical tamper resistance</strong>).</p>
+<h3 id="information-security">2. Information Security</h3>
+<p>Don’t let sensitive information get to rival or rogue actors. You can’t put information toothpaste back into the tube. Pay close attention to who has access to the actual stuff you need to do inference, and don’t let them get the stuff they need to replicate the stuff you’ve built to do inference (<strong>Model Weights and Research Ideas as Core AI Information</strong>). You can do this technologically, but people are the weakest link — make sure you trust everyone who works for you, and recognize that some people will be ideologically-motivated to expose your model weights (<strong>Information Security is a Technical and Social Challenge</strong>). You’re still fucked if a state-level actor with zero-days you’ve never heard of, ten thousand experts, billions of dollars, and a spy network out of a Bond movie decides to target you, though (<strong>Superpower-Proof Information Security Is Implausible</strong>).</p>
+<p>Get better information security by following the classics (<strong>Corporate Measures: Enhancing Datacenter Security and Insider Threat Programs</strong>) and asking friendly governments for help detecting and responding to attacks (<strong>Governmental Role: Assist With Threat Intelligence</strong>). International governance on some pretty-obvious red lines (HWS suggest open-weight AI virologists) are plausible (<strong>International Agreements: Establishing a Red Line on Open-Weight AI Virologists</strong>), but only among entities that actually agree to international coordination efforts, which brings us to…</p>
+<h3 id="ai-security">3. AI Security</h3>
+<h4 id="malicious-use">Malicious Use</h4>
+<p>How do we stop rogue actors from using AI to do really bad stuff? Luckily, refusal training is actually pretty good, we can selectively grant API calls to people we’re pretty sure aren’t terrorists, and we can configure circuit-breakers that trip if they detect certain weapon-ish inference patterns (<strong>Model-Level Safeguards Can Be Fairly Robust</strong>). We can make sure we aren’t giving important capabilities to bad people (<strong>Balancing Access Through Know-Your-Customer Protocols</strong>), and we can test this regularly to ensure we’re actually achieving this (<strong>Mandatory Government Safeguard Stress Testing</strong>). If we make developers partially responsible if their systems are maliciously used to cause significant harm, we can create a strong incentive to enhance safeguards proactively (<strong>Incentivizing Continuous Improvement Without Licensing</strong>).</p>
+<h4 id="loss-of-control">Loss of Control</h4>
+<p>Ok, well how do we stop the AIs themselves from going rogue, especially when they’ll probably fail in ways that we don’t understand (<strong>AI Systems Exhibit Unpredictable Failure Modes</strong>)? HSW say there are two key ways:</p>
+<p><strong>Controlling AIs’ Emergent Value Systems</strong> AIs get coherent value systems. We can control their outputs, but this might not actually change what’s represented underneath – we can also shift internal representations, though. We could also try to ensure models have values similar to representative assemblies of citizens (Iason Gabriel has some work on this), though I’m not sure this is what’d actually be best (people are often wrong).</p>
+<p>This is all well and good when we’re talking about systems we can easily control, but what about runaway superintelligence?</p>
+<p><strong>Controlling an Intelligence Recursion</strong> It’s tough to control recursive self-improvement. We have to make sure the model-training AIs themselves remain unable to exfiltrate themselves and remain honest (<em>model-level control</em>), that they can’t get outside of the datacenter even if they wanted to (<em>boxing</em>), and that we can check if they’re deceptive, about to break through, or otherwise malicious (<em>monitoring</em>).</p>
+<h2 id="chapter-6-competitiveness">Chapter 6 — Competitiveness</h2>
+<p>HSW identify four key regions where we need to stay competitive:</p>
+<h3 id="military-strength">Military Strength</h3>
+<p>It isn’t enough to think it, you have to do it, and you have to do it at sufficient scale.</p>
+<p>Drones are everywhere, and right now largely depend on Chinese supply chains. We don’t just need to diversify — we also need to ensure that states can diffuse tensions with open crisis hotlines, regular communication, and other <em>confidence-building measures</em>. (<strong>Guarantee Drone Supply Chains and Reduce Misunderstanding</strong>) Humans are just too slow and expensive to stay competitive. (<strong>Integrate AI into cyber offense</strong>) We’ll have to ensure humans stay in the loop at least a little — HSW offer that “demanding human approval of all individual lower-level engagements may be less important than ensuring explicit human approval for more severe or escalatory attacks” (<strong>Diffuse AI Into Command and Control</strong>).</p>
+<h3 id="economic-security">Economic Security</h3>
+<p>We’re <em>really</em> reliant on Taiwan right now, and China’s probably going to invade sometime soon. Such an invasion would undermine the West’s current chip advantage much more than it’d hurt China — we should invest in chip fabs entirely within our own territories (<strong>Manufacture AI Chips</strong>). We should also make sure that top AI talent can get to the US as easily as possible — we’re failing at this right now:</p>
+<blockquote>
+<p>60% of non-citizen AI PhDs working in the United States reported significant immigration difficulties, and many indicated that these challenges made them more likely to leave.</p>
+</blockquote>
+<p>It’s much easier for the US to lead on AI when we keep the best researchers in the US working for US firms, especially when the alternative is them working elsewhere (<strong>Facilitate Immigration for AI Scientists</strong>).</p>
+<h3 id="law">Law</h3>
+<p>AI agents are coming, so we should make sure that they do things we want them to do — at least generally (<strong>Aligning Individual AI Agents</strong>) by ensuring that they take a reasonable level of caution (<strong>Duty of Care to the Public (Reasonable Care)</strong>), stay honest (<strong>Duty Not to Lie</strong>) and stay faithful to the principals for whom they act — this includes keeping the principals informed (<strong>Duty of Care to the Principal (Fiduciary Duties)</strong>).</p>
+<p>We can also affect the way agents work — we’re building them, after all — at both the individual (<strong>Custom Goals and Market-Driven Variations</strong>) and group (<strong>Aligning Collectives of AI Agents</strong>) levels. With groups, we’ll have to actually build ways to do this on more than vibes (<strong>Establishing Trust Mechanisms and Institutions</strong>) — HSW suggest the following:</p>
+<ul>
+<li><em>Insurance</em> to underwrite risks and absorb liability from users and developers,</li>
+<li><em>Action firewalls</em> to make sure bad things don’t happen,[^4]</li>
+<li><em>Human oversight services</em> to make human verification easier,</li>
+<li><em>Reputation systems</em> to aggregate and persist information about particular agents, and</li>
+<li><em>Mediation and collateral arrangements</em> to make sure that disputes are transparently resolvable.</li>
+</ul>
+<p>They also ensure that each agent be directly connected to human legal entities (<strong>Linking AI Agents to Human Legal Entities via IDs</strong>) and suggest that, especially given the unlikelihood of getting a definitive answer in the near future, we avoid particularly thorny topics about whether AIs are moral patients (<strong>Deferring Consideration of AI Rights</strong>).</p>
+<h3 id="politics">Politics</h3>
+<p>AI is going to be really tough for democracy. It’ll make it tough to tell what’s true and what isn’t, while simultaneously enabling large-scale censorship and mass surveilance (<strong>Erosion of the Information Ecosystem</strong>). That said, AI could also make it tougher to suppress good information (<strong>AI as a Tool for Clarity</strong>) and could make it easier for us to predict the future (<strong>AI Forecasts May Be Cheaper and More Accurate than Human Ones</strong>), which would be especially useful when the stakes are high (<strong>Forecasting with AI During Crises</strong>) and when people in power can be better-informed (<strong>Empowering Decision-Makers with AI Insights</strong>).</p>
+<p>AI is also going to change the labor market in ways we can’t yet fully grasp (<strong>Automation and Political Stability</strong>). Unlike previous technological revolutions that unfolded gradually over decades, AI-driven automation could upend employment patterns at unprecedented speed. Even the Industrial Revolution, which occurred more slowly, caused significant disruption. Traditional solutions like retraining programs may not work if AI capabilities advance faster than people can develop new skills, and our existing social safety nets weren’t designed to handle massive cross-sector unemployment.</p>
+<p>We don’t know exactly who’ll benefit and who won’t from this shift (<strong>Uncertain Winners and Losers</strong>). If economic bottlenecks (like legal hurdles to building factories) remain significant, people with skills that AI can’t replace might capture most of the economic gains. But if AI becomes truly general-purpose and eliminates these bottlenecks, the owners of AI compute could end up with most of the wealth.</p>
+<p>To prevent extreme concentration of wealth and power (<strong>Wealth and Power Distribution</strong>), policymakers could consider targeted value-added taxes on AI services with rebates. But merely redistributing wealth is vulnerable to governments later changing their minds. For a more durable solution, HSW suggest distributing power by giving citizens unique keys tied to portions of compute that only they can activate or lease out. This would give people lasting economic leverage similar to how workers currently can withhold their labor, helping prevent the extreme concentration of wealth and authority that otherwise might result from widespread automation.</p>
+<p>HSW conclude that maintaining competitiveness in the age of AI requires expanding domestic drone manufacturing, creating legal frameworks that keep AI agents accountable to humans, and realistically addressing automation’s impact on labor markets. Most critically, they emphasize that dependence on Taiwan for advanced AI chips represents a major vulnerability that Western countries must address by developing guaranteed domestic supply chains, despite the significant investment required.</p>
+
+</body>
+</html>
