@@ -1,9 +1,6 @@
 import Head from 'next/head';
 import Script from 'next/script';
 
-// Import styles
-import '../styles/globals.css';
-
 function MyApp({ Component, pageProps }) {
   return (
     <>

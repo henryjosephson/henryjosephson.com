@@ -4,11 +4,10 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        {/* Using local CSS files instead of external ones */}
-        <link rel="stylesheet" href="/css/style.css" />
+        {/* Single CSS file for base styles */}
+        <link rel="stylesheet" href="/css/main.css" />
+        {/* Syntax highlighting */}
         <link rel="stylesheet" href="/css/prism.css" />
-        <link rel="stylesheet" href="/css/emails.css" />
-        <link rel="stylesheet" href="/css/header.css" />
       </Head>
       <body>
         <Main />
