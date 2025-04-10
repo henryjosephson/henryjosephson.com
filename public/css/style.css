@@ -5,6 +5,46 @@
  * Licensed under MIT (https://github.com/vincentdoerig/latex-css/blob/master/LICENSE)
 */
 
+@font-face {
+    font-family: 'Latin Modern';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('./fonts/LM-regular.woff2') format('woff2'),
+      url('./fonts/LM-regular.woff') format('woff'),
+      url('./fonts/LM-regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Latin Modern';
+    font-style: italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url('./fonts/LM-italic.woff2') format('woff2'),
+      url('./fonts/LM-italic.woff') format('woff'),
+      url('./fonts/LM-italic.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Latin Modern';
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url('./fonts/LM-bold.woff2') format('woff2'),
+      url('./fonts/LM-bold.woff') format('woff'),
+      url('./fonts/LM-bold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Latin Modern';
+    font-style: italic;
+    font-weight: bold;
+    font-display: swap;
+    src: url('./fonts/LM-bold-italic.woff2') format('woff2'),
+      url('./fonts/LM-bold-italic.woff') format('woff'),
+      url('./fonts/LM-bold-italic.ttf') format('truetype');
+  }
+  
   @font-face {
     font-family: 'Libertinus';
     font-style: normal;
@@ -149,7 +189,6 @@
     font-family: 'Latin Modern', Georgia, Cambria, 'Times New Roman', Times, serif;
     line-height: 1.8;
   
-    width: 100%;
     max-width: 80ch;
     min-height: 100vh;
     overflow-x: hidden;
@@ -168,7 +207,7 @@
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
   }
-
+  
   /* Responsive adjustments for different screen sizes */
   @media (max-width: 768px) {
     body {
@@ -521,7 +560,7 @@
     position: relative;
   }
   .proof::before {
-    content: 'Proof. ' attr(title);
+    content: 'Proof. ' attr(title);
     font-style: italic;
   }
   .proof::after {
