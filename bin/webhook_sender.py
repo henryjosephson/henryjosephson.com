@@ -340,7 +340,7 @@ def parse_frontmatter(markdown_content):
             metadata = yaml.safe_load(yaml_text)
             return metadata, content
         except Exception as e:
-            print(f"Error parsing YAML frontmatter: {str(e)}")
+            print(f"Error parsing YAML frontmatter: {e!s}")
             return None, markdown_content
 
     return None, markdown_content
