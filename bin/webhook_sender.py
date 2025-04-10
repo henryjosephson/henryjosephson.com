@@ -9,6 +9,7 @@ import urllib.request
 from datetime import datetime
 
 import boto3
+import yaml
 
 
 def lambda_handler(event, context):
@@ -16,7 +17,9 @@ def lambda_handler(event, context):
 
     Sends newsletter emails to confirmed subscribers.
     """
-    # Get environment variables
+    TEST_MODE = os.environ.get("TEST_MODE", "false").lower() == "true"
+    TEST_EMAIL = os.environ.get("TEST_EMAIL", "hi@henryjosephson.com")
+
     SUBSCRIBERS_TABLE = os.environ.get("SUBSCRIBERS_TABLE", "subscribers")
     DOMAIN_NAME = os.environ.get("DOMAIN_NAME", "henryjosephson.com")
     NEWSLETTER_TEMPLATE = os.environ.get("NEWSLETTER_TEMPLATE", "newsletter-template")
@@ -88,11 +91,11 @@ def lambda_handler(event, context):
             modified_files = commit.get("modified", [])  # noqa: F841
 
             for file_path in added_files:  # + modified_files:
-                # Check if this is an HTML file in the writing directory
-                if file_path.startswith("writing/") and file_path.endswith(".html"):
-                    # Skip internal files that don't represent posts
-                    if "_md/" in file_path or "_templates/" in file_path:
-                        continue
+                # Check if this is a Markdown file in the content/writing directory
+                if file_path.startswith("content/writing/") and file_path.endswith(
+                    ".md"
+                ):
+                    # We'll check the published status later
                     new_post_files.append(file_path)
 
         if not new_post_files:
@@ -132,8 +135,9 @@ def lambda_handler(event, context):
 
             print(f"Extracted post data: {post_data}")
 
-            # Generate post URL
-            post_url = f"{WEBSITE_BASE_URL}/{file_path}"
+            # Generate post URL (for Next.js dynamic routing)
+            slug = os.path.basename(file_path).replace(".md", "")
+            post_url = f"{WEBSITE_BASE_URL}/writing/{slug}"
 
             # Query DynamoDB for confirmed subscribers
             response = table.scan(
@@ -156,18 +160,27 @@ def lambda_handler(event, context):
             sent_count = 0
             error_count = 0
 
-            for subscriber in confirmed_subscribers:
-                email = subscriber.get("email")
-                unsubscribe_token = subscriber.get("unsubscribe_token")
+            if TEST_MODE:
+                print(f"Running in TEST MODE - only sending to {TEST_EMAIL}")
+
+                if not TEST_EMAIL:
+                    print("Error: TEST_EMAIL environment variable not set")
+                    return {
+                        "statusCode": 400,
+                        "body": json.dumps({"message": "TEST_EMAIL not configured"}),
+                    }
+
+                # Generate a test unsubscribe token (or use a fixed one for testing)
+                unsubscribe_token = "test-unsubscribe-token"
 
                 # Generate personalized unsubscribe URL
                 unsubscribe_url = (
                     f"{API_GATEWAY_URL}/unsubscribe?token={unsubscribe_token}"
                 )
 
-                # Prepare email template data
+                # Prepare email template data with test mode indicator
                 template_data = {
-                    "post_title": post_data["title"],
+                    "post_title": f"[TEST] {post_data['title']}",
                     "post_date": post_data["date"],
                     "post_url": post_url,
                     "post_preview": post_data.get(
@@ -180,30 +193,78 @@ def lambda_handler(event, context):
                     # Send email using SES template
                     ses.send_templated_email(
                         Source=f"Henry Josephson <newsletter@{DOMAIN_NAME}>",
-                        Destination={"ToAddresses": [email]},
+                        Destination={"ToAddresses": [TEST_EMAIL]},
                         Template=NEWSLETTER_TEMPLATE,
                         TemplateData=json.dumps(template_data),
                     )
 
-                    # Update last_email_sent timestamp
-                    table.update_item(
-                        Key={"email": email},
-                        UpdateExpression="SET last_email_sent = :timestamp",
-                        ExpressionAttributeValues={
-                            ":timestamp": datetime.now().isoformat()
-                        },
-                    )
-
-                    sent_count += 1
-                    print(f"Sent newsletter to {email}")
+                    sent_count = 1
+                    print(f"Sent test newsletter to {TEST_EMAIL}")
 
                 except Exception as e:
-                    print(f"Error sending to {email}: {e!s}")
-                    error_count += 1
+                    print(f"Error sending test email to {TEST_EMAIL}: {e!s}")
+                    error_count = 1
+            else:
+                if not confirmed_subscribers:
+                    print("No confirmed subscribers found")
+                    return {
+                        "statusCode": 200,
+                        "body": json.dumps(
+                            {"message": "No confirmed subscribers found"}
+                        ),
+                    }
 
-            print(
-                f"Finished sending newsletters. Sent: {sent_count}, Errors: {error_count}"
-            )
+                print(f"Found {len(confirmed_subscribers)} confirmed subscribers")
+
+                # Send newsletter to each subscriber
+                for subscriber in confirmed_subscribers:
+                    email = subscriber.get("email")
+                    unsubscribe_token = subscriber.get("unsubscribe_token")
+
+                    # Generate personalized unsubscribe URL
+                    unsubscribe_url = (
+                        f"{API_GATEWAY_URL}/unsubscribe?token={unsubscribe_token}"
+                    )
+
+                    # Prepare email template data
+                    template_data = {
+                        "post_title": post_data["title"],
+                        "post_date": post_data["date"],
+                        "post_url": post_url,
+                        "post_preview": post_data.get(
+                            "preview", "Check out my latest post..."
+                        ),
+                        "unsubscribe_url": unsubscribe_url,
+                    }
+
+                    try:
+                        # Send email using SES template
+                        ses.send_templated_email(
+                            Source=f"Henry Josephson <newsletter@{DOMAIN_NAME}>",
+                            Destination={"ToAddresses": [email]},
+                            Template=NEWSLETTER_TEMPLATE,
+                            TemplateData=json.dumps(template_data),
+                        )
+
+                        # Update last_email_sent timestamp
+                        table.update_item(
+                            Key={"email": email},
+                            UpdateExpression="SET last_email_sent = :timestamp",
+                            ExpressionAttributeValues={
+                                ":timestamp": datetime.now().isoformat()
+                            },
+                        )
+
+                        sent_count += 1
+                        print(f"Sent newsletter to {email}")
+
+                    except Exception as e:
+                        print(f"Error sending to {email}: {e!s}")
+                        error_count += 1
+
+                print(
+                    f"Finished sending newsletters. Sent: {sent_count}, Errors: {error_count}"
+                )
 
             increment_beeminder_goal()
 
@@ -211,7 +272,7 @@ def lambda_handler(event, context):
                 "statusCode": 200,
                 "body": json.dumps(
                     {
-                        "message": f'Newsletter sent for new post: {post_data["title"]}',
+                        "message": f'Newsletter {"TEST " if TEST_MODE else ""}sent for new post: {post_data["title"]}',
                         "sent_count": sent_count,
                         "error_count": error_count,
                     }
@@ -256,139 +317,138 @@ def get_file_content_from_github(repo, file_path, commit_sha):
         return None
 
 
-def extract_post_data(html_content, file_path):
-    """Extract title, date, post preview, and other metadata from HTML content."""
+def parse_frontmatter(markdown_content):
+    """Extract YAML frontmatter from Markdown content.
+
+    Args:
+        markdown_content (str): The full markdown content including frontmatter
+
+    Returns:
+        tuple: (metadata, content) where metadata is a dict with frontmatter
+              and content is the markdown without the frontmatter
+    """
+    frontmatter_match = re.match(
+        r"---\s+(.*?)\s+---\s*(.*)", markdown_content, re.DOTALL
+    )
+
+    if frontmatter_match:
+        yaml_text = frontmatter_match.group(1)
+        content = frontmatter_match.group(2)
+
+        try:
+            # Use PyYAML to parse the frontmatter
+            metadata = yaml.safe_load(yaml_text)
+            return metadata, content
+        except Exception as e:
+            print(f"Error parsing YAML frontmatter: {str(e)}")
+            return None, markdown_content
+
+    return None, markdown_content
+
+
+def extract_preview_from_markdown(content, word_count=50, min_length=50):
+    """Extract a preview from markdown content.
+
+    Args:
+        content (str): Markdown content
+        word_count (int): Number of words to include in preview
+        min_length (int): Minimum length for preview to be valid
+
+    Returns:
+        str: A preview of the content
+    """
+    # Remove markdown headings
+    text = re.sub(r"^#+\s+.*$", "", content, flags=re.MULTILINE)
+
+    # Remove markdown image tags
+    text = re.sub(r"!\[.*?\]\(.*?\)", "", text)
+
+    # Remove markdown links but keep the text
+    text = re.sub(r"\[(.*?)\]\(.*?\)", r"\1", text)
+
+    # Remove code blocks
+    text = re.sub(r"```.*?```", "", text, flags=re.DOTALL)
+
+    # Remove inline code
+    text = re.sub(r"`.*?`", "", text)
+
+    # Remove footnotes
+    text = re.sub(r"\[\^.*?\]", "", text)
+
+    # Remove extra whitespace
+    text = re.sub(r"\s+", " ", text).strip()
+
+    # Get first ~N words
+    words = text.split()
+    preview = " ".join(words[:word_count]) if len(words) > word_count else text
+
+    # If preview is too short, use a default message
+    if len(preview) < min_length:
+        preview = "Check out my latest post..."
+
+    return preview
+
+
+def extract_post_data(markdown_content, file_path):
+    """Extract title, date, post preview, and other metadata from Markdown content.
+
+    Args:
+        markdown_content (str): Full markdown content including frontmatter
+        file_path (str): Path to the markdown file
+
+    Returns:
+        dict: Post data including title, date, path, and preview
+    """
     try:
-        # Extract title - try multiple patterns
-        title = None
+        # Parse frontmatter and content
+        metadata, content = parse_frontmatter(markdown_content)
 
-        # Try to get title from <title> tag
-        title_match = re.search(
-            r"<title>\s*(.*?)\s*</title>", html_content, re.IGNORECASE | re.DOTALL
-        )
-        if title_match:
-            title = title_match.group(1).strip()
+        # Check if the post is published
+        if not metadata or not metadata.get("published", False):
+            print(f"Skipping unpublished post: {file_path}")
+            return None
 
-        # If not found or empty, try the h1 with id="title"
+        # Extract title from frontmatter or first heading or filename
+        title = metadata.get("title")
         if not title:
-            h1_title_match = re.search(
-                r'<h1\s+id="title"[^>]*>\s*(.*?)\s*</h1>',
-                html_content,
-                re.IGNORECASE | re.DOTALL,
-            )
-            if h1_title_match:
-                # Clean up any nested tags
-                raw_title = h1_title_match.group(1)
-                # Remove any HTML tags within the title
-                title = re.sub(r"<[^>]+>", "", raw_title).strip()
+            # Try to get title from first markdown heading
+            heading_match = re.search(r"^#\s+(.*)", content, re.MULTILINE)
+            if heading_match:
+                title = heading_match.group(1).strip()
+            else:
+                # Use filename as fallback
+                title = (
+                    os.path.basename(file_path)
+                    .replace(".md", "")
+                    .replace("-", " ")
+                    .title()
+                )
 
-        # If still not found, try any h1
-        if not title:
-            any_h1_match = re.search(
-                r"<h1[^>]*>\s*(.*?)\s*</h1>", html_content, re.IGNORECASE | re.DOTALL
-            )
-            if any_h1_match:
-                # Clean up any nested tags
-                raw_title = any_h1_match.group(1)
-                # Remove any HTML tags within the title
-                title = re.sub(r"<[^>]+>", "", raw_title).strip()
-
-        # If still not found, use the filename
-        if not title:
-            title = (
-                os.path.basename(file_path)  # noqa: PTH119
-                .replace(".html", "")
-                .replace("-", " ")
-                .title()
-            )
-
-        # Extract date - first try author paragraph format
-        date = None
-
-        # Look for date in author paragraph: <p class="author">Henry Josephson<br>March 05, 2025</p>
-        author_date_match = re.search(
-            r'<p\s+class="author"[^>]*>.*?<br>\s*([\w\s,]+\d{4})\s*</p>',
-            html_content,
-            re.IGNORECASE | re.DOTALL,
-        )
-        if author_date_match:
-            date = author_date_match.group(1).strip()
-
-        # If not found, try a dedicated date paragraph
-        if not date:
-            date_para_match = re.search(
-                r'<p\s+class="date"[^>]*>\s*([\w\s,]+\d{4})\s*</p>',
-                html_content,
-                re.IGNORECASE | re.DOTALL,
-            )
-            if date_para_match:
-                date = date_para_match.group(1).strip()
-
-        # Try to find any date format in the content (Month DD, YYYY)
-        if not date:
-            date_pattern = re.search(
-                r"(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+\d{4}",
-                html_content,
-            )
-            if date_pattern:
-                date = date_pattern.group(0)
-
-        # If still not found, use current date
-        if not date:
+        # Extract date from frontmatter or current date
+        date_str = metadata.get("date")
+        if date_str:
+            try:
+                # Try to parse ISO format date (YYYY-MM-DD)
+                date_obj = datetime.strptime(date_str, "%Y-%m-%d")
+                date = date_obj.strftime("%B %d, %Y")
+            except ValueError:
+                # If the date is already in a readable format, use it as is
+                date = date_str
+        else:
+            # Use current date as fallback
             date = datetime.now().strftime("%B %d, %Y")
 
-        # Extract post content preview
-        preview = ""
+        # Extract preview from content
+        preview = extract_preview_from_markdown(content)
 
-        # First, remove the head section
-        body_content = re.sub(
-            r"<head>.*?</head>", "", html_content, flags=re.DOTALL | re.IGNORECASE
-        )
-
-        # Find the body content
-        body_match = re.search(
-            r"<body[^>]*>(.*?)</body>", body_content, re.DOTALL | re.IGNORECASE
-        )
-        body_text = body_match.group(1) if body_match else body_content
-
-        # Remove header elements (h1, h2, etc.) and their content
-        body_text = re.sub(
-            r"<h[1-6][^>]*>.*?</h[1-6]>", "", body_text, flags=re.DOTALL | re.IGNORECASE
-        )
-
-        # Remove the title and author sections
-        body_text = re.sub(
-            r"<header>.*?</header>", "", body_text, flags=re.DOTALL | re.IGNORECASE
-        )
-        body_text = re.sub(
-            r'<p class="author">.*?</p>', "", body_text, flags=re.DOTALL | re.IGNORECASE
-        )
-
-        # Remove any remaining HTML tags
-        text_only = re.sub(r"<[^>]+>", " ", body_text)
-
-        # Remove extra whitespace
-        text_only = re.sub(r"\s+", " ", text_only).strip()
-
-        # Get first ~50 words (approximately 350 characters)
-        PREVIEW_WORD_COUNT = 50  # Define constant for magic number
-        words = text_only.split()
-        preview = (
-            " ".join(words[:PREVIEW_WORD_COUNT])
-            if len(words) > PREVIEW_WORD_COUNT
-            else text_only
-        )
-
-        # If preview is too short, it might not have found good content
-        MIN_PREVIEW_LENGTH = 50  # Define constant for magic number
-        if len(preview) < MIN_PREVIEW_LENGTH:
-            preview = "Check out my latest post..."
+        # Generate path for URL (without content/ prefix and .md suffix)
+        path = file_path.replace("content/", "").replace(".md", "")
 
         print(
             f"Extracted title: '{title}', date: '{date}', and preview: '{preview[:50]}...'"
         )
 
-        return {"title": title, "date": date, "path": file_path, "preview": preview}
+        return {"title": title, "date": date, "path": path, "preview": preview}
 
     except Exception as e:
         print(f"Error extracting post data: {e!s}")

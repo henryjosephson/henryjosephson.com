@@ -1,29 +1,364 @@
-/* Import main LaTeX styles and other CSS */
-@import url('/css/style.css');
-@import url('/css/prism.css');
-@import url('/css/emails.css');
-@import url('/css/header.css');
-
-/* Global styles specific to Next.js */
+/* Next.js specific styles */
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Libertinus' Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-size: 1rem;
 }
 
 a {
-  color: inherit;
+  color: var(--link-color);
   text-decoration: inherit;
+}
+
+a:visited {
+  color: var(--link-visited-color);
 }
 
 * {
   box-sizing: border-box;
 }
 
-/* Fix for Next.js Link component */
+/* Writing page specific styles */
+.date {
+  color: var(--body-color);
+  opacity: 0.7;
+  font-size: 0.9em;
+}
+
+#post-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#post-list li {
+  margin-bottom: 20px;
+}
+
+.teaser {
+  margin-top: 4px;
+  margin-left: 1.5em;
+  color: var(--body-color);
+  opacity: 0.8;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+/* Site header styling for Next.js */
+.site-header {
+  margin: 20px 0;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--body-color);
+  border-opacity: 0.2;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  position: relative;
+}
+
 .site-header a.active {
   font-weight: bold;
   text-decoration: underline;
+}
+
+/* Dark mode toggle button styling */
+.dark-mode-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'Latin Modern', Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  padding: 0.2rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  margin-left: 15px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--body-color);
+  line-height: 1;
+}
+
+/* White circle in dark mode */
+.latex-dark .dark-mode-button {
+  opacity: 0.85;
+}
+
+/* Black circle in light mode */
+body:not(.latex-dark) .dark-mode-button {
+  opacity: 0.75;
+}
+
+.dark-mode-button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  transform: scale(1.1);
+}
+
+.latex-dark .dark-mode-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: scale(1.1);
+}
+
+/* Basic LaTeX styling - these ensure the content is properly centered */
+:root {
+  --body-color: hsl(0, 5%, 10%);
+  --body-bg-color: hsl(210, 20%, 98%);
+  --link-color: hsl(0, 100%, 33%);
+  --link-visited-color: hsl(0, 100%, 33%);
+  --link-focus-outline: hsl(220, 90%, 52%);
+  --pre-bg-color: hsl(210, 28%, 93%);
+  --kbd-bg-color: hsl(210, 5%, 100%);
+  --kbd-border-color: hsl(210, 5%, 70%);
+  --table-border-color: black;
+  --sidenote-target-border-color: hsl(55, 55%, 70%);
+  --footnotes-border-color: hsl(0, 0%, 39%);
+  --content-max-width: 80ch;
+}
+
+/* Dark mode styles */
+.latex-dark {
+  --body-color: hsl(0, 0%, 86%);
+  --body-bg-color: hsl(0, 0%, 16%);
+  --link-color: hsl(196, 80%, 77%);
+  --link-visited-color: hsl(196, 80%, 77%);
+  --link-focus-outline: hsl(215, 63%, 73%);
+  --pre-bg-color: hsl(0, 1%, 25%);
+  --kbd-bg-color: hsl(0, 0%, 16%);
+  --kbd-border-color: hsl(210, 5%, 70%);
+  --table-border-color: white;
+  --sidenote-target-border-color: hsl(0, 0%, 59%);
+  --footnotes-border-color: hsl(0, 0%, 59%);
+  --proof-symbol-filter: invert(80%);
+}
+
+@media (prefers-color-scheme: dark) {
+  .latex-dark-auto {
+    --body-color: hsl(0, 0%, 86%);
+    --body-bg-color: hsl(0, 0%, 16%);
+    --link-color: hsl(196, 80%, 77%);
+    --link-visited-color: hsl(196, 80%, 77%);
+    --link-focus-outline: hsl(215, 63%, 73%);
+    --pre-bg-color: hsl(0, 1%, 25%);
+    --kbd-bg-color: hsl(0, 0%, 16%);
+    --kbd-border-color: hsl(210, 5%, 70%);
+    --table-border-color: white;
+    --sidenote-target-border-color: hsl(0, 0%, 59%);
+    --footnotes-border-color: hsl(0, 0%, 59%);
+    --proof-symbol-filter: invert(80%);
+  }
+}
+
+html {
+  background-color: var(--body-bg-color);
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: var(--body-bg-color);
+  color: var(--body-color);
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+}
+
+/* The inner content is centered with max-width */
+body {
+  font-family: 'Latin Modern', Georgia, Cambria, 'Times New Roman', Times, serif;
+  line-height: 1.8;
+  width: 100%;
+  max-width: 80ch;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+  text-rendering: optimizeLegibility;
+  overflow-x: visible;
+}
+
+/* Responsive adjustments for different screen sizes */
+@media (max-width: 768px) {
+  body {
+    padding: 1.5rem 1rem;
+    font-size: 0.95rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 1rem 0.75rem;
+    font-size: 0.9rem;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+  
+  h2 {
+    font-size: 1.3rem;
+  }
+}
+
+/* Center align the title */
+h1:first-child {
+  text-align: center;
+}
+
+/* Center definitions (most useful for display equations) */
+dl dd {
+  text-align: center;
+}
+
+/* Center align author name, use small caps and add vertical spacing */
+.author {
+  margin: 0.85rem 0;
+  font-variant-caps: small-caps;
+  text-align: center;
+}
+
+/* Make the abstract centered */
+.abstract,
+.abstract p {
+  text-align: center;
+  margin-top: 0;
+}
+
+.abstract {
+  margin: 2.25rem 0;
+}
+
+.abstract > h2 {
+  font-size: 1rem;
+  margin-bottom: -0.2rem;
+}
+
+/* Format the LaTeX symbol correctly (a higher up, e lower) */
+.latex span:nth-child(1) {
+  text-transform: uppercase;
+  font-size: 0.75em;
+  vertical-align: 0.28em;
+  margin-left: -0.48em;
+  margin-right: -0.15em;
+  line-height: 1ex;
+}
+
+.latex span:nth-child(2) {
+  text-transform: uppercase;
+  vertical-align: -0.5ex;
+  margin-left: -0.1667em;
+  margin-right: -0.125em;
+  line-height: 1ex;
+}
+
+/* Heading typography */
+h1 {
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+  margin-bottom: 1.625rem;
+}
+
+h2 {
+  font-size: 1.7rem;
+  line-height: 2rem;
+  margin-top: 3rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  margin-top: 2.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+h5 {
+  font-size: 1rem;
+  margin-top: 1.8rem;
+}
+
+h6 {
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: normal;
+  margin-top: 2.5rem;
+}
+
+/* Sidenotes styling */
+.sidenote {
+  font-size: 0.8rem;
+  float: right;
+  clear: right;
+  width: 18vw;
+  margin-right: -20vw;
+  margin-bottom: 1em;
+  text-indent: 0;
+  text-align: left;
+}
+
+/* sidenote counter */
+.sidenote-number {
+  counter-increment: sidenote-counter;
+}
+
+.sidenote-number::after,
+.sidenote::before {
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* add number in main content */
+.sidenote-number::after {
+  content: counter(sidenote-counter);
+  font-size: 0.7rem;
+  top: -0.5rem;
+  left: 0;
+  margin-left: 0;
+  position: relative;
+  display: inline-block;
+  text-align: left;
+}
+
+/* add number in front of the sidenote */
+.sidenote-number ~ .sidenote::before {
+  content: counter(sidenote-counter) ' ';
+  font-size: 0.7rem;
+  top: -0.5rem;
+}
+
+label.sidenote-toggle:not(.sidenote-number) {
+  display: none;
+}
+
+input.sidenote-toggle {
+  display: none;
+}
+
+@media (max-width: 1050px) {
+  label.sidenote-toggle:not(.sidenote-number) {
+    display: inline;
+  }
+  .sidenote {
+    display: none;
+  }
+  .sidenote-toggle:checked + .sidenote {
+    display: block;
+    margin: 0.5rem 1.25rem 1rem 0.5rem;
+    float: left;
+    left: 1rem;
+    clear: both;
+    width: 95%;
+  }
 }
