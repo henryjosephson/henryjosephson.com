@@ -1,0 +1,29 @@
+/* Import main LaTeX styles and other CSS */
+@import url('/css/style.css');
+@import url('/css/prism.css');
+@import url('/css/emails.css');
+@import url('/css/header.css');
+
+/* Global styles specific to Next.js */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for Next.js Link component */
+.site-header a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
