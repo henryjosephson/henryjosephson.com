@@ -9,7 +9,6 @@ export default function SubscribeForm() {
     setStatus('Sending...');
     
     try {
-      // Use the SAME API endpoint as before
       const response = await fetch('https://lnj1jz9jq1.execute-api.us-east-2.amazonaws.com/prod/subscribe', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
