@@ -2,7 +2,7 @@
 title: College Advice for People Like Me
 date: 2025-04-11
 description: Thoughts on doing well in school as I finish my time in Chicago.
-published: true
+published: false
 ---
 
 I'm graduating from UChicago in around 60 days, and I've been thinking about what I've learned these past four years. I figured I'd write it all down while it's still fresh.
