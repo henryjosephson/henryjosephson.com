@@ -1,4 +1,0 @@
-pre-commit # for running checks
-
-# for md-to-html conversion:
-pypandoc
