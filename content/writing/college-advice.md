@@ -57,9 +57,9 @@ It's mostly about proximity to opportunity, but also a bit of shots on goal. Be 
 
 ### Luck favors the prepared
 
-Once you've positioned yourself where luck can find you, you need to be ready when it arrives. OK, so you were in the room and you got picked. Now what? Are you ready to go? Do you have a plan ready to use? If the previous step is all about getting you to the free throw line, but you're not sure when, you'd better be practicing your shot.
+Once you've [positioned yourself where luck can find you](#put-yourself-in-positions-where-youll-be-lucky), you need to be ready when it arrives. OK, so you were in the room and you got picked. Now what? Are you ready to go? Do you have a plan ready to use? If the previous step is all about getting you to the free throw line, but you're not sure when, you'd better be practicing your shot.
 
-Spend 5-10 minutes thinking about what you'd do if big things happen. You don't need to have everything fully worked out, but the first steps especially should be ready to go.
+[Spend 5-10 minutes thinking about what you'd do if big things happen](#make-a-5-year-plan-google-doc). You don't need to have everything fully worked out, but the first steps especially should be ready to go.
 
 ### Test your fit at lots of things
 
@@ -77,7 +77,7 @@ Feelings are slippery. If one is flopping around (wrong verb), trapped in your m
 
 Honesty is incredibly important, and very, very rarely is there an advantage to be gained interpersonally or intrapersonally by lying. I mean this not only instrumentally — Kant was right that lying can corrupt your soul *(find the Kant quote)*.
 
-There is no belief without action. If you say you care but don't act, you don't actually care. Turn vague ideals into hard commitments — ones you could be called out on. If your conviction can't be falsified, it probably isn't real.
+[There is no belief without action](#put-your-money-where-your-mouth-is). If you say you care but don't act, you don't actually care. Turn vague ideals into hard commitments — ones you could be called out on. If your conviction can't be falsified, it probably isn't real.
 
 ### Put your money where your mouth is
 
@@ -111,7 +111,7 @@ Have multiple places you can get work done. If you're just arriving to college, 
 
 ### Don't take your phone to the places you're studying
 
-You can full-on leave your phone in your room. Nothing bad will happen. You'll be fine. It's much more likely to be a distraction than a good thing, and it'll be right where you left it when you come back. If you need, tell someone where you're going. Or tell them to email you.
+You can full-on leave your [phone](#brick-your-phone) in your room. Nothing bad will happen. You'll be fine. It's much more likely to be a distraction than a good thing, and it'll be right where you left it when you come back. If you need, tell someone where you're going. Or tell them to email you.
 
 ### Do not try to do more than one important thing at once
 
@@ -141,15 +141,15 @@ Set goals for yourself, and make sure you'll be able to tell when you've failed 
 
 Set goals you can fail at. If a goal isn't falsifiable, it isn't actionable. "Get better at writing" is mushy; "publish one blog post a week for a month" is real. Make your targets crisp enough that you'll know if you missed — and then you can try again.
 
-Vague ambitions don't guide action. Sharp ones do. Achievable ones snowball. And big ones? They get built one small, testable success at a time. Learn to break things down. That's the only way anything gets finished — especially research.
+[Vague ambitions don't guide action](#find-your-mission). Sharp ones do. Achievable ones snowball. And big ones? They get built one small, testable success at a time. Learn to break things down. That's the only way anything gets finished — especially research.
 
 ### Credibly pre-commit to things you care about getting done
 
-Find ways to tie yourself to the mast. Future you is their own person and they won't always want to sit down and do the work. But you can control their incentives. Tell a friend you'll send them the thing once you're done with it. Put money on the line. Make it so that, if future you behaves suboptimally, they actually feel it. Don't get principal-agent problemed[^20] by yourself.
+[Find ways to tie yourself to the mast](#deadlines-are-mostly-fake). Future you is their own person and they won't always want to sit down and do the work. But you can control their incentives. Tell a friend you'll send them the thing once you're done with it. Put money on the line. Make it so that, if future you behaves suboptimally, they actually feel it. Don't get principal-agent problemed[^20] by yourself.
 
 ### Track your progress
 
-It feels great to see yourself improve! And to know that the improvement is because you're choosing to put the effort into improving. Track what you want to get better at. You'll never find a number for how good you are[^21] — but you can log your workouts, save your essays, journal your mood. Progress feels better when you can see it. And it hits different when you know it's because *you made it happen.*
+It feels great to see yourself improve! And to know that the improvement is because you're choosing to put the effort into improving. [Track what you want to get better at](#recognize-that-you-can-always-be-better). You'll never find a number for how good you are[^21] — but you can log your workouts, save your essays, journal your mood. Progress feels better when you can see it. And it hits different when you know it's because *you made it happen.*
 
 ### Make a 5-year plan google doc
 
@@ -190,7 +190,7 @@ If you have a fire escape, see if the people in the apartment above you also wan
 ### Hang out with people who are better than you at the things you care about
 
 
-Spend time with people who outmatch you. If you care about getting better at something, hang out with people who already are. Not just for advice — for the ambient learning. Watch how great thinkers ask questions. Watch how charismatic people move through rooms. You become what you're around.[^27] Choose your average deliberately.
+Spend time with people who outmatch you. If you care about getting better at something, hang out with people who already are. Not just for advice — for the ambient learning. Watch how great thinkers ask questions. Watch how charismatic people move through rooms. [You become what you're around](#build-your-own-community).[^27] Choose your average deliberately.
 
 ### Professors are people. You can just make friends with them
 
@@ -214,7 +214,7 @@ Write in your books! Star things and highlight them and summarize them in the ma
 
 ### Don't be afraid to skip the boring parts
 
-Just don't sunk-cost yourself into parts of a book that aren't being helpful. You don't owe a book your obedience. If a section isn't teaching you or holding your attention, skip it. Skimming isn't always cheating — it's strategic. The goal isn't to finish. The goal is to learn. Don't let sunk costs trap you in pages that aren't serving you.
+Just don't sunk-cost yourself into parts of a book that aren't being helpful. You don't owe a book your obedience. If a section isn't teaching you or holding your attention, skip it. [Skimming isn't always cheating](#learn-how-to-read-quickly) — it's strategic. The goal isn't to finish. The goal is to learn. Don't let sunk costs trap you in pages that aren't serving you.
 
 ### Learn how to read quickly
 
@@ -222,15 +222,15 @@ Expect to face a larger volume of reading in college than you initially think yo
 
 ### Write things
 
-Get good at expressing yourself, and also get good at making points cogently. Remember how I talked about making important things second-nature? You can do this with persuasion and explanation and entertainment and all the important things writing does. If you can't put it into words, that's good evidence that you don't understand it. And if writing is hard every time, you'll do it less — so make it second nature. Practice turning thoughts into sentences. Practice circumlocution when you're stuck. You can't always wait for the perfect phrasing.
+Get good at expressing yourself, and also get good at making points cogently. Remember how I talked about [making important things second-nature](#offload-difficult-things-to-automations-habits-or-other-people)? You can do this with persuasion and explanation and entertainment and all the important things writing does. If you can't put it into words, that's good evidence that you don't understand it. And if writing is hard every time, you'll do it less — so make it second nature. Practice turning thoughts into sentences. Practice circumlocution when you're stuck. You can't always wait for the perfect phrasing.
 
 ### Read widely based on curiosity, not just relevance
 
-Follow your gut and read things just because they seem interesting, even if they feel totally unrelated to your classes or goals right now. It's enjoyable, and you never know when that random knowledge might spark a cool idea or turn out to be useful later. Some of your best insights might come from sources you weren't even looking for. It won't always pay off right away, but this habit will shape the questions you ask and how you connect different ideas, which is more valuable than you might think.
+[Read widely based on curiosity](#read-things-euverywhere), not just relevance. Follow your gut and read things just because they seem interesting, even if they feel totally unrelated to your classes or goals right now. It's enjoyable, and you never know when that random knowledge might spark a cool idea or turn out to be useful later. Some of your best insights might come from sources you weren't even looking for. It won't always pay off right away, but this habit will shape the questions you ask and how you connect different ideas, which is more valuable than you might think.
 
 ### Have an easy way to capture ideas
 
-Good ideas, interesting quotes, or book recommendations often pop up at inconvenient times – maybe walking to class or in the shower. Don't let them vanish! Find a simple, quick way to jot them down.[^34] The main thing is making it effortless.
+Good ideas, interesting quotes, or book recommendations often pop up at inconvenient times – maybe walking to class or in the shower. Don't let them vanish! [Find a simple, quick way to jot them down](#offload-difficult-things-to-automations-habits-or-other-people).[^34] The main thing is making it effortless.
 
 ## Health and Lifestyle
 
@@ -262,11 +262,11 @@ Don't spend your whole time within the few blocks / acres / in some cases litera
 [^6]: Read somewhere where your friends will see you if they walk past, and invite you to grab a drink with them.
 [^7]: Try writing policy memos or taking notes on legislative sessions before you gun for a leg internship.
 [^8]: Especially when so much of the world is adversarially optimizing to keep you locked in to things you don't want to be locked in on — looking at you, YouTube shorts. See also [Algotransparency's manifesto](https://www.algotransparency.org/our-manifesto).
-[^9]: Are you lying to yourself? link to honesty heading
-[^10]: Revenge bedtime procrastination link
+[^9]: [Are you lying to yourself?](#be-honest)
+[^10]: https://en.wikipedia.org/wiki/Bedtime_procrastination
 [^11]: I'm a huge morning person. Very annoying to me that UChicago's gym didn't open until 7 am.
-[^12]: Link to superstimulus acx post or something
-[^13]: Path to settings to do this
+[^12]: https://www.lesswrong.com/w/superstimuli
+[^13]: On an iphone, settings > accessibility > display and text size > color filters > grayscale.
 [^14]: Only have notifications on for things you wouldn't mind someone literally interrupting your work and tapping you on the shoulder to tell you about (and this probably isn't most things you get notifications for).
 [^15]: I use [Smile](https://eggvelop.com/projects/smile-app-launcher). It's free.
 [^16]: If you're coming to UChicago, email me and I'll let you know mine.
@@ -277,15 +277,15 @@ Don't spend your whole time within the few blocks / acres / in some cases litera
 [^21]: I've tried. there isn't one.
 [^22]: I'm offering because I know none of you will do it. prove me wrong. Seriously, block time off. 
 [^23]: Note — I'm not saying most of the value *of your time in college*.
-[^24]: Link to centre for effective altruism community building site
+[^24]: Lots of good community-building resources [here](https://resources.eagroups.org/)
 [^25]: This is also flirting advice, insofar as conversation is a skill. I have had multiple exes say that they loved how easy I was to talk to.
-[^26]: Link to Sean Qwek frat piece for the maroon. it's linked in misc spring break posts.
-[^27]: There's a paper on this, link to it.
+[^26]: Seriously, [frats suck](https://chicagomaroon.com/45866/viewpoints/op-ed/pledging-allegiance-brotherhood-beer-and-the-making-of-men/).
+[^27]: 
 [^28]: When I TAed a 60-person intro class, like 5 people showed up.
 [^29]: This is a cheat code, especially when writing papers at higher levels. Your profs aren't just good at building papers -- they decide what grade your paper gets!
 [^30]: Lots of this post was voice memos before Claude helped me clean it up, for example.
-[^31]: Hyde Park's best one is Powell's
-[^32]: (I'm working on another blogpost abt this)
-[^33]: A great way to get reps is by engaging with journal articles — try sorting by 'most downloaded' on platforms like PhilPapers, SSRN, JSTOR, NBER, or ArXiv. Don't hesitate to use AI tools like Claude to help explain complex paragraphs you encounter along the way.
-[^34]: Use whatever works best for you: a dedicated app like Jotlog, your phone's built-in notes app, or just a small notebook and pen you carry around.
+[^31]: Hyde Park's best one is [Powell's](https://powellschicago.com/).
+[^32]: I'm working on another blogpost about this, eventually.
+[^33]: A great way to get reps is by engaging with journal articles — try sorting by 'most downloaded' on platforms like [PhilPapers](https://philpapers.org/), [SSRN](https://www.ssrn.com/index.cfm/en/), [JSTOR](https://www.jstor.org/), [NBER](https://www.nber.org/), or [ArXiv](https://arxiv.org/). Don't hesitate to use AI tools like Claude to help explain complex paragraphs you encounter along the way.
+[^34]: Use whatever works best for you: a dedicated app like [Jotlog](https://www.jotlog.app/), your phone's built-in notes app, or just a small notebook and pen you carry around.
 [^35]: You'll also make gym friends who you'll talk to every day and not fully know their names.

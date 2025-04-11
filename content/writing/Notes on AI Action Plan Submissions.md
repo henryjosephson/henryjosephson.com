@@ -1,6 +1,6 @@
 ---
 title: Notes on AI Action Plan Submissions
-date: 2023-03-22
+date: 2025-03-22
 description: Summaries of several organizations' submissions to the Trump Administration's AI Action Plan.
 published: true
 ---
