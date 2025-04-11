@@ -2,68 +2,68 @@
 title: College Advice for People Like Me
 date: 2025-04-11
 description: Thoughts on doing well in school as I finish my time in Chicago.
-published: false
+published: true
 ---
 
 I'm graduating from UChicago in around 60 days, and I've been thinking about what I've learned these past four years. I figured I'd write it all down while it's still fresh.
 
-This isn't universal advice. It's specifically for people like me — high-agency, motivated types who feed off being busy. People who hate having free time and are happiest on days where things are back-to-back-to-back. People who'd rather risk making mistakes than risk missing out, who want to control more than they initially think they can, and who are willing to go all-in relatively quickly. If you're reading [Ben Kuhn](https://www.benkuhn.net/college/) and [Alexey Guzey](https://guzey.com/college/) or have ever heard of the [Reverend Thomas Bayes](https://en.wikipedia.org/wiki/Thomas_Bayes), you're probably one of us.
+This isn't universal advice. It's specifically for people like me (or who want to be like me). High-agency, motivated types who hate having free time.[^1] People who'd rather risk making mistakes than risk missing out, who want to control more than they initially think they can, and who are willing to go all-in relatively quickly. If you're reading [Ben Kuhn](https://www.benkuhn.net/college/) and [Alexey Guzey](https://guzey.com/college/) or have ever heard of the [Reverend Thomas Bayes](https://en.wikipedia.org/wiki/Thomas_Bayes), you're probably one of us.
 
 So here's at least some of what I've figured out. Take what's useful, leave what isn't — maybe [do the opposite](https://slatestarcodex.com/2014/03/24/should-you-reverse-any-advice-you-hear/) of everything I've said.
 
 - [Mindset and Personal Growth](#mindset-and-personal-growth)
-	- [Find your mission](#find-your-mission)
-	- [Recognize that you can always be better](#recognize-that-you-can-always-be-better)
-	- [Make more mistakes](#make-more-mistakes)
-	- [Things only get done to the extent that you want them to get done](#things-only-get-done-to-the-extent-that-you-want-them-to-get-done)
-	- [Deadlines are mostly fake](#deadlines-are-mostly-fake)
-	- [Put yourself in positions where you'll be lucky](#put-yourself-in-positions-where-youll-be-lucky)
-	- [Luck favors the prepared](#luck-favors-the-prepared)
-	- [Test your fit at lots of things](#test-your-fit-at-lots-of-things)
-	- [Do side projects](#do-side-projects)
-	- [Get good at introspecting](#get-good-at-introspecting)
-	- [Be honest](#be-honest)
-	- [Put your money where your mouth is](#put-your-money-where-your-mouth-is)
-	- [Be the kind of person others can come to for help](#be-the-kind-of-person-others-can-come-to-for-help)
+- [Find your mission](#find-your-mission)
+- [Recognize that you can always be better](#recognize-that-you-can-always-be-better)
+- [Make more mistakes](#make-more-mistakes)
+- [Things only get done to the extent that you want them to get done](#things-only-get-done-to-the-extent-that-you-want-them-to-get-done)
+- [Deadlines are mostly fake](#deadlines-are-mostly-fake)
+- [Put yourself in positions where you'll be lucky](#put-yourself-in-positions-where-youll-be-lucky)
+- [Luck favors the prepared](#luck-favors-the-prepared)
+- [Test your fit at lots of things](#test-your-fit-at-lots-of-things)
+- [Do side projects](#do-side-projects)
+- [Get good at introspecting](#get-good-at-introspecting)
+- [Be honest](#be-honest)
+- [Put your money where your mouth is](#put-your-money-where-your-mouth-is)
+- [Be the kind of person others can come to for help](#be-the-kind-of-person-others-can-come-to-for-help)
 - [Productivity and Focus](#productivity-and-focus)
-	- [Go to bed early](#go-to-bed-early)
-	- [Brick your phone](#brick-your-phone)
-	- [The optimal amount of slack time is not zero, but it's close to zero](#the-optimal-amount-of-slack-time-is-not-zero-but-its-close-to-zero)
-	- [If you aren't getting work done, pick up your shit and go somewhere else](#if-you-arent-getting-work-done-pick-up-your-shit-and-go-somewhere-else)
-	- [Don't take your phone to the places you're studying](#dont-take-your-phone-to-the-places-youre-studying)
-	- [Do not try to do more than one important thing at once](#do-not-try-to-do-more-than-one-important-thing-at-once)
-	- [Offload difficult things to automations, habits, or other people](#offload-difficult-things-to-automations-habits-or-other-people)
-	- [Make your bed](#make-your-bed)
-	- [If it takes less than 5 minutes, do it now](#if-it-takes-less-than-5-minutes-do-it-now)
-	- [The floor is actually way lower than you think](#the-floor-is-actually-way-lower-than-you-think)
+- [Go to bed early](#go-to-bed-early)
+- [Brick your phone](#brick-your-phone)
+- [The optimal amount of slack time is not zero, but it's close to zero](#the-optimal-amount-of-slack-time-is-not-zero-but-its-close-to-zero)
+- [If you aren't getting work done, pick up your shit and go somewhere else](#if-you-arent-getting-work-done-pick-up-your-shit-and-go-somewhere-else)
+- [Don't take your phone to the places you're studying](#dont-take-your-phone-to-the-places-youre-studying)
+- [Do not try to do more than one important thing at once](#do-not-try-to-do-more-than-one-important-thing-at-once)
+- [Offload difficult things to automations, habits, or other people](#offload-difficult-things-to-automations-habits-or-other-people)
+- [Make your bed](#make-your-bed)
+- [If it takes less than 5 minutes, do it now](#if-it-takes-less-than-5-minutes-do-it-now)
+- [The floor is actually way lower than you think](#the-floor-is-actually-way-lower-than-you-think)
 - [Planning and Goal Setting](#planning-and-goal-setting)
-	- [Make sure your goals are falsifiable](#make-sure-your-goals-are-falsifiable)
-	- [Credibly pre-commit to things you care about getting done](#credibly-pre-commit-to-things-you-care-about-getting-done)
-	- [Track your progress](#track-your-progress)
-	- [Make a 5-year plan google doc](#make-a-5-year-plan-google-doc)
-	- [Consider graduating early](#consider-graduating-early)
+- [Make sure your goals are falsifiable](#make-sure-your-goals-are-falsifiable)
+- [Credibly pre-commit to things you care about getting done](#credibly-pre-commit-to-things-you-care-about-getting-done)
+- [Track your progress](#track-your-progress)
+- [Make a 5-year plan google doc](#make-a-5-year-plan-google-doc)
+- [Consider graduating early](#consider-graduating-early)
 - [Relationships and Community](#relationships-and-community)
-	- [Build your own community](#build-your-own-community)
-	- [Fall in love at least once](#fall-in-love-at-least-once)
-	- [If you aren't happy and excited and exciting single, you won't be happy or excited or exciting in a relationship](#if-you-arent-happy-and-excited-and-exciting-single-you-wont-be-happy-or-excited-or-exciting-in-a-relationship)
-	- [Friends are people you can talk to for hours](#friends-are-people-you-can-talk-to-for-hours)
-	- [Throw parties](#throw-parties)
-	- [Hang out with people who are better than you at the things you care about](#hang-out-with-people-who-are-better-than-you-at-the-things-you-care-about)
-	- [Professors are people. You can just make friends with them](#professors-are-people-you-can-just-make-friends-with-them)
+- [Build your own community](#build-your-own-community)
+- [Fall in love at least once](#fall-in-love-at-least-once)
+- [If you aren't happy and excited and exciting single, you won't be happy or excited or exciting in a relationship](#if-you-arent-happy-and-excited-and-exciting-single-you-wont-be-happy-or-excited-or-exciting-in-a-relationship)
+- [Friends are people you can talk to for hours](#friends-are-people-you-can-talk-to-for-hours)
+- [Throw parties](#throw-parties)
+- [Hang out with people who are better than you at the things you care about](#hang-out-with-people-who-are-better-than-you-at-the-things-you-care-about)
+- [Professors are people. You can just make friends with them](#professors-are-people-you-can-just-make-friends-with-them)
 - [Academic Success](#academic-success)
-	- [Go to office hours](#go-to-office-hours)
-	- [Be careful how you use AI](#be-careful-how-you-use-ai)
-	- [Read things, everywhere](#read-things-everywhere)
-	- [Don't be afraid to skip the boring parts](#dont-be-afraid-to-skip-the-boring-parts)
-	- [Learn how to read quickly](#learn-how-to-read-quickly)
-	- [Write things](#write-things)
-	- [Read widely based on curiosity, not just relevance](#read-widely-based-on-curiosity-not-just-relevance)
-	- [Have an easy way to capture ideas](#have-an-easy-way-to-capture-ideas)
+- [Go to office hours](#go-to-office-hours)
+- [Be careful how you use AI](#be-careful-how-you-use-ai)
+- [Read things, everywhere](#read-things-everywhere)
+- [Don't be afraid to skip the boring parts](#dont-be-afraid-to-skip-the-boring-parts)
+- [Learn how to read quickly](#learn-how-to-read-quickly)
+- [Write things](#write-things)
+- [Read widely based on curiosity, not just relevance](#read-widely-based-on-curiosity-not-just-relevance)
+- [Have an easy way to capture ideas](#have-an-easy-way-to-capture-ideas)
 - [Health and Lifestyle](#health-and-lifestyle)
-	- [Go to the gym](#go-to-the-gym)
-	- [The only place to work yourself to failure is the gym](#the-only-place-to-work-yourself-to-failure-is-the-gym)
-	- [If something isn't making your life better, change it](#if-something-isnt-making-your-life-better-change-it)
-	- [Leave campus](#leave-campus)
+- [Go to the gym](#go-to-the-gym)
+- [The only place to work yourself to failure is the gym](#the-only-place-to-work-yourself-to-failure-is-the-gym)
+- [If something isn't making your life better, change it](#if-something-isnt-making-your-life-better-change-it)
+- [Leave campus](#leave-campus)
 
 ## Mindset and Personal Growth
 
@@ -81,29 +81,29 @@ This isn't about feeling *emotionally* bad — that's unsustainable. It's a prin
 
 ### Make more mistakes
 
-Most mistakes that your could make probably aren't very high-cost.[^1]
+Most mistakes that your could make probably aren't very high-cost.[^2]
 
 People (including me!) fear failure so much that they don't try, on relatively stupid small stuff where the cost of failure rounds down to the status quo. If you aren't making mistakes, you're underexploring. Most low-stakes failures cost nothing and reveal where the edges are. The real mistake is being so allergic to error that you stop gathering data.
 
 ### Things only get done to the extent that you want them to get done
 
-Very often, more often than you might think,[^2] things will only get done to the extent that you want them to get done. This feels kind of like a banal platitude, but it's very eye-opening. If you want something to happen, make it happen.
+Very often, more often than you might think,[^3] things will only get done to the extent that you want them to get done. This feels kind of like a banal platitude, but it's very eye-opening. If you want something to happen, make it happen.
 
 You don't need to ask permission for most things. If they only depend on you wanting them to get done, you don't need to ask other people for them to get done. Too often people take the fact that they might have to ask permission as an implicit no, which it just isn't.
 
-For a lot of choices, the worst-case scenario is just that the status quo persists. Worst-case scenario, you do it and nothing happens, and you're in the same world as if you had never done it. So clearly, if the upside is at all positive, the EV is positive.[^3]
+For a lot of choices, the worst-case scenario is just that the status quo persists. Worst-case scenario, you do it and nothing happens, and you're in the same world as if you had never done it. So clearly, if the upside is at all positive, the EV is positive.[^4]
 
 ### Deadlines are mostly fake
 
-Deadlines are mostly fake, and this is both good and bad. The good part is that deadlines are only "official,"[^4] and most professors, if you ask nicely enough or have a good enough reason, will delay the deadline. Which means that if you want to change the deadline, you can ask the professor, and in most cases, they'll change the deadline.
+Deadlines are mostly fake, and this is both good and bad. The good part is that deadlines are only "official,"[^5] and most professors, if you ask nicely enough or have a good enough reason, will delay the deadline. Which means that if you want to change the deadline, you can ask the professor, and in most cases, they'll change the deadline.
 
-What is a deadline, anyway? It's just the moment when consequences kick in. But you have leverage in that. There are broadly two ways you can change the incentives that apply to you — by changing the external pressures that act on you, and by changing how you react to those external pressures. Good agency involves recognizing that the defaults aren't necessarily right, or built for you.[^5]
+What is a deadline, anyway? It's just the moment when consequences kick in. But you have leverage in that. There are broadly two ways you can change the incentives that apply to you — by changing the external pressures that act on you, and by changing how you react to those external pressures. Good agency involves recognizing that the defaults aren't necessarily right, or built for you.[^6]
 
 ### Put yourself in positions where you'll be lucky
 
 Luck is distributed unevenly. Lightning doesn't strike twice, but you're way more likely to get hit atop the Empire State Building. Find where chance encounters happen, where cool people who could introduce you to your next job hang out, and go there.
 
-It's mostly about proximity to opportunity, but also a bit of shots on goal. Be available to influential professors / mentors / movers and makers. This sort of thing is most obvious in its converse — good things will not happen to you if you spend all day reading in your room.[^6] Make sure the right people know you before they need to know you, so that you're at the top of their mind once you have to be.
+It's mostly about proximity to opportunity, but also a bit of shots on goal. Be available to influential professors / mentors / movers and makers. This sort of thing is most obvious in its converse — good things will not happen to you if you spend all day reading in your room.[^7] Make sure the right people know you before they need to know you, so that you're at the top of their mind once you have to be.
 
 ### Luck favors the prepared
 
@@ -115,7 +115,7 @@ Once you've [positioned yourself where luck can find you](#put-yourself-in-posit
 
 One of the biggest things you should be doing in college is figuring out how you want to spend your career. What's the best way to figure out whether you'd be able to work in something? Actually trying the work. Find cheap ways to test whether you'd be good at something, whether you'd enjoy it, whether you have an on-ramp to do it.
 
-Toy models and vibe checks are still useful insofar as they provide verisimilitude.[^7] Check for enjoyment, aptitude, motivation, status alignment. Can you see yourself doing this for years? It's not weird for you to spend your three summers doing three different things.
+Toy models and vibe checks are still useful insofar as they provide verisimilitude.[^8] Check for enjoyment, aptitude, motivation, status alignment. Can you see yourself doing this for years? It's not weird for you to spend your three summers doing three different things.
 
 ### Do side projects
 
@@ -127,19 +127,19 @@ Things that seem irrelevant often become relevant later. They might give you une
 
 ### Get good at introspecting
 
-This is much tougher to get operational advice on, but the closest I can get is having practice kicking your thoughts up one level of abstraction from having thoughts to noticing that you're having the thoughts.[^8] You often do things without realizing that you're doing them.[^9]i
+This is much tougher to get operational advice on, but the closest I can get is having practice kicking your thoughts up one level of abstraction from having thoughts to noticing that you're having the thoughts.[^9] You often do things without realizing that you're doing them.[^10]i
 
 Feelings are slippery. If one is flopping around (wrong verb), trapped in your mind, recognizing it means you can let it go and clear your mind, but being able to snag it before it leaves means you can hold it in your hands and examine it. Where, physically in your body, do you feel the emotion? Why, causally, do you feel it?
 
 ### Be honest
 
-Honesty is incredibly important, and very, very rarely is there an advantage to be gained interpersonally or intrapersonally by lying. I mean this not only instrumentally — Kant was right that lying can corrupt your soul *(find the Kant quote)*.
+Honesty is incredibly important, and very, very rarely is there an advantage to be gained interpersonally or intrapersonally by lying. I mean this not only instrumentally — [lying corrupts](https://bgillette.com/wp-content/uploads/2011/08/KANTsupposedRightToLie.pdf).
 
 [There is no belief without action](#put-your-money-where-your-mouth-is). If you say you care but don't act, you don't actually care. Turn vague ideals into hard commitments — ones you could be called out on. If your conviction can't be falsified, it probably isn't real.
 
 ### Put your money where your mouth is
 
-Revealed preferences >> stated preferences. If you think something is worth doing, you should be doing it. If you aren't doing it, you almost certainly, deep down, don't think it's worth doing.[^10] In some cases, be literally willing to put real money on the line for your beliefs. If you think it's important, it's worth actually giving your time to it. Spending your money on it. Devoting your career to it.
+Revealed preferences >> stated preferences. If you think something is worth doing, you should be doing it. If you aren't doing it, you almost certainly, deep down, don't think it's worth doing.[^11] In some cases, be literally willing to put real money on the line for your beliefs. If you think it's important, it's worth actually giving your time to it. Spending your money on it. Devoting your career to it.
 
 ### Be the kind of person others can come to for help
 
@@ -151,11 +151,11 @@ Default to yes. Being the kind of person others can come to means being ready �
 
 ### Go to bed early
 
-Go to sleep when you're done, not when you're exhausted. If your evenings devolve into aimless scrolling,[^11] don't treat them as free time — treat them as wasted time. More broadly, *if you're doing something that isn't useful, stop doing it*. You could be asleep. You could be waking up sharp, ahead of everyone else.[^12] You can stop doing things that aren't helping you. That includes the end of your day.
+Go to sleep when you're done, not when you're exhausted. If your evenings devolve into aimless scrolling,[^12] don't treat them as free time — treat them as wasted time. More broadly, *if you're doing something that isn't useful, stop doing it*. You could be asleep. You could be waking up sharp, ahead of everyone else.[^13] You can stop doing things that aren't helping you. That includes the end of your day.
 
 ### Brick your phone
 
-Grayscale your phone. Set screen time limits *(Smile app launcher, screenshot of home screen; ScreenZen for time limits)*. You were not built for this device. Your phone is a superstimulus.[^13] If you don't fight back, you lose by default. Brick your phone — grayscale it,[^14] strip notifications,[^15] hide addictive apps.[^16] Treat attention as sacred, and add friction to things you don't want to do. Protect it like you mean it.
+Grayscale your phone. Set screen time limits *(Smile app launcher, screenshot of home screen; ScreenZen for time limits)*. You were not built for this device. Your phone is a superstimulus.[^14] If you don't fight back, you lose by default. Brick your phone — grayscale it,[^15] strip notifications,[^16] hide addictive apps.[^17] Treat attention as sacred, and add friction to things you don't want to do. Protect it like you mean it.
 
 ### The optimal amount of slack time is not zero, but it's close to zero
 
@@ -165,7 +165,7 @@ Have time blocked off to do stuff that matters… and have a little time blocked
 
 ### If you aren't getting work done, pick up your shit and go somewhere else
 
-Have multiple places you can get work done. If you're just arriving to college, find three or four out-of-the-way study spots.[^17] If you find yourself being unproductive in one spot, change scenery to give yourself a mental reset, then restart wherever you've ended up. New place, new start.
+Have multiple places you can get work done. If you're just arriving to college, find three or four out-of-the-way study spots.[^18] If you find yourself being unproductive in one spot, change scenery to give yourself a mental reset, then restart wherever you've ended up. New place, new start.
 
 ### Don't take your phone to the places you're studying
 
@@ -177,11 +177,11 @@ You get one focal point at a time. You can juggle, sure — but real focus is ze
 
 ### Offload difficult things to automations, habits, or other people
 
-There are three big ways to offload the light mental loads. Automate them.[^18] Make the things second-nature and habitual, so they don't need to take up any part of your perceptual space, or have friends help. Your working memory is finite — don't waste it remembering to buy toothpaste.
+There are three big ways to offload the light mental loads. Automate them.[^19] Make the things second-nature and habitual, so they don't need to take up any part of your perceptual space, or have friends help. Your working memory is finite — don't waste it remembering to buy toothpaste.
 
 ### Make your bed
 
-Disorder compounds — fight it early. Little messes become big ones. Visual clutter becomes mental clutter. If something can be put away in 30 seconds, do it. Make your bed. Give everything a home.[^19] Keep the entropy outside your mind.
+Disorder compounds — fight it early. Little messes become big ones. Visual clutter becomes mental clutter. If something can be put away in 30 seconds, do it. Make your bed. Give everything a home.[^20] Keep the entropy outside your mind.
 
 ### If it takes less than 5 minutes, do it now
 
@@ -189,7 +189,7 @@ Light tasks get heavy fast. A two-minute chore becomes a backlog becomes a burde
 
 ### The floor is actually way lower than you think
 
-I mean this more as "the activation energy is way lower than you think it is.[^20] You can be far more exceptional than you think you can". Don't shift it into motivation-speak, but most people just don't give anywhere near 100%. Just doing the readings at all is enough to catapult you to the front of most classes.
+I mean this more as "the activation energy is way lower than you think it is.[^21] You can be far more exceptional than you think you can". Don't shift it into motivation-speak, but most people just don't give anywhere near 100%. Just doing the readings at all is enough to catapult you to the front of most classes.
 
 ## Planning and Goal Setting
 
@@ -203,25 +203,25 @@ Set goals you can fail at. If a goal isn't falsifiable, it isn't actionable. "Ge
 
 ### Credibly pre-commit to things you care about getting done
 
-[Find ways to tie yourself to the mast](#deadlines-are-mostly-fake). Future you is their own person and they won't always want to sit down and do the work. But you can control their incentives. Tell a friend you'll send them the thing once you're done with it. Put money on the line. Make it so that, if future you behaves suboptimally, they actually feel it. Don't get principal-agent problemed[^21] by yourself.
+[Find ways to tie yourself to the mast](#deadlines-are-mostly-fake). Future you is their own person and they won't always want to sit down and do the work. But you can control their incentives. Tell a friend you'll send them the thing once you're done with it. Put money on the line. Make it so that, if future you behaves suboptimally, they actually feel it. Don't get principal-agent problemed[^22] by yourself.
 
 ### Track your progress
 
-It feels great to see yourself improve! And to know that the improvement is because you're choosing to put the effort into improving. [Track what you want to get better at](#recognize-that-you-can-always-be-better). You'll never find a number for how good you are[^22] — but you can log your workouts, save your essays, journal your mood. Progress feels better when you can see it. And it hits different when you know it's because *you made it happen.*
+It feels great to see yourself improve! And to know that the improvement is because you're choosing to put the effort into improving. [Track what you want to get better at](#recognize-that-you-can-always-be-better). You'll never find a number for how good you are[^23] — but you can log your workouts, save your essays, journal your mood. Progress feels better when you can see it. And it hits different when you know it's because *you made it happen.*
 
 ### Make a 5-year plan google doc
 
-Do not decide your future based on vibes. Think through. Think by writing, because you can learn a lot by having to write it out. If you make a copy of [this Google doc](https://docs.google.com/document/d/1pDzUiWYdj0N-B6_oK_Ei8id8b1Z8uaimaHRdf0brQg8/edit?tab=t.0) and email me the Google doc link set so anyone can edit, and I'll leave you comments (hi@henryjosephson.com).[^23]
+Do not decide your future based on vibes. Think through. Think by writing, because you can learn a lot by having to write it out. If you make a copy of [this Google doc](https://docs.google.com/document/d/1pDzUiWYdj0N-B6_oK_Ei8id8b1Z8uaimaHRdf0brQg8/edit?tab=t.0) and email me the Google doc link set so anyone can edit, and I'll leave you comments (hi@henryjosephson.com).[^24]
 
 ### Consider graduating early
 
-*Consider* doesn't mean *do*, but as a rule, if you aren't doing something big, if you're not doing it, make sure it's because you thought about it and ruled it out, not because it never crossed your mind. Most of the value of your degree[^24] is just as a signal that you're smart. But graduating in two years can be an even stronger one — *if* you have something better to do next. And "better" includes your health and happiness.
+*Consider* doesn't mean *do*, but as a rule, if you aren't doing something big, if you're not doing it, make sure it's because you thought about it and ruled it out, not because it never crossed your mind. Most of the value of your degree[^25] is just as a signal that you're smart. But graduating in two years can be an even stronger one — *if* you have something better to do next. And "better" includes your health and happiness.
 
 ## Relationships and Community
 
 ### Build your own community
 
-You can absolutely make friends through your dorm or classes, but that's very passive. Don't wait for the things you want to come to you. Do community-building![^25] Organize a club! Get the practical skills it gives you, but also learn what activities and advertisements attract people like you. It's also a great excuse to reach out to people.
+You can absolutely make friends through your dorm or classes, but that's very passive. Don't wait for the things you want to come to you. Do community-building![^26] Organize a club! Get the practical skills it gives you, but also learn what activities and advertisements attract people like you. It's also a great excuse to reach out to people.
 
 ### Fall in love at least once
 
@@ -237,7 +237,7 @@ This remains true once you're in the relationship. Keep a real life outside your
 
 ### Friends are people you can talk to for hours
 
-Friends are people you can talk to for hours. It's a litmus test: if the conversation loops, stretches, deepens, you've probably found someone worth keeping. If they have the opportunity to end the conversation many times, but they don't, it's becuase they're having fun.[^26] These conversations are how relationships grow and how real learning happens. But it's not just about finding people like that. Be someone who's easy to talk to.
+Friends are people you can talk to for hours. It's a litmus test: if the conversation loops, stretches, deepens, you've probably found someone worth keeping. If they have the opportunity to end the conversation many times, but they don't, it's becuase they're having fun.[^27] These conversations are how relationships grow and how real learning happens. But it's not just about finding people like that. Be someone who's easy to talk to.
 
 ### Throw parties
 
@@ -247,7 +247,7 @@ If you have a fire escape, see if the people in the apartment above you also wan
 
 ### Hang out with people who are better than you at the things you care about
 
-Spend time with people who outmatch you. If you care about getting better at something, hang out with people who already are. Not just for advice — for the ambient learning. Watch how great thinkers ask questions. Watch how charismatic people move through rooms. [You become what you're around](#build-your-own-community).[^27] Choose your average deliberately.
+Spend time with people who outmatch you. If you care about getting better at something, hang out with people who already are. Not just for advice — for the ambient learning. Watch how great thinkers ask questions. Watch how charismatic people move through rooms. [You become what you're around](#build-your-own-community).[^28] Choose your average deliberately.
 
 ### Professors are people. You can just make friends with them
 
@@ -257,15 +257,15 @@ Professors are people. You can just befriend them. Not in a networking way. Just
 
 ### Go to office hours
 
-Go to office hours. Seriously — just go. Nobody else does.[^28] That's why it works. You get the grader's eyes on your work.[^29] You get real-time feedback. You build relationships with smart people who want to help. And sometimes they'll like you enough to root for you. That helps too.
+Go to office hours. Seriously — just go. Nobody else does.[^29] That's why it works. You get the grader's eyes on your work.[^30] You get real-time feedback. You build relationships with smart people who want to help. And sometimes they'll like you enough to root for you. That helps too.
 
 ### Be careful how you use AI
 
-Be honest with yourself about how you're using AI.[^30] AI is now good enough to one-shot every lower-level CS class and is a strong writer below ~2 pages (8 or 9 if you know how to do it well). But if you have the AI do the work for you, you won't learn the thing you're actually working on. If you're only doing college for the signal, maybe you don't care, but the signal is probably only useful for getting a job, and not being able to do a SQL join is much more damning.
+Be honest with yourself about how you're using AI.[^31] AI is now good enough to one-shot every lower-level CS class and is a strong writer below ~2 pages (8 or 9 if you know how to do it well). But if you have the AI do the work for you, you won't learn the thing you're actually working on. If you're only doing college for the signal, maybe you don't care, but the signal is probably only useful for getting a job, and not being able to do a SQL join is much more damning.
 
 ### Read things, everywhere
 
-There is information and amazement everywhere. College towns usually have multiple great bookstores[^31] where you can find things interesting, and fill your bookshelf. Curate newsletters.[^32] Podcasts only kinda count. Go the library and wander through the stacks until you find one or two things that're interesting. Sneak peeks at your professor's shelves when you're in office hours. Ask people who are where you want to be for book recommendations at the end of your coffee chats. Keep a folder on your computer of interesting pdfs.
+There is information and amazement everywhere. College towns usually have multiple great bookstores[^32] where you can find things interesting, and fill your bookshelf. Curate newsletters.[^33] Podcasts only kinda count. Go the library and wander through the stacks until you find one or two things that're interesting. Sneak peeks at your professor's shelves when you're in office hours. Ask people who are where you want to be for book recommendations at the end of your coffee chats. Keep a folder on your computer of interesting pdfs.
 
 Write in your books! Star things and highlight them and summarize them in the margins every couple pages to make sure you're tracking things. Don't treat books like sacred objects. Treat them like training grounds. Highlight. Argue in the margins. Write summaries every few pages to make sure you're following. If the book changed you, it should look like it.
 
@@ -275,7 +275,7 @@ Just don't sunk-cost yourself into parts of a book that aren't being helpful. Yo
 
 ### Learn how to read quickly
 
-Expect to face a larger volume of reading in college than you initially think you can handle; this is normal. Part of navigating this workload is learning how to read efficiently, which involves skills like triaging material, skimming for main points, zooming in on crucial sections, moving fast when appropriate, and crucially, knowing when to slow down. Like any skill, reading efficiency comes with practice, so start building it now, even if you're still in high school.[^33]
+Expect to face a larger volume of reading in college than you initially think you can handle; this is normal. Part of navigating this workload is learning how to read efficiently, which involves skills like triaging material, skimming for main points, zooming in on crucial sections, moving fast when appropriate, and crucially, knowing when to slow down. Like any skill, reading efficiency comes with practice, so start building it now, even if you're still in high school.[^34]
 
 ### Write things
 
@@ -287,13 +287,13 @@ Get good at expressing yourself, and also get good at making points cogently. Re
 
 ### Have an easy way to capture ideas
 
-Good ideas, interesting quotes, or book recommendations often pop up at inconvenient times – maybe walking to class or in the shower. Don't let them vanish! [Find a simple, quick way to jot them down](#offload-difficult-things-to-automations-habits-or-other-people).[^34] The main thing is making it effortless.
+Good ideas, interesting quotes, or book recommendations often pop up at inconvenient times – maybe walking to class or in the shower. Don't let them vanish! [Find a simple, quick way to jot them down](#offload-difficult-things-to-automations-habits-or-other-people).[^35] The main thing is making it effortless.
 
 ## Health and Lifestyle
 
 ### Go to the gym
 
-If you're like me, you're happiest and most fulfilled when you're active. You get a clear thing that you can see yourself make progress on, and it also helps you live longer, reduces stress, and makes everything else easier.[^35]
+If you're like me, you're happiest and most fulfilled when you're active. You get a clear thing that you can see yourself make progress on, and it also helps you live longer, reduces stress, and makes everything else easier.[^36]
 
 Your body isn't totally yours to shape — but it's more shapeable than you think. And the feedback is fast. If you don't look the way you want to look, you can get there (within reason).
 
@@ -311,38 +311,39 @@ You can change your life. That sounds dramatic, but it's literal. You choose whe
 
 Don't spend your whole time within the few blocks / acres / in some cases literal walls of your campus. Leave. It's a bubble. Meet people who go to different schools. Cool things are far away. Go places on a whim. Walk home to downtown. Bike to Milwaukee. Find the best bagel store on the other side of the city. Buy a cheap plane ticket to Oregon and walk around Mount Hood. If you don't explore now, when will you?
 
-[^1]: Forgetting people's names, getting rejected from some applications, asking a question in class and sounding dumb for 10 seconds, trying out for a club or team and not making it, starting a side project and abandoning it halfway, telling someone you admire their work and getting ignored, wearing something a little weird and getting a weird look, sending a cold email and getting no reply, posting writing online and getting 12 views.
-[^2]: Really more often than you might think!
-[^3]: When I was in the fall of my third year, I took a class called AI for Public Policy with Jens Ludwig, professor at UChicago's Harris School, cool guy, and I wanted to do research, and I wanted to do the research that he did. So I reached out to him, I asked if he had time to talk about this. I went to his office hours. I met with him in the next quarter and was like, hey, do you have research projects I can work on? Do you have things that I can do? And he did. And that wouldn't have happened if I were less effortful. I think it only happened to the extent that I was motivated to keep sending him emails and keep showing up at his office hours.
-[^4]: I find that "officially" often means "not really". see the sears tower vs world trade thing.
-[^5]: e.g. set artificial deadlines before things are actually due by setting an office hours appointment to go over a draft you haven't written yet.
-[^6]: Read somewhere where your friends will see you if they walk past, and invite you to grab a drink with them.
-[^7]: Try writing policy memos or taking notes on legislative sessions before you gun for a leg internship.
-[^8]: Especially when so much of the world is adversarially optimizing to keep you locked in to things you don't want to be locked in on — looking at you, YouTube shorts. See also [Algotransparency's manifesto](https://www.algotransparency.org/our-manifesto).
-[^9]: Analogously, you often do things without realizing you're doing them, or how much time you're spending on them. [Track your time in detail for at least a day](#track-your-progress); you'll be surprised what you learn.
-[^10]: [Are you lying to yourself](#be-honest)?
-[^11]: [https://en.wikipedia.org/wiki/Bedtime_procrastination](https://en.wikipedia.org/wiki/Bedtime_procrastination)
-[^12]: I'm a huge morning person. Very annoying to me that UChicago's gym didn't open until 7 am.
-[^13]: [https://www.lesswrong.com/w/superstimuli](https://www.lesswrong.com/w/superstimuli)
-[^14]: On an iphone, settings > accessibility > display and text size > color filters > grayscale.
-[^15]: Only have notifications on for things you wouldn't mind someone literally interrupting your work and tapping you on the shoulder to tell you about (and this probably isn't most things you get notifications for).
-[^16]: I use [Smile](https://eggvelop.com/projects/smile-app-launcher). It's free.
-[^17]: If you're coming to UChicago, email me and I'll let you know mine.
-[^18]: Have Claude write you code to do it. Unironically, your little frictions go away.
-[^19]: Everything has a home.
-[^20]: I got some of this when I TAed a class I thought was easy with some studying and saw how little studying some people did. I was getting emails the night before the exam saying "oh, I never studied and now I'm freaking out!" crazy.
-[^21]: [Link](https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem)
-[^22]: I've tried. there isn't one.
-[^23]: I'm offering because I know none of you will do it. prove me wrong. Seriously, block time off.
-[^24]: Note — I'm not saying most of the value *of your time in college*.
-[^25]: Lots of good community-building resources [here](https://resources.eagroups.org/).
-[^26]: This is also flirting advice, insofar as conversation is a skill. I have had multiple exes say that they loved how easy I was to talk to.
-[^27]: Seriously, [frats suck](https://chicagomaroon.com/45866/viewpoints/op-ed/pledging-allegiance-brotherhood-beer-and-the-making-of-men/).
-[^28]: When I TAed a 60-person intro class, like 5 people showed up.
-[^29]: This is a cheat code, especially when writing papers at higher levels. Your profs aren't just good at building papers -- they decide what grade your paper gets!
-[^30]: Lots of this post was voice memos before Claude helped me clean it up, for example.
-[^31]: Hyde Park's best one is [Powell's](https://powellschicago.com/).
-[^32]: I'm working on another blogpost about this, eventually.
-[^33]: A great way to get reps is by engaging with journal articles — try sorting by 'most downloaded' on platforms like [PhilPapers](https://philpapers.org/), [SSRN](https://www.ssrn.com/index.cfm/en/), [JSTOR](https://www.jstor.org/), [NBER](https://www.nber.org/), or [ArXiv](https://arxiv.org/). Use AI tools like Claude to help explain complex paragraphs you encounter along the way.
-[^34]: Use whatever works best for you: a dedicated app like [Jotlog](https://www.jotlog.app/), your phone's built-in notes app, or just a small notebook and pen you carry around.
-[^35]: You'll also make gym friends who you'll talk to every day and not fully know their names.
+[^1]: When I sent drafts of this post to people for comments before publishing, one told me "you're probably the highest-agency person I know." Maybe the nicest thing anybody's ever said to me.
+[^2]: Forgetting people's names, getting rejected from some applications, asking a question in class and sounding dumb for 10 seconds, trying out for a club or team and not making it, starting a side project and abandoning it halfway, telling someone you admire their work and getting ignored, wearing something a little weird and getting a weird look, sending a cold email and getting no reply, posting writing online and getting 12 views.
+[^3]: Really more often than you might think!
+[^4]: When I was in the fall of my third year, I took a class called AI for Public Policy with Jens Ludwig, professor at UChicago's Harris School, cool guy, and I wanted to do research, and I wanted to do the research that he did. So I reached out to him, I asked if he had time to talk about this. I went to his office hours. I met with him in the next quarter and was like, hey, do you have research projects I can work on? Do you have things that I can do? And he did. And that wouldn't have happened if I were less effortful. I think it only happened to the extent that I was motivated to keep sending him emails and keep showing up at his office hours.
+[^5]: I find that "officially" often means "not really". see the sears tower vs world trade thing.
+[^6]: e.g. set artificial deadlines before things are actually due by setting an office hours appointment to go over a draft you haven't written yet.
+[^7]: Read somewhere where your friends will see you if they walk past, and invite you to grab a drink with them.
+[^8]: Try writing policy memos or taking notes on legislative sessions before you gun for a leg internship.
+[^9]: Especially when so much of the world is adversarially optimizing to keep you locked in to things you don't want to be locked in on — looking at you, YouTube shorts. See also [Algotransparency's manifesto](https://www.algotransparency.org/our-manifesto).
+[^10]: Analogously, you often do things without realizing you're doing them, or how much time you're spending on them. [Track your time in detail for at least a day](#track-your-progress); you'll be surprised what you learn.
+[^11]: [Are you lying to yourself](#be-honest)?
+[^12]: [https://en.wikipedia.org/wiki/Bedtime_procrastination](https://en.wikipedia.org/wiki/Bedtime_procrastination)
+[^13]: I'm a huge morning person. Very annoying to me that UChicago's gym didn't open until 7 am.
+[^14]: [https://www.lesswrong.com/w/superstimuli](https://www.lesswrong.com/w/superstimuli)
+[^15]: On an iphone, settings > accessibility > display and text size > color filters > grayscale.
+[^16]: Only have notifications on for things you wouldn't mind someone literally interrupting your work and tapping you on the shoulder to tell you about (and this probably isn't most things you get notifications for).
+[^17]: I use [Smile](https://eggvelop.com/projects/smile-app-launcher). It's free.
+[^18]: If you're coming to UChicago, email me and I'll let you know mine.
+[^19]: Have Claude write you code to do it. Unironically, your little frictions go away.
+[^20]: Everything has a home.
+[^21]: I got some of this when I TAed a class I thought was easy with some studying and saw how little studying some people did. I was getting emails the night before the exam saying "oh, I never studied and now I'm freaking out!" crazy.
+[^22]: [Link](https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem)
+[^23]: I've tried. there isn't one.
+[^24]: I'm offering because I know none of you will do it. prove me wrong. Seriously, block time off.
+[^25]: Note — I'm not saying most of the value *of your time in college*.
+[^26]: Lots of good community-building resources [here](https://resources.eagroups.org/).
+[^27]: This is also flirting advice, insofar as conversation is a skill. I have had multiple exes say that they loved how easy I was to talk to.
+[^28]: Seriously, [frats suck](https://chicagomaroon.com/45866/viewpoints/op-ed/pledging-allegiance-brotherhood-beer-and-the-making-of-men/).
+[^29]: When I TAed a 60-person intro class, like 5 people showed up.
+[^30]: This is a cheat code, especially when writing papers at higher levels. Your profs aren't just good at building papers -- they decide what grade your paper gets!
+[^31]: Lots of this post was voice memos before Claude helped me clean it up, for example.
+[^32]: Hyde Park's best one is [Powell's](https://powellschicago.com/).
+[^33]: I'm working on another blogpost about this, eventually.
+[^34]: A great way to get reps is by engaging with journal articles — try sorting by 'most downloaded' on platforms like [PhilPapers](https://philpapers.org/), [SSRN](https://www.ssrn.com/index.cfm/en/), [JSTOR](https://www.jstor.org/), [NBER](https://www.nber.org/), or [ArXiv](https://arxiv.org/). Use AI tools like Claude to help explain complex paragraphs you encounter along the way.
+[^35]: Use whatever works best for you: a dedicated app like [Jotlog](https://www.jotlog.app/), your phone's built-in notes app, or just a small notebook and pen you carry around.
+[^36]: You'll also make gym friends who you'll talk to every day and not fully know their names.
