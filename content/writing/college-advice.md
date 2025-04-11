@@ -321,10 +321,10 @@ Don't spend your whole time within the few blocks / acres / in some cases litera
 [^6]: Read somewhere where your friends will see you if they walk past, and invite you to grab a drink with them.
 [^7]: Try writing policy memos or taking notes on legislative sessions before you gun for a leg internship.
 [^8]: Especially when so much of the world is adversarially optimizing to keep you locked in to things you don't want to be locked in on — looking at you, YouTube shorts. See also [Algotransparency's manifesto](https://www.algotransparency.org/our-manifesto).
-[^9]: [Are you lying to yourself?](#be-honest)
-[^10]: https://en.wikipedia.org/wiki/Bedtime_procrastination
+[^9]: [Are you lying to yourself](#be-honest)?
+[^10]: [https://en.wikipedia.org/wiki/Bedtime_procrastination](https://en.wikipedia.org/wiki/Bedtime_procrastination)
 [^11]: I'm a huge morning person. Very annoying to me that UChicago's gym didn't open until 7 am.
-[^12]: https://www.lesswrong.com/w/superstimuli
+[^12]: [https://www.lesswrong.com/w/superstimuli](https://www.lesswrong.com/w/superstimuli)
 [^13]: On an iphone, settings > accessibility > display and text size > color filters > grayscale.
 [^14]: Only have notifications on for things you wouldn't mind someone literally interrupting your work and tapping you on the shoulder to tell you about (and this probably isn't most things you get notifications for).
 [^15]: I use [Smile](https://eggvelop.com/projects/smile-app-launcher). It's free.
@@ -336,7 +336,7 @@ Don't spend your whole time within the few blocks / acres / in some cases litera
 [^21]: I've tried. there isn't one.
 [^22]: I'm offering because I know none of you will do it. prove me wrong. Seriously, block time off.
 [^23]: Note — I'm not saying most of the value *of your time in college*.
-[^24]: Lots of good community-building resources [here](https://resources.eagroups.org/)
+[^24]: Lots of good community-building resources [here](https://resources.eagroups.org/).
 [^25]: This is also flirting advice, insofar as conversation is a skill. I have had multiple exes say that they loved how easy I was to talk to.
 [^26]: Seriously, [frats suck](https://chicagomaroon.com/45866/viewpoints/op-ed/pledging-allegiance-brotherhood-beer-and-the-making-of-men/).
 [^27]: Seriously
@@ -345,6 +345,6 @@ Don't spend your whole time within the few blocks / acres / in some cases litera
 [^30]: Lots of this post was voice memos before Claude helped me clean it up, for example.
 [^31]: Hyde Park's best one is [Powell's](https://powellschicago.com/).
 [^32]: I'm working on another blogpost about this, eventually.
-[^33]: A great way to get reps is by engaging with journal articles — try sorting by 'most downloaded' on platforms like [PhilPapers](https://philpapers.org/), [SSRN](https://www.ssrn.com/index.cfm/en/), [JSTOR](https://www.jstor.org/), [NBER](https://www.nber.org/), or [ArXiv](https://arxiv.org/). Don't hesitate to use AI tools like Claude to help explain complex paragraphs you encounter along the way.
+[^33]: A great way to get reps is by engaging with journal articles — try sorting by 'most downloaded' on platforms like [PhilPapers](https://philpapers.org/), [SSRN](https://www.ssrn.com/index.cfm/en/), [JSTOR](https://www.jstor.org/), [NBER](https://www.nber.org/), or [ArXiv](https://arxiv.org/). Use AI tools like Claude to help explain complex paragraphs you encounter along the way.
 [^34]: Use whatever works best for you: a dedicated app like [Jotlog](https://www.jotlog.app/), your phone's built-in notes app, or just a small notebook and pen you carry around.
 [^35]: You'll also make gym friends who you'll talk to every day and not fully know their names.
