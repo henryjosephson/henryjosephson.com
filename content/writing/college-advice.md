@@ -7,13 +7,65 @@ published: false
 
 I'm graduating from UChicago in around 60 days, and I've been thinking about what I've learned these past four years. I figured I'd write it all down while it's still fresh.
 
-Recently I've been devouring advice posts from folks like Alexey Guzey, Ben Kuhn, Juan David Campolargo, and others who have this knack for cutting through the bullshit of college life. Their stuff resonates because they're not selling the fantasy version of college — they're talking about what actually matters once you're there.
+This isn't universal advice. It's specifically for people like me — high-agency, motivated types who feed off being busy. People who hate having free time and are happiest on days where things are back-to-back-to-back. People who'd rather risk making mistakes than risk missing out, who want to control more than they initially think they can, and who are willing to go all-in relatively quickly. If you're reading [Ben Kuhn](https://www.benkuhn.net/college/) and [Alexey Guzey](https://guzey.com/college/) or have ever heard of the [Reverend Thomas Bayes](https://en.wikipedia.org/wiki/Thomas_Bayes), you're probably one of us.
 
-Few of us (certainly not me) really know what the hell we're doing in college until it's almost over. By then, it's too late to tell our freshman selves what to do differently. This post is my attempt to break that cycle — to pass along what worked, what didn't, and what I've come to believe.
+So here's at least some of what I've figured out. Take what's useful, leave what isn't — maybe [do the opposite](https://slatestarcodex.com/2014/03/24/should-you-reverse-any-advice-you-hear/) of everything I've said.
 
-This isn't universal advice. It's specifically for people like me — high-agency, motivated types who feed off being busy. People who hate having free time and are happiest on days where things are back-to-back-to-back. People who'd rather risk making mistakes than risk missing out, who want to control more than they initially think they can, and who are willing to go all-in relatively quickly. If you're reading Ben Kuhn and Alexey Guzey for fun, you're probably one of us.
+## Contents
 
-So here's what I've figured out. Take what's useful, leave what isn't — maybe [do the opposite](https://slatestarcodex.com/2014/03/24/should-you-reverse-any-advice-you-hear/).
+- [Mindset and Personal Growth](#mindset-and-personal-growth)
+	- [Find your mission](#find-your-mission)
+	- [Recognize that you can always be better](#recognize-that-you-can-always-be-better)
+	- [Make more mistakes](#make-more-mistakes)
+	- [Things only get done to the extent that you want them to get done](#things-only-get-done-to-the-extent-that-you-want-them-to-get-done)
+	- [Deadlines are mostly fake](#deadlines-are-mostly-fake)
+	- [Put yourself in positions where you'll be lucky](#put-yourself-in-positions-where-youll-be-lucky)
+	- [Luck favors the prepared](#luck-favors-the-prepared)
+	- [Test your fit at lots of things](#test-your-fit-at-lots-of-things)
+	- [Do side projects](#do-side-projects)
+	- [Get good at introspecting](#get-good-at-introspecting)
+	- [Be honest](#be-honest)
+	- [Put your money where your mouth is](#put-your-money-where-your-mouth-is)
+	- [Be the kind of person others can come to for help](#be-the-kind-of-person-others-can-come-to-for-help)
+- [Productivity and Focus](#productivity-and-focus)
+	- [Go to bed early](#go-to-bed-early)
+	- [Brick your phone](#brick-your-phone)
+	- [The optimal amount of slack time is not zero, but it's close to zero](#the-optimal-amount-of-slack-time-is-not-zero-but-its-close-to-zero)
+	- [If you aren't getting work done, pick up your shit and go somewhere else](#if-you-arent-getting-work-done-pick-up-your-shit-and-go-somewhere-else)
+	- [Don't take your phone to the places you're studying](#dont-take-your-phone-to-the-places-youre-studying)
+	- [Do not try to do more than one important thing at once](#do-not-try-to-do-more-than-one-important-thing-at-once)
+	- [Offload difficult things to automations, habits, or other people](#offload-difficult-things-to-automations-habits-or-other-people)
+	- [Make your bed](#make-your-bed)
+	- [If it takes less than 5 minutes, do it now](#if-it-takes-less-than-5-minutes-do-it-now)
+	- [The floor is actually way lower than you think](#the-floor-is-actually-way-lower-than-you-think)
+- [Planning and Goal Setting](#planning-and-goal-setting)
+	- [Make sure your goals are falsifiable](#make-sure-your-goals-are-falsifiable)
+	- [Credibly pre-commit to things you care about getting done](#credibly-pre-commit-to-things-you-care-about-getting-done)
+	- [Track your progress](#track-your-progress)
+	- [Make a 5-year plan google doc](#make-a-5-year-plan-google-doc)
+	- [Consider graduating early](#consider-graduating-early)
+- [Relationships and Community](#relationships-and-community)
+	- [Build your own community](#build-your-own-community)
+	- [Fall in love at least once](#fall-in-love-at-least-once)
+	- [If you aren't happy and excited and exciting single, you won't be happy or excited or exciting in a relationship](#if-you-arent-happy-and-excited-and-exciting-single-you-wont-be-happy-or-excited-or-exciting-in-a-relationship)
+	- [Friends are people you can talk to for hours](#friends-are-people-you-can-talk-to-for-hours)
+	- [Throw parties](#throw-parties)
+	- [Hang out with people who are better than you at the things you care about](#hang-out-with-people-who-are-better-than-you-at-the-things-you-care-about)
+	- [Professors are people. You can just make friends with them](#professors-are-people-you-can-just-make-friends-with-them)
+- [Academic Success](#academic-success)
+	- [Go to office hours](#go-to-office-hours)
+	- [Be careful how you use AI](#be-careful-how-you-use-ai)
+	- [Read things, everywhere](#read-things-everywhere)
+	- [Don't be afraid to skip the boring parts](#dont-be-afraid-to-skip-the-boring-parts)
+	- [Learn how to read quickly](#learn-how-to-read-quickly)
+	- [Write things](#write-things)
+	- [Read widely based on curiosity, not just relevance](#read-widely-based-on-curiosity-not-just-relevance)
+	- [Have an easy way to capture ideas](#have-an-easy-way-to-capture-ideas)
+- [Health and Lifestyle](#health-and-lifestyle)
+	- [Go to the gym](#go-to-the-gym)
+	- [The only place to work yourself to failure is the gym](#the-only-place-to-work-yourself-to-failure-is-the-gym)
+	- [If something isn't making your life better, change it](#if-something-isnt-making-your-life-better-change-it)
+	- [Leave campus](#leave-campus)
 
 ## Mindset and Personal Growth
 
@@ -66,6 +118,14 @@ Once you've [positioned yourself where luck can find you](#put-yourself-in-posit
 One of the biggest things you should be doing in college is figuring out how you want to spend your career. What's the best way to figure out whether you'd be able to work in something? Actually trying the work. Find cheap ways to test whether you'd be good at something, whether you'd enjoy it, whether you have an on-ramp to do it.
 
 Toy models and vibe checks are still useful insofar as they provide verisimilitude.[^7] Check for enjoyment, aptitude, motivation, status alignment. Can you see yourself doing this for years? It's not weird for you to spend your three summers doing three different things.
+
+### Do side projects
+
+Find things that seem cool and do them. They're fun. They're also how you'll do most of your learning. Much of my learning didn't come from classes — it came from thinking "this is interesting!" about something adjacent to coursework. Homework teaches specific skills. That's necessary. But to learn how to build things, you have to build things.
+
+Don't spend most of your time on side projects. [The optimal amount isn't zero, but it's not fifty percent either.](#the-optimal-amount-of-slack-time-is-not-zero-but-its-close-to-zero). Side projects are exploration, not exploitation.
+
+Things that seem irrelevant often become relevant later. They might give you unexpected skills, help you make connections, or serve as credentials. Being able to say "I build things" is a powerful signal to people with biases toward action.
 
 ### Get good at introspecting
 
@@ -189,7 +249,6 @@ If you have a fire escape, see if the people in the apartment above you also wan
 
 ### Hang out with people who are better than you at the things you care about
 
-
 Spend time with people who outmatch you. If you care about getting better at something, hang out with people who already are. Not just for advice — for the ambient learning. Watch how great thinkers ask questions. Watch how charismatic people move through rooms. [You become what you're around](#build-your-own-community).[^27] Choose your average deliberately.
 
 ### Professors are people. You can just make friends with them
@@ -206,7 +265,7 @@ Go to office hours. Seriously — just go. Nobody else does.[^28] That's why it 
 
 Be honest with yourself about how you're using AI.[^30] AI is now good enough to one-shot every lower-level CS class and is a strong writer below ~2 pages (8 or 9 if you know how to do it well). But if you have the AI do the work for you, you won't learn the thing you're actually working on. If you're only doing college for the signal, maybe you don't care, but the signal is probably only useful for getting a job, and not being able to do a SQL join is much more damning.
 
-### Read things, euverywhere
+### Read things, everywhere
 
 There is information and amazement everywhere. College towns usually have multiple great bookstores[^31] where you can find things interesting, and fill your bookshelf. Curate newsletters.[^32] Podcasts only kinda count. Go the library and wander through the stacks until you find one or two things that're interesting. Sneak peeks at your professor's shelves when you're in office hours. Ask people who are where you want to be for book recommendations at the end of your coffee chats. Keep a folder on your computer of interesting pdfs.
 
@@ -226,7 +285,7 @@ Get good at expressing yourself, and also get good at making points cogently. Re
 
 ### Read widely based on curiosity, not just relevance
 
-[Read widely based on curiosity](#read-things-euverywhere), not just relevance. Follow your gut and read things just because they seem interesting, even if they feel totally unrelated to your classes or goals right now. It's enjoyable, and you never know when that random knowledge might spark a cool idea or turn out to be useful later. Some of your best insights might come from sources you weren't even looking for. It won't always pay off right away, but this habit will shape the questions you ask and how you connect different ideas, which is more valuable than you might think.
+[Read widely based on curiosity](#read-things-everywhere), not just relevance. Follow your gut and read things just because they seem interesting, even if they feel totally unrelated to your classes or goals right now. It's enjoyable, and you never know when that random knowledge might spark a cool idea or turn out to be useful later. Some of your best insights might come from sources you weren't even looking for. It won't always pay off right away, but this habit will shape the questions you ask and how you connect different ideas, which is more valuable than you might think.
 
 ### Have an easy way to capture ideas
 
@@ -275,12 +334,12 @@ Don't spend your whole time within the few blocks / acres / in some cases litera
 [^19]: I got some of this when I TAed a class I thought was easy with some studying and saw how little studying some people did. I was getting emails the night before the exam saying "oh, I never studied and now I'm freaking out!" crazy.
 [^20]: [Link](https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem)
 [^21]: I've tried. there isn't one.
-[^22]: I'm offering because I know none of you will do it. prove me wrong. Seriously, block time off. 
+[^22]: I'm offering because I know none of you will do it. prove me wrong. Seriously, block time off.
 [^23]: Note — I'm not saying most of the value *of your time in college*.
 [^24]: Lots of good community-building resources [here](https://resources.eagroups.org/)
 [^25]: This is also flirting advice, insofar as conversation is a skill. I have had multiple exes say that they loved how easy I was to talk to.
 [^26]: Seriously, [frats suck](https://chicagomaroon.com/45866/viewpoints/op-ed/pledging-allegiance-brotherhood-beer-and-the-making-of-men/).
-[^27]: 
+[^27]: Seriously
 [^28]: When I TAed a 60-person intro class, like 5 people showed up.
 [^29]: This is a cheat code, especially when writing papers at higher levels. Your profs aren't just good at building papers -- they decide what grade your paper gets!
 [^30]: Lots of this post was voice memos before Claude helped me clean it up, for example.
