@@ -1,0 +1,30 @@
+/* Override Prism.js styles for better accessibility */
+.token.attr-name,
+.token.builtin,
+.token.char,
+.token.inserted,
+.token.selector,
+.token.string {
+  color: #116600; /* Darker green for better contrast */
+}
+
+/* Dark mode overrides */
+.latex-dark .token.attr-name,
+.latex-dark .token.builtin,
+.latex-dark .token.char,
+.latex-dark .token.inserted,
+.latex-dark .token.selector,
+.latex-dark .token.string {
+  color: #4caf50; /* Brighter green for dark mode */
+}
+
+@media (prefers-color-scheme: dark) {
+  .latex-dark-auto .token.attr-name,
+  .latex-dark-auto .token.builtin,
+  .latex-dark-auto .token.char,
+  .latex-dark-auto .token.inserted,
+  .latex-dark-auto .token.selector,
+  .latex-dark-auto .token.string {
+    color: #4caf50; /* Brighter green for dark mode */
+  }
+}

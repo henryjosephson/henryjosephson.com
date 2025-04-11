@@ -8,6 +8,8 @@ export default function Document() {
         <link rel="stylesheet" href="/css/main.css" />
         {/* Syntax highlighting */}
         <link rel="stylesheet" href="/css/prism.css" />
+        {/* Accessibility overrides for syntax highlighting */}
+        <link rel="stylesheet" href="/css/prism-override.css" />
       </Head>
       <body>
         <Main />
