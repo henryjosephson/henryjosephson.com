@@ -2,7 +2,7 @@
 title: "Test Post for Next.js Migration"
 date: "2025-04-10"
 description: "This is a test post to verify that our Next.js migration is working correctly with descriptions."
-published: true
+published: false
 ---
 
 This is a test post to verify that our Next.js migration is working correctly. This post includes various Markdown features to ensure they're properly rendered.
