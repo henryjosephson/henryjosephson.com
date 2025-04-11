@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         {/* Common meta tags and stylesheets */}
         <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
       </Head>
       
       {/* Vercel Analytics and Speed Insights */}
