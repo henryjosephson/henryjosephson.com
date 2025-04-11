@@ -133,7 +133,7 @@ Feelings are slippery. If one is flopping around (wrong verb), trapped in your m
 
 ### Be honest
 
-Honesty is incredibly important, and very, very rarely is there an advantage to be gained interpersonally or intrapersonally by lying. I mean this not only instrumentally — Kant was right that lying can corrupt your soul *(find the Kant quote)*.
+Honesty is incredibly important, and very, very rarely is there an advantage to be gained interpersonally or intrapersonally by lying. I mean this not only instrumentally — [lying corrupts](https://bgillette.com/wp-content/uploads/2011/08/KANTsupposedRightToLie.pdf).
 
 [There is no belief without action](#put-your-money-where-your-mouth-is). If you say you care but don't act, you don't actually care. Turn vague ideals into hard commitments — ones you could be called out on. If your conviction can't be falsified, it probably isn't real.
 
