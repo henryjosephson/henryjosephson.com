@@ -70,7 +70,7 @@ export default function Home() {
             </p>
 
             <p>
-              If you want to email me, you can use
+              If you want to email me, you can use 
               <code className="language-python">"hi" + "@" + this_website</code><br />
             </p>
 
