@@ -2,7 +2,7 @@
 title: Miscellaneous Spring Break Links
 date: 2025-03-22
 description: Links from 2025 spring break that don't fit into any other category.
-published: false
+published: true
 ---
 
 I’ve lumped in some philosophy notes, since I don’t yet have a good way to bulk-extract highlights from pdfs, and most of the philosophy I read over break was pdfs. Ah well — enjoy the ones that were webpages, along with some random stuff that didn’t fit anywhere else!
