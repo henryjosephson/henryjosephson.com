@@ -2,7 +2,7 @@
 title:  AI Spring Break Links
 date: 2025-03-22
 description: Some links I collected about AI over spring break 2025.
-published: false
+published: true
 ---
 
 I promise I read much more on this, and I have a blogpost drafted for sometime next week on where I actually get my AI information — in the meantime, though, enjoy a selection of some of the things I read over spring break!
