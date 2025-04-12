@@ -2,7 +2,7 @@
 title: Non-AI Policy Spring Break Links
 date: 2025-03-22
 description: Links I collected over spring break 2025 about non-AI policy.
-published: false
+published: true
 ---
 
 ##### Welcome to the Essay Meta

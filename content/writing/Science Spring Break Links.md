@@ -2,7 +2,7 @@
 title: Science Spring Break Links
 date: 2025-03-22
 description: Spring break 2025 links about science.
-published: false
+published: true
 ---
 
 ## Old Science
