@@ -16,6 +16,11 @@ const nextConfig = {
         destination: '/xw/:slug',
         permanent: true,
       },
+      {
+        source: '/AI-CA-Effect-2022.pdf',
+        destination: '/assets/AI-CA-Effect-2022.pdf',
+        permanent: true,
+      },
     ];
   },
 };
