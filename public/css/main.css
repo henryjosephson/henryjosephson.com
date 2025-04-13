@@ -99,6 +99,7 @@
   --link-color: hsl(0, 100%, 33%);
   --link-visited-color: hsl(0, 100%, 33%);
   --link-focus-outline: hsl(220, 90%, 52%);
+  --link-hover-bg: rgba(161, 17, 17, 0.1);
   --pre-bg-color: hsl(210, 28%, 93%);
   --kbd-bg-color: hsl(210, 5%, 100%);
   --kbd-border-color: hsl(210, 5%, 70%);
@@ -118,6 +119,7 @@
   --link-color: hsl(196, 80%, 77%);
   --link-visited-color: hsl(196, 80%, 77%);
   --link-focus-outline: hsl(215, 63%, 73%);
+  --link-hover-bg: rgba(77, 196, 255, 0.1);
   --pre-bg-color: hsl(0, 1%, 25%);
   --kbd-bg-color: hsl(0, 0%, 16%);
   --kbd-border-color: hsl(210, 5%, 70%);
@@ -134,6 +136,7 @@
     --link-color: hsl(196, 80%, 77%);
     --link-visited-color: hsl(196, 80%, 77%);
     --link-focus-outline: hsl(215, 63%, 73%);
+    --link-hover-bg: rgba(77, 196, 255, 0.1);
     --pre-bg-color: hsl(0, 1%, 25%);
     --kbd-bg-color: hsl(0, 0%, 16%);
     --kbd-border-color: hsl(210, 5%, 70%);
@@ -467,6 +470,16 @@ img {
   position: relative;
   display: inline-block;
   text-align: left;
+  color: var(--link-color);
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0 2px;
+  border-radius: 2px;
+  transition: background-color 0.2s ease;
+}
+
+.sidenote-number:hover::after {
+  background-color: var(--link-hover-bg);
 }
 
 /* add number in front of the sidenote */
@@ -474,6 +487,8 @@ img {
   content: counter(sidenote-counter) ' ';
   font-size: 0.7rem;
   top: -0.5rem;
+  color: var(--link-color);
+  font-weight: bold;
 }
 
 label.sidenote-toggle:not(.sidenote-number) {
