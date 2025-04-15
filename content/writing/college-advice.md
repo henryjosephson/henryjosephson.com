@@ -83,7 +83,7 @@ This isn't about feeling *emotionally* bad — that's unsustainable. It's a prin
 
 ### Make more mistakes
 
-Most mistakes that your could make probably aren't very high-cost.[^2]
+Most mistakes that you could make probably aren't very high-cost.[^2]
 
 People (including me!) fear failure so much that they don't try, on relatively stupid small stuff where the cost of failure rounds down to the status quo. If you aren't making mistakes, you're underexploring. Most low-stakes failures cost nothing and reveal where the edges are. The real mistake is being so allergic to error that you stop gathering data.
 
