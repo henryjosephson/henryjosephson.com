@@ -1,8 +1,0 @@
-{
-    "Template": {
-        "TemplateName": "newsletter-template",
-        "SubjectPart": "New Post: {{post_title}}",
-        "HtmlPart": "<!DOCTYPE html>\n<html>\n<head>\n<title>New Post on henryjosephson.com</title>\n</head>\n<body style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;'>\n<h1>{{post_title}}</h1>\n<p>Published on {{post_date}}</p>\n\n<div style='background-color: #f5f5f5; padding: 15px; border-left: 4px solid #4169E1; margin: 20px 0;'>\n<p><em>{{post_preview}}...</em></p></div>\n\n<p style='text-align: center; margin: 30px 0;'>\n<a href='{{post_url}}' style='background-color: #4169E1; color: white; padding: 12px 20px; text-decoration: none; border-radius: 4px; font-weight: bold;'>Read the Post</a></p><p>You are receiving this because you subscribed to henryjosephson.com. <a href='{{unsubscribe_url}}'>Click here to unsubscribe</a>, and <a href='https://feedback.henryjosephson.com'>click here to leave me anonymous feedback</a>.</p><p>My best,<br>Henry</p></body></html>",
-        "TextPart": "New Post: {{post_title}}\n\nPublished on {{post_date}}\n\n{{post_preview}}...\n\nRead it here: {{post_url}}\n\nYou're receiving this because you subscribed to henryjosephson.com.\nTo unsubscribe, visit: {{unsubscribe_url}}\nLeave me anonymous feedback: https://feedback.henryjosephson.com\n\nMy best,\nHenry"
-    }
-}
