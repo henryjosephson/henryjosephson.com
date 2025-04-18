@@ -16,6 +16,7 @@ export default function WritingIndex({ posts }) {
         <div className="subscribe-here">
           <SubscribeForm />
         </div>
+        <p>Check out my paper <a href="/assets/Josephson_LLM-e_Guess_2025.pdf">LLM-e Guess (2025)</a> that my team at UChicago XLAB put out, evaluating the relationship between algorithmic improvements and compute in advancing LLM capabilities. We classify algorithmic improvements into compute-dependent and compute-independent, and offer recommendations for policymakers.</p>
       </div>
 
       <ul id="post-list">
