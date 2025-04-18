@@ -20,7 +20,7 @@ export default function Home() {
             <label htmlFor="sn-1" className="sidenote-toggle sidenote-number"></label>{' '}
             <input type="checkbox" id="sn-1" className="sidenote-toggle" />
             <span className="sidenote">I'm also a footnote enthusiast.</span>
-            I make <a href="#crosswords">crosswords</a> for the <i>New York Times</i>, and I work in emerging technology policy. After I graduate, I'm hoping to land a role in industry, a legislature, or a think tank. I'll keep you all updated on my progress! If you're interested in a more-substantial resume,
+            I make <a href="#crosswords">crosswords</a> for the <i>New York Times</i>, and I'm interning for Seb Krier's AI governance team at <a href='https://deepmind.google/'>Google DeepMind</a> as I finish up my full-time job search. I'll keep you all updated on my progress! If you're interested in a more-substantial resume,
             you can click <a href="./resume.pdf">here</a> or check my LinkedIn in the <a href="#socials">Socials</a> section below.
             <br />
             <br />I haven't signed any contracts whose existence I'm not allowed to mention.
@@ -47,7 +47,7 @@ export default function Home() {
             <h2 id="words">II. Writing</h2>
             I've started to write enough that I can't fit everything on my main page! Find everything I've uploaded here on my <Link href="/writing">writing</Link> page.
 
-            That said, if you like <Link href="/writing/NY-Should-Pass-Light-Touch-Law-To-Keep-AI-Innovation-Responsible">AI</Link> <Link href="/writing/CA-Wants-RAISE-Act">policy</Link> <Link href="/writing/Notes-on-Superintelligence-Strategy">writing</Link>, <Link href="/writing/Spring-Break-Links">link</Link>-<Link href="/writing/Clearing-My-Tabs">posts</Link>, and the <a href="https://congress.henryjosephson.com">occasional data visualization</a>, you're in the right place.
+            That said, if you like <Link href="/writing/NY-Should-Pass-Light-Touch-Law-To-Keep-AI-Innovation-Responsible">AI</Link> <Link href="/writing/CA-Wants-RAISE-Act">policy</Link> <Link href="/writing/Notes-on-Superintelligence-Strategy">writing</Link>, <Link href="/writing/Spring Break Links">link</Link>-<Link href="/writing/Clearing-My-Tabs">posts</Link>, and the <a href="https://congress.henryjosephson.com">occasional data visualization</a>, you're in the right place.
 
             <h2 id="crosswords">III. Crosswords</h2>
             <p>
