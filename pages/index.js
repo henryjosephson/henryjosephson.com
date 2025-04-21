@@ -87,8 +87,7 @@ export default function Home() {
               </span>
             </p>
             <p>
-              If there's any way you think I can be doing better, please 
-              <a href="https://feedback.henryjosephson.com">let me know</a>.
+              If there's any way you think I can be doing better, please: <a href="https://feedback.henryjosephson.com">let me know</a>.
             </p>
           </article>
         </main>
