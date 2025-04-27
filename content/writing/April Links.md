@@ -434,4 +434,4 @@ https://x.com/LinchZhang/status/1905741528536064177
 
 [^3]: I sometimes worry that I don't actually want to be the best. If someone I loved were to tell me, "Henry, your actions tell me that you don't really care about getting better," I'd a) be very grateful to them for telling me, and b) try to flip around that thing as quickly as possible. (I'd do the same if someone I didn't love [told me this](https://feedback.henryjosephson.com), fwiw)
 [^4]: It's too much of a time-sink skinner box for me *not* to limit my time. Shoutout ScreenZen and Cold Turkey.
-[^5] I hope calling the 60s-90s "the late 1900s" rattles some of my older readers.
+[^5]: I hope calling the 60s-90s "the late 1900s" rattles some of my older readers.
