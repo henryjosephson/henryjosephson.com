@@ -5,7 +5,7 @@ description: What I've been reading over the past week or two
 published: true
 ---
 
-Whenever I see a cool book, I've been saving it to my [AbeBooks](https://abebooks.com) cart, so [I vibe-coded up an applet](https://abebookscartparser.vercel.app/) to convert the html of my checkout page into a markdown list. If you're curious about what those books are, see [here](./to-read/).
+Whenever I see a cool book, I've been saving it to my [AbeBooks](https://abebooks.com) cart, so [I vibe-coded up an applet](https://abebookscartparser.vercel.app/) to convert the html of my checkout page into a markdown list. If you're curious about what those books are, see [here](../to-read/).
 
 ## Books
 
