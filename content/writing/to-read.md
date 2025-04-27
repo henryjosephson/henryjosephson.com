@@ -12,6 +12,7 @@ So, in the spirit of just doing both,[^1] I vibe-coded [an app](https://abebooks
 If you ever want to get me a gift and refuse to [donate to charity](https://animalcharityevaluators.org/) (if you're ever on the fence, give to the charity. Please. Please!), you can do much worse than grabbing me something from here.
 
 ## The List, in no particular order:
+
 - Thermodynamic Weirdness: From Fahrenheit to Clausius. Lemons, Don S.. ([9780262039390](https://isbnsearch.org/isbn/9780262039390))
 - Public Citizens : The Attack on Big Government and the Remaking of American Liberalism. Sabin, Paul. ([9780393634044](https://isbnsearch.org/isbn/9780393634044))
 - Seizing Power : The Strategic Logic of Military Coups. Singh, Naunihal. ([9781421422565](https://isbnsearch.org/isbn/9781421422565))
@@ -29,8 +30,10 @@ If you ever want to get me a gift and refuse to [donate to charity](https://anim
 - The Jet Engine. Rolls Royce. ([9781119065999](https://isbnsearch.org/isbn/9781119065999))
 - Littlewood's Miscellany. John E. Littlewood. ([9780521337021](https://isbnsearch.org/isbn/9780521337021))
 - Failure Is Not an Option Missi. Kranz, Gene. ([9781439148815](https://isbnsearch.org/isbn/9781439148815))
+- Tell Me No Lies: Investigative Journalism and its Triumphs. John Pilger. ([9780224062886](https://isbnsearch.org/isbn/9780224062886))
 - Of Privacy and Power: The Transatlantic Struggle over Freedom and Security. Farrell, Henry; Newman, Abraham L.. ([9780691216904](https://isbnsearch.org/isbn/9780691216904))
 - Who Goes First?: The Story of Self-Experimentation in Medicine. Altman, Lawrence K. K.. ([9780520212817](https://isbnsearch.org/isbn/9780520212817))
+- Frank Ramsey: A Sheer Excess of Powers. Misak, Cheryl. ([9780198755357](https://isbnsearch.org/isbn/9780198755357))
 - Orderly and Humane: The Expulsion of the Germans After the Second World War. R M Douglas. ([9780300198201](https://isbnsearch.org/isbn/9780300198201))
 - The Worldly Philosophers: The Lives, Times And Ideas Of The Great Economic Thinkers, Seventh Edition. Heilbroner, Robert L.. ([9780684862149](https://isbnsearch.org/isbn/9780684862149))
 - Inventing Temperature: Measurement and Scientific Progress (Oxford Studies in Philosophy of Science). Chang, Hasok. ([9780195337389](https://isbnsearch.org/isbn/9780195337389))
@@ -39,6 +42,7 @@ If you ever want to get me a gift and refuse to [donate to charity](https://anim
 - THE LETTERS OF J. R. R. TOLKIEN: Revised and Expanded edition. J. R. R. Tolkien, Edited by Humphrey Carpenter and Christopher Tolkien. ([9780008628765](https://isbnsearch.org/isbn/9780008628765))
 - The Singularity (New York Review Classics). Buzzati, Dino. ([9781681378008](https://isbnsearch.org/isbn/9781681378008))
 - Orality and Literacy (New Accents). Ong, Walter J.. ([9780415027960](https://isbnsearch.org/isbn/9780415027960))
+- Lest Darkness Fall & To Bring the Light. L. Sprague de Camp,David Drake. ([9780671877361](https://isbnsearch.org/isbn/9780671877361))
 - Poems and Songs (Everyman's Library Pocket Poets). Cohen, Leonard. ([9780307595836](https://isbnsearch.org/isbn/9780307595836))
 - The Fish That Ate the Whale: The Life and Times of America's Banana King. Cohen, Rich. ([9781250033314](https://isbnsearch.org/isbn/9781250033314))
 - Permutation City: A Novel. Egan, Greg. ([9781597805391](https://isbnsearch.org/isbn/9781597805391))
@@ -50,6 +54,7 @@ If you ever want to get me a gift and refuse to [donate to charity](https://anim
 - War Music: An Account of Homers Iliad. Logue, Christopher. ([9780374536817](https://isbnsearch.org/isbn/9780374536817))
 - Means of Control: How the Hidden Alliance of Tech and Government Is Creating a New American Surveillance State. Tau, Byron. ([9780593443224](https://isbnsearch.org/isbn/9780593443224))
 - George F. Kennan: An American Life (Pulitzer Prize Winner). Gaddis, John Lewis. ([9780143122159](https://isbnsearch.org/isbn/9780143122159))
+- Creating Superfans: How to Turn Your Customers Into Lifelong Advocates. Hodak, Brittany. ([9781774580783](https://isbnsearch.org/isbn/9781774580783))
 - Pale Rider: The Spanish Flu of 1918 and How It Changed the World. Spinney, Laura. ([9781541736122](https://isbnsearch.org/isbn/9781541736122))
 - Countdown to Zero Day: Stuxnet and the Launch of the Worlds First Digital Weapon. Zetter, Kim. ([9780770436193](https://isbnsearch.org/isbn/9780770436193))
 - Coup d'État : A Practical Handbook. Luttwak, Edward. ([9780674175471](https://isbnsearch.org/isbn/9780674175471))
@@ -58,6 +63,7 @@ If you ever want to get me a gift and refuse to [donate to charity](https://anim
 - The Censor's Hand: The Misregulation of Human-Subject Research. Schneider, Carl E.. ([9780262028912](https://isbnsearch.org/isbn/9780262028912))
 - Counterexamples in Probability: Third Edition (Dover Books on Mathematics). Stoyanov, Jordan M.. ([9780486499987](https://isbnsearch.org/isbn/9780486499987))
 - David Humes History of England, Edited for the Modern Reader: Vo. Hume, David. ([9781482622744](https://isbnsearch.org/isbn/9781482622744))
+
 
 Please [let me know](https://feedback.henryjosephson.com) if you think there's anything that should be on the list! (but be careful — I might already have it...)
 

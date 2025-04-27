@@ -2,14 +2,14 @@
 title: Links for April
 date: 2025-04-26
 description: What I've been reading over the past week or two
-published: false
+published: true
 ---
 
 Whenever I see a cool book, I've been saving it to my [AbeBooks](https://abebooks.com) cart, so [I vibe-coded up an applet](https://abebookscartparser.vercel.app/) to convert the html of my checkout page into a markdown list. If you're curious about what those books are, see [here](./to-read/).
 
 ## Books
 
-I've been working my way through parts of:
+I've been working my way through:
 
 ### [The Power Broker](https://www.robertcaro.org/the-power-broker)
 
@@ -19,11 +19,29 @@ It's just such a big book! I'm around a quarter of the way through, and I'm tryi
 
 It's out in paperback! I was wandering through the Seminary Coop[^1] I'm reading the Edmonds biography — so far, Parfit is just such an academic weapon.
 
-###
+### [Surely You're Joking, Mr. Feynman!](https://en.wikipedia.org/wiki/Surely_You're_Joking%2C_Mr._Feynman!)
 
-###
+You can just flip to random parts of the book — every frame a painting.
 
-###
+### [Unreasonable Hospitality](https://www.unreasonablehospitality.com/#TheBook)
+
+Making people happy is a choice, and takes effort.
+
+Sidebar, but reader: if we ever end up dating, I *will* save up and take you to eleven madison park for a date. It'll be a special occasion date (or maybe I'll surprise you👀), but we can't not go to a three-michelin-starred vegan restaurant.
+
+I will absolutely cook you something from [the cookbook](https://annas-archive.org/md5/e18730f3c0c55959cd35c99c969fb390), first, though.
+
+### [Overfitting and Heuristics in Philosophy](https://doi.org/10.1093/oso/9780197779217.001.0001)
+
+Honestly, still working through this one, but holy crap is Williamson a tight, lucid writer. Academic philosophy is hard. Tim makes it read easy.
+
+### [Should You Choose to Live Forever?](https://www.routledge.com/Should-You-Choose-to-Live-Forever-A-Debate/Cave-Fischer/p/book/9780367615406)
+
+I disagree with [Bernard Williams](https://www3.nd.edu/~pweithma/Readings/Williams/Williams%20on%20Immortality.pdf) and lean yes.
+
+### [Rainbow's End](https://en.wikipedia.org/wiki/Rainbows_End_(Vinge_novel))
+
+Will the post-singularity world be offense-dominant or defense-dominant?
 
 ## Internet things
 
