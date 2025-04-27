@@ -124,7 +124,7 @@ Legend.
 ### [Who is Larry Ellison?](https://www.notboring.co/p/who-is-larry-ellison)
 > Instead, it's much more interesting to understand Oracle as an extension of Larry Ellison's will.
 
-He owns the fifth-largest Hawaiian island, put his own footnotes — sometimes overruling the author — into his biography, and has inserted himself into enterprise AI.
+He owns the sixth-largest Hawaiian island, put his own footnotes — sometimes overruling the author — into his [biography](https://www.simonandschuster.com/books/Softwar/Matthew-Symonds/9780743225052), and has inserted himself into enterprise AI.
 
 He's also behind the greatest sports comeback you've never heard of:
 
