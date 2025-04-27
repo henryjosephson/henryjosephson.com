@@ -41,3 +41,4 @@ _*/
 # Keep .md files in content directory, exclude others
 **/*.md
 !content/**/*.md
+.vercel
