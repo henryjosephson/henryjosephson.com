@@ -2,7 +2,7 @@
 title: My To-Read List
 date: 2025-04-26
 description: Books I'm Saving For Later
-published: false
+published: true
 ---
 
 Whenever I've seen a book that's vaguely interesting, I've been stashing it into my cart on [AbeBooks](https://www.abebooks.com). There's a tradeoff here between convenience — I can easily buy them when I'm ready — and shareability — I don't want to give others my password.

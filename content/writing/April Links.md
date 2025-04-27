@@ -29,8 +29,6 @@ Making people happy is a choice, and takes effort.
 
 Sidebar, but reader: if we ever end up dating, I *will* save up and take you to eleven madison park for a date. It'll be a special occasion date (or maybe I'll surprise you👀), but we can't not go to a three-michelin-starred vegan restaurant.
 
-I will absolutely cook you something from [the cookbook](https://annas-archive.org/md5/e18730f3c0c55959cd35c99c969fb390), first, though.
-
 ### [Overfitting and Heuristics in Philosophy](https://doi.org/10.1093/oso/9780197779217.001.0001)
 
 Honestly, still working through this one, but holy crap is Williamson a tight, lucid writer. Academic philosophy is hard. Tim makes it read easy.
