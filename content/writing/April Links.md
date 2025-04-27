@@ -180,6 +180,16 @@ You can do hard things. You can do hard things! You can do hard things:
 
 Competition can take you very far. Sometimes you lose yourself along the way.
 
+### [A tweet on competition](https://x.com/tracewoodgrains/status/1915929864311607620)
+
+I have a surprisingly-similar story from growing up. For another time.
+
+### [Meta’s ‘Digital Companions’ Will Talk Sex With Users—Even Children](https://www.wsj.com/tech/ai/meta-ai-chatbots-sex-a25311bf)
+
+It's all just porn. All the way down. Strongly suggest reading this, if only for AI John Cena losing all his WWE titles and sponsorships after getting charged with statutory rape for sleeping with you, the user.
+
+I bet Cory Doctorow is [eating this up](https://pluralistic.net/2025/04/23/zuckerstreisand/#zdgaf).
+
 
 ### [People Will Sometimes Just Lie About You](https://forum.effectivealtruism.org/posts/2eotFCxvFjXH7zNNw/people-will-sometimes-just-lie-about-you)
 
@@ -417,15 +427,11 @@ Jeff Dean on the history of google search. They'd  use the outer parts of hard d
 
 ## Some Tweets
 
-https://x.com/RichardMCNgo/status/1911096458532794856
-
-https://x.com/tomieinlove/status/1909301866581967214
-
-https://x.com/Xenoimpulse/status/1908723890278588515
-
-https://x.com/wilhelmscreamin/status/1906324596858445877
-
-https://x.com/LinchZhang/status/1905741528536064177
+- [What it's like to face the singularity](https://x.com/RichardMCNgo/status/1911096458532794856)
+- [Up*dating*](https://x.com/tomieinlove/status/1909301866581967214)
+- [Shrimplicity](https://x.com/Xenoimpulse/status/1908723890278588515)
+- [It could happen to you](https://x.com/wilhelmscreamin/status/1906324596858445877)
+- [Couldn't be me](https://x.com/LinchZhang/status/1905741528536064177) with actual analysis from Matt Reardon [here](https://frommatter.substack.com/p/ea-adjacency-as-ftx-trauma).
 
 
 [^1]: It's a very close second for best bookstore in Hyde Park, behind Powell's. Great vibes, great selection, Plein Air is beautiful. Only knock is price, which — alas, as a college student — matters a lot to me.
