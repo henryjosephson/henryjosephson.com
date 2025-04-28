@@ -1,8 +1,26 @@
+import { useState, useEffect } from 'react';
 import Layout from '../components/Layout';
 import Link from 'next/link';
-import { getRandomOutlink } from '../lib/extractOutlinks';
 
-export default function Custom404({ randomOutlink }) {
+export default function Custom404() {
+  const [randomOutlink, setRandomOutlink] = useState(null);
+
+  useEffect(() => {
+    // Fetch the static JSON file
+    fetch('/outlinks.json')
+      .then(response => response.json())
+      .then(outlinks => {
+        if (outlinks && outlinks.length > 0) {
+          // Select a random link
+          const randomIndex = Math.floor(Math.random() * outlinks.length);
+          setRandomOutlink(outlinks[randomIndex]);
+        }
+      })
+      .catch(error => {
+        console.error('Error fetching outlinks:', error);
+      });
+  }, []);
+
   return (
     <Layout title="404" activePage="">
       <div style={{ textAlign: 'center' }}>
@@ -23,17 +41,4 @@ export default function Custom404({ randomOutlink }) {
       </div>
     </Layout>
   );
-}
-
-// This function gets called at build time and also when revalidating
-export async function getStaticProps() {
-  const randomOutlink = getRandomOutlink();
-  
-  return {
-    props: {
-      randomOutlink: randomOutlink || null
-    },
-    // Revalidate every hour to potentially get new links
-    revalidate: 3600
-  };
 }
