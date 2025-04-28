@@ -4,19 +4,20 @@ import Link from 'next/link';
 
 export default function Custom404() {
   const [randomOutlink, setRandomOutlink] = useState(null);
-  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Fetch random link when component mounts (client-side only)
-    fetch('/api/random-outlink')
+    // Fetch the static JSON file
+    fetch('/outlinks.json')
       .then(response => response.json())
-      .then(data => {
-        setRandomOutlink(data);
-        setLoading(false);
+      .then(outlinks => {
+        if (outlinks && outlinks.length > 0) {
+          // Select a random link
+          const randomIndex = Math.floor(Math.random() * outlinks.length);
+          setRandomOutlink(outlinks[randomIndex]);
+        }
       })
       .catch(error => {
-        console.error('Error fetching random link:', error);
-        setLoading(false);
+        console.error('Error fetching outlinks:', error);
       });
   }, []);
 
@@ -32,9 +33,7 @@ export default function Custom404() {
       </header>
       <div>
         Whoops, that link doesn't exist.
-        {loading ? (
-          <p>Finding you a random link...</p>
-        ) : randomOutlink ? (
+        {randomOutlink ? (
           <p>Want a <a href={randomOutlink.url}>random link</a> instead?</p>
         ) : (
           <p>Want to read a random thing I've linked to? Check back later when I've added some links!</p>
