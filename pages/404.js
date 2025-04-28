@@ -25,15 +25,12 @@ export default function Custom404({ randomOutlink }) {
   );
 }
 
-// This function gets called at build time and also when revalidating
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const randomOutlink = getRandomOutlink();
   
   return {
     props: {
       randomOutlink: randomOutlink || null
-    },
-    // Revalidate every hour to potentially get new links
-    revalidate: 3600
+    }
   };
 }
