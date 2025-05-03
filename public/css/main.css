@@ -308,7 +308,7 @@ a:focus {
   font-size: 1.2rem;
   padding: 0.2rem;
   border-radius: 4px;
-  transition: all 0.3s ease;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: 15px;
   height: 30px;
   width: 30px;
@@ -317,6 +317,9 @@ a:focus {
   justify-content: center;
   color: var(--body-color);
   line-height: 1;
+  align-self: center;
+  transform-origin: center;
+  position: relative;
 }
 
 /* White circle in dark mode */
@@ -330,12 +333,6 @@ body:not(.latex-dark) .dark-mode-button {
 }
 
 .dark-mode-button:hover {
-  background-color: rgba(0, 0, 0, 0.05);
-  transform: scale(1.1);
-}
-
-.latex-dark .dark-mode-button:hover {
-  background-color: rgba(255, 255, 255, 0.1);
   transform: scale(1.1);
 }
 
@@ -436,6 +433,33 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+/* Headshot styles */
+.headshot-container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0 2rem;
+}
+
+.headshot {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.headshot:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 480px) {
+  .headshot {
+    width: 140px;
+    height: 140px;
+  }
 }
 
 /* ===== Sidenotes ===== */

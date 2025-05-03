@@ -37,7 +37,7 @@ export default function Layout({ children, title, description, activePage }) {
           <Link href="/xw" className={activePage === 'xw' ? 'active' : ''}>Crosswords</Link>
           <Link href="/now" className={activePage === 'now' ? 'active' : ''}>Now</Link>
           <button id="dark-mode-toggle" onClick={toggleDarkMode} className="dark-mode-button" title={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}>
-            {darkMode ? '○' : '●'}
+            <span className="circle-icon">{darkMode ? '○' : '●'}</span>
           </button>
         </div>
         
