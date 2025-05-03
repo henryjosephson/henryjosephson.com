@@ -18,7 +18,7 @@ Right now, I'm:
 
 This month's spotify playlist is [here](https://open.spotify.com/playlist/0lzl1PHtdoLxw3mWaJnzb3?si=5d369352dd024b52), but you can see the most recent song I've listened to below (might take a sec to load):
 
-<div style="max-width: 100%; overflow: hidden; text-align: center;">
+<div style="max-width: 100%; overflow: hidden; text-align: center; margin: 0 auto; display: flex; justify-content: center;">
   <a href="https://1henryjos.pythonanywhere.com/link">
     <img
       src="https://1henryjos.pythonanywhere.com?theme=dark"
