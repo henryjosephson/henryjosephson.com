@@ -2,8 +2,9 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { useEffect } from 'react';
 import { useDarkMode } from '../lib/hooks/useDarkMode';
+import withSmartQuotes from './withSmartQuotes';
 
-export default function Layout({ children, title, description, activePage }) {
+function Layout({ children, title, description, activePage }) {
   const [darkMode, toggleDarkMode] = useDarkMode();
 
   useEffect(() => {
@@ -46,3 +47,6 @@ export default function Layout({ children, title, description, activePage }) {
     </>
   );
 }
+
+// Export the Layout component wrapped with smart quotes
+export default withSmartQuotes(Layout);
