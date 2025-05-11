@@ -5,7 +5,7 @@ description: In which I explore a classic epistemology problem (the ["new riddle
 published: false
 ---
 
-Though it'll be included in my March links roundup,[^1] the *Daily Princetonian*, in addition to the second-greatest collegiate crossword puzzle section in the nation, also had a great [piece](https://www.dailyprincetonian.com/article/2025/05/princeton-news-pete-hegseth-senior-thesis-plagiarism-allegations) on SecDef Pete Hegseth's apparent plagiarism in his senior thesis.
+Though it'll be included in my March links roundup,[^1] the *Daily Princetonian*, in addition to the second-greatest collegiate crossword puzzle section in the nation (the [*Maroon*](https://chicagomaroon.com/crosswords/) is #1), also had a great [piece](https://www.dailyprincetonian.com/article/2025/05/princeton-news-pete-hegseth-senior-thesis-plagiarism-allegations) on SecDef Pete Hegseth's apparent plagiarism in his senior thesis.
 
 On the one hand, I love student journalism,[^2] and Hegseth seems, pretty clearly, to have plagiarised. On the other, honestly? With the sheer number of public figures that appear to have plagiarized, maybe the correct conclusion is that [plagiarism isn't as bad as we thought](https://gwern.net/modus)? I'm very unsure, but, regardless, it doesn't look great for Pete.
 
@@ -17,7 +17,7 @@ I've also spent the past ~week thinking (and writing!) about:
 - How we can get across the finish line light-touch AI governance that acknowledges our uncertainties and intelligently walks the tightrope between innovation and recklessness, and
 - what the hell "commitment" means.
 
-You aren't getting any of those today. Those notes shall, alas, remain private for the next couple weeks as I distill them. Instead, I offer musings on a classic problem in epistemologyp which patterns can I extend into the future? How do I differentiate them from patterns that I cannot extend into the future? I grapple with [grue](https://en.wikipedia.org/wiki/New_riddle_of_induction) and investigate [a solution](https://philpapers.org/rec/NETRES). I hope you enjoy — and if you don't, [please let me know](https://feedback.henryjosephson.com).
+You aren't getting any of those today — those notes shall, alas, remain private for the next couple weeks as I distill them. Instead, I offer musings on a classic problem in epistemology: which patterns can I extend into the future? How do I differentiate them from patterns that I cannot extend into the future? I grapple with [grue](https://en.wikipedia.org/wiki/New_riddle_of_induction) and investigate [a solution](https://philpapers.org/rec/NETRES). I hope you enjoy — and if you don't, [please let me know](https://feedback.henryjosephson.com).
 
 ## Grue
 
