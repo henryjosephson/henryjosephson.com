@@ -2,7 +2,7 @@
 title: Emeralds are Grue
 date: 2025-05-10
 description: In which I explore a classic epistemology problem (the ["new riddle of induction"](https://philpapers.org/rec/GOOFFA-5) — which patterns can we extend into the future?) and analyze a proposed solution.
-published: false
+published: true
 ---
 
 Though it'll be included in my March links roundup,[^1] the *Daily Princetonian*, in addition to the second-greatest collegiate crossword puzzle section in the nation (the [*Maroon*](https://chicagomaroon.com/crosswords/) is #1), also had a great [piece](https://www.dailyprincetonian.com/article/2025/05/princeton-news-pete-hegseth-senior-thesis-plagiarism-allegations) on SecDef Pete Hegseth's apparent plagiarism in his senior thesis.
