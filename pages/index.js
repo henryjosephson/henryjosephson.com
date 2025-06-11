@@ -16,12 +16,13 @@ export default function Home() {
         <div className="abstract">
           <h2>Abstract</h2>
           <p>
-            Hi! I'm Henry. I'm finishing up my final year at the University of Chicago, where I study data science and philosophy.
+            Hi! I'm Henry. 
             <label htmlFor="sn-1" className="sidenote-toggle sidenote-number"></label>{' '}
             <input type="checkbox" id="sn-1" className="sidenote-toggle" />
             <span className="sidenote">I'm also a footnote enthusiast.</span>
-            I make <a href="#crosswords">crosswords</a> for the <i>New York Times</i>, and I'm interning for Seb Krier's AI governance team at <a href='https://deepmind.google/'>Google DeepMind</a> as I finish up my full-time job search. I'll keep you all updated on my progress! If you're interested in a more-substantial resume,
-            you can click <a href="./resume.pdf">here</a> or check my LinkedIn in the <a href="#socials">Socials</a> section below.
+            I'm interning for Seb Krier's AI governance team at <a href='https://deepmind.google/'>Google DeepMind</a>, and I'm excited to start as a Legislative Aide for Alex Bores in the NY State Assembly once that internship ends.
+            I graduated from the University of Chicago in June 2025 with degrees in data science and philosophy, where I ran a few clubs, TAed more than I should've, and researched the intersection of AI and policy for <a href='https://harris.uchicago.edu/directory/jens-ludwig'>Professor Jens Ludwig</a> and (separately) UChicago's <a href="https://xrisk.uchicago.edu">XLab</a>.
+            If you're interested in a more-substantial resume, you can click <a href="./resume.pdf">here</a> or check my LinkedIn in the <a href="#socials">Socials</a> section below.
             <br />
             <br />I haven't signed any contracts whose existence I'm not allowed to mention.
           </p><br />
@@ -70,8 +71,7 @@ export default function Home() {
             </p>
 
             <p>
-              If you want to email me, you can use 
-              <code className="language-python">"hi" + "@" + this_website</code><br />
+              If you want to email me, you can use "hi" + "@" + this_website.
             </p>
 
             <h2 id="feedback">V. Leave me anonymous feedback!</h2>
